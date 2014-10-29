@@ -22,4 +22,6 @@ public interface BedService extends DaoSupport<Bed> {
     Bed getByApartmentAndDormitoryAndBed(String apartmentName, String dormitoryName, String bedNo);
 
     List<Bed> getByApartmentAndDormitory(Long apartmentId, Long dormitoryId);
+
+    Bed getByApartmentIdAndDormitoryIdAndBedId(Long apartmentId, Long dormitoryId, Long dormitoryId1);
 }

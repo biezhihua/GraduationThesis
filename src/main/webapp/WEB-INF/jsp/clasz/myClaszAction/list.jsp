@@ -27,6 +27,7 @@
         <h4 class="pink">
             <i class="icon-hand-right icon-animated-hand-pointer blue"></i>
             <s:a action="myClasz_addUI?claszId=%{claszId}" role="button" cssClass="green"> 新增学生 </s:a>
+
         </h4>
 
         <div class="row">

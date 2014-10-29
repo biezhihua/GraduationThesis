@@ -7,26 +7,15 @@
     <meta name="keywords" content=""/>
     <meta name="description" content=""/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
     <!-- basic styles -->
     <%@include file="/WEB-INF/jsp/public/commons-styles.jspf" %>
-
-
     <!-- page specific plugin styles -->
-    <style type="text/css">
-        .radio {
-            display: inline;
-        }
-    </style>
 </head>
-
 <body>
-
 <div class="main-container" id="main-container">
     <div class="page-content">
         <div class="page-header">
             <h1 style="display:inline;">班级信息${id == null ? '添加' : '编辑'}</h1>
-
             <div style="display:inline;" class="pull-right">
                 <a href="javascript:history.go(-1)" class="btn btn-xs btn-info "> <i class="icon-reply icon-only"></i>返回上一级
                 </a>
@@ -36,7 +25,7 @@
         <div class="row">
             <div class="col-xs-12">
                 <!-- PAGE CONTENT BEGINS -->
-                <s:form action="clasz_%{id == null ? 'add' : 'edit'}" cssClass="form-horizontal">
+                <s:form id="form" action="clasz_%{id == null ? 'add' : 'edit'}" cssClass="form-horizontal">
                     <s:hidden name="id"></s:hidden>
                     <s:hidden name="teacherId" value="%{teacherId}"></s:hidden>
                     <div class="space-4"></div>
@@ -110,11 +99,35 @@
 
 <!-- basic scripts -->
 <%@include file="/WEB-INF/jsp/public/commons-scripts.jspf" %>
-
-<!-- inline scripts related to this page -->
-
 <script type="text/javascript">
+    $().ready(function () {
+        $("#form").validate({
+            rules: {
+                name: {
+                    required:true,
+                    jjuClaszName:true
+                },
+                grade : {
+                    required:true
+                }
+            },
+            messages: {
+                name: {
+                    required:"请输入班级名称",
+                    jjuClaszName:"请填写正确班级名称，例如:A1121"
+                },
+                grade: {
+                    required:"请选择"
+                }
 
+            },
+           // debug:true,
+            submitHandler:function(form){
+                console.log("submitted");
+                form.submit();
+            }
+        });
+    });
 </script>
 </body>
 </html>

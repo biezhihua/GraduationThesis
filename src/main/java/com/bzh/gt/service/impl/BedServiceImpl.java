@@ -35,4 +35,9 @@ public class BedServiceImpl extends DaoSupportImpl<Bed> implements BedService {
     public List<Bed> getByApartmentAndDormitory(Long apartmentId, Long dormitoryId) {
         return getSession().createQuery("FROM Bed b WHERE b.dormitory.apartment.id=" + apartmentId + " AND b.dormitory.id=" + dormitoryId + " ORDER BY b.bedNO ASC").list();
     }
+
+    @Override
+    public Bed getByApartmentIdAndDormitoryIdAndBedId(Long apartmentId, Long dormitoryId, Long bedId) {
+        return (Bed) getSession().createQuery("FROM Bed b WHERE b.dormitory.apartment.id='" + apartmentId + "' AND b.dormitory.id=" + dormitoryId + " AND b.id=" + bedId).uniqueResult();
+    }
 }

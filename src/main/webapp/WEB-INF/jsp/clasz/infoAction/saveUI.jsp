@@ -7,11 +7,8 @@
     <meta name="keywords" content=""/>
     <meta name="description" content=""/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
     <!-- basic styles -->
     <%@include file="/WEB-INF/jsp/public/commons-styles.jspf" %>
-
-
     <!-- page specific plugin styles -->
     <style type="text/css">
         .radio {
@@ -26,7 +23,6 @@
     <div class="page-content">
         <div class="page-header">
             <h1 style="display:inline;">学生信息${id == null ? '添加' : '编辑'}</h1>
-
             <div style="display:inline;" class="pull-right">
                 <a href="javascript:history.go(-1)" class="btn btn-xs btn-info "> <i class="icon-reply icon-only"></i>返回上一级
                 </a>
@@ -36,17 +32,19 @@
         <div class="row">
             <div class="col-xs-12">
                 <!-- PAGE CONTENT BEGINS -->
-                <s:form action="info_%{id == null ? 'add' : 'edit'}" cssClass="form-horizontal">
+                <s:form id="form" action="info_%{id == null ? 'add' : 'edit'}" cssClass="form-horizontal">
                     <s:hidden name="id"/>
                     <s:hidden name="claszId" value="%{claszId}"/>
                     <s:hidden name="pageNum" value="%{pageNum}"/>
-                    <div class="space-4"></div>
                     <div class="form-group">
-                        <label class="col-sm-3 control-label no-padding-right"> 所在寝室 </label>
-
+                        <label class="col-sm-3 control-label no-padding-right" for> 所在寝室 </label>
                         <div class="col-sm-9">
-                            <s:textfield placeholder="请按照指定格式输入寝室，例如:31#504-3" name="apartment_dor_bed" cssClass="col-xs-10 col-sm-5"
-                                         id="apartment_dor_bed"></s:textfield>
+                            <s:select id="apartment" list="#apartmentList" name="apartmentId" cssClass="col-xs-2" listKey="id"
+                                      listValue="name" headerKey="" headerValue="请选择公寓" ></s:select>
+                            <select id="dor" name="dormitoryId" class="col-xs-2">
+                            </select>
+                            <select id="bed" name="bedId" class="col-xs-2">
+                            </select>
                         </div>
                     </div>
                     <div class="space-4"></div>
@@ -123,11 +121,63 @@
 
 <!-- basic scripts -->
 <%@include file="/WEB-INF/jsp/public/commons-scripts.jspf" %>
-
 <!-- inline scripts related to this page -->
-
 <script type="text/javascript">
     jQuery(function ($) {
+        $("#apartment").change(function () {
+            var apartmentId = $(this).val();
+            $.ajax({
+                url:"info_getReservoirDormitory.action?apartmentId="+apartmentId,
+                success: function (result) {
+                    console.log(result);
+                    $("#dor").empty();
+                    $("#dor").append(" <option>请选择寝室</option>");
+                    $.each(result, function (index, value) {
+                        $("#dor").append("<option value='"+value.id+"'>"+value.name+"</option>");
+                    })
+                }
+            });
+        });
+
+        $("#dor").change(function () {
+            var dormitoryId = $(this).val();
+            $.ajax({
+                url:"info_getEmptyBed.action?dormitoryId="+dormitoryId,
+                success: function (result) {
+                    console.log(result);
+                    $("#bed").empty();
+                    $("#bed").append(" <option>请选择床铺</option>");
+                    $.each(result, function (index, value) {
+                        $("#bed").append("<option value='"+value.id+"'>"+value.bedNO+"床</option>");
+                    })
+                }
+            })
+        });
+
+
+        $("#form").validate({
+            rules: {
+                sno: {
+                    number:true,
+                    minlength:11,
+                    maxlength:11
+
+                }
+            },
+            messages: {
+                sno: {
+                    number:"必须为数字",
+                    minlength: "学号只能为11位",
+                    maxlength: "学号只能为11位"
+
+                }
+            },
+            debug:true,
+            submitHandler:function(form){
+                console.log("submitted");
+                form.submit();
+            }
+        });
     });
 </script>
 </body>

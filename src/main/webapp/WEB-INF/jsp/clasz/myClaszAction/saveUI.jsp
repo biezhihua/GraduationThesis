@@ -41,14 +41,14 @@
                     <s:hidden name="claszId" value="%{claszId}"/>
                     <s:hidden name="pageNum" value="%{pageNum}"/>
                     <div class="form-group">
-                        <label class="col-sm-3 control-label no-padding-right"> 所在寝室 </label>
-
+                        <label class="col-sm-3 control-label no-padding-right" for> 所在寝室 </label>
                         <div class="col-sm-9">
-                            <input type="text" name="apartment_dor_bed"
-                                   <s:if test="id != null">disabled</s:if>
-                                   value="${apartment_dor_bed}"
-                                   class="col-xs-10 col-sm-5"
-                                   id="apartment_dor_bed"/> <span class="help-block">请按照指定格式输入寝室，例如:31#504-3</span>
+                            <s:select id="apartment" list="#apartmentList" name="apartmentId" cssClass="col-xs-2" listKey="id"
+                                      listValue="name" headerKey="" headerValue="请选择公寓" ></s:select>
+                            <select id="dor" name="dormitoryId" class="col-xs-2">
+                            </select>
+                            <select id="bed" name="bedId" class="col-xs-2">
+                            </select>
                         </div>
                     </div>
                     <div class="space-4"></div>
@@ -132,6 +132,35 @@
 
 <script type="text/javascript">
     jQuery(function ($) {
+        $("#apartment").change(function () {
+            var apartmentId = $(this).val();
+            $.ajax({
+                url:"myClasz_getReservoirDormitory.action?apartmentId="+apartmentId,
+                success: function (result) {
+                    console.log(result);
+                    $("#dor").empty();
+                    $("#dor").append(" <option>请选择寝室</option>");
+                    $.each(result, function (index, value) {
+                        $("#dor").append("<option value='"+value.id+"'>"+value.name+"</option>");
+                    })
+                }
+            });
+        });
+
+        $("#dor").change(function () {
+            var dormitoryId = $(this).val();
+            $.ajax({
+                url:"myClasz_getEmptyBed.action?dormitoryId="+dormitoryId,
+                success: function (result) {
+                    console.log(result);
+                    $("#bed").empty();
+                    $("#bed").append(" <option>请选择床铺</option>");
+                    $.each(result, function (index, value) {
+                        $("#bed").append("<option value='"+value.id+"'>"+value.bedNO+"床</option>");
+                    })
+                }
+            })
+        });
     });
 </script>
 </body>

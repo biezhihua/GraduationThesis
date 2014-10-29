@@ -31,13 +31,12 @@ public class ClaszAction extends BaseAction<Clasz> {
 
     static Logger logger = Logger.getLogger(ClaszAction.class.getClass());
 
-    private String teacherName;
-    private String teacherPhoneNumber;
-    private Long teacherId;
-    private Long studentId;
+    private String teacherName; // 老师姓名
+    private String teacherPhoneNumber;//  老师电话
+    private Long teacherId; // 教师ID
+    private Long studentId; // 学生ID
 
-    private Long[] claszIds;
-
+    private Long[] claszIds; // 导出数据使用的班级ID数组
     private InputStream excelStream; // 输出流
     private String excelFileName; // 下载文件名
     private static DataImportAction.Progress progress = new DataImportAction.Progress();
@@ -47,8 +46,6 @@ public class ClaszAction extends BaseAction<Clasz> {
     private SessionFactory sessionFactory; // 给Thread打开Session使用的
 
     /**
-     * C(Create) R(Read) U(Update) D(Delete)
-     * <p/>
      * 概要: 转向到列表页面
      */
     public String list() throws Exception {
@@ -63,13 +60,11 @@ public class ClaszAction extends BaseAction<Clasz> {
      * 概要: 重定向到列表页面（地址栏发生变化）
      */
     public String delete() throws Exception {
-
         Clasz clasz = claszService.getById(model.getId());
         // 清除与宿舍的关联关系
         for (Dormitory dormitory : clasz.getDormitories()) {
             dormitory.setClasz(null);
             dormitoryService.update(dormitory);
-
         }
         // 清除学生与床铺的关联关系
         for (Student student : clasz.getStudents()) {
@@ -85,9 +80,7 @@ public class ClaszAction extends BaseAction<Clasz> {
 
     /**
      * 概要: 转达到添加页面
-     * 返回类型: 添加和编辑共用一个页面
      */
-    @Deprecated
     public String addUI() throws Exception {
         Calendar calendar = Calendar.getInstance();
         calendar.setTime(new Date());
@@ -110,7 +103,6 @@ public class ClaszAction extends BaseAction<Clasz> {
         teacher.setName(teacherName);
         teacher.setPhoneNumber(teacherPhoneNumber);
         teacherService.save(teacher);
-
         // 保存班级信息
         model.setTeacher(teacher);
         claszService.save(model);
@@ -125,7 +117,6 @@ public class ClaszAction extends BaseAction<Clasz> {
     public String editUI() throws Exception {
         // 准备班级数据
         Clasz clasz = claszService.getById(model.getId());
-
         // 准备老师数据
         if (clasz.getTeacher() != null) {
             teacherName = clasz.getTeacher().getName();
@@ -198,11 +189,17 @@ public class ClaszAction extends BaseAction<Clasz> {
         if (!("").equals(tempFilePath)) {
             File file = new File(tempFilePath);
             if (file.exists()) {
-                file.delete();
+                if (file.delete()) {
+                    logger.info("文件删除成功");
+                } else {
+                    logger.info("文件删除失败");
+                }
             }
         }
         tempFilePath = ServletActionContext.getServletContext().getRealPath("/temp") + "/" + UUID.randomUUID();
+        // 开启导出线程
         new ExportExcel2003Thread(sessionFactory.openSession(), tempFilePath, progress).start();
+
         result.put("status", "success");
         data = result;
         return "json";
@@ -245,7 +242,6 @@ public class ClaszAction extends BaseAction<Clasz> {
         private Session session;
         private String tempFilePath; // 存储路径
 
-
         ExportExcel2003Thread(Session session, String tempFilePath, DataImportAction.Progress progress) {
             this.session = session;
             this.tempFilePath = tempFilePath;
@@ -259,7 +255,6 @@ public class ClaszAction extends BaseAction<Clasz> {
             if (claszList == null || claszList.size() == 0) {
                 return;
             }
-
             // double保留两位
             DecimalFormat decimalFormat = new DecimalFormat("#.00");
 

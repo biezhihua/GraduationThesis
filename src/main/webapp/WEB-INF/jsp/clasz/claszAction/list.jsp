@@ -7,13 +7,9 @@
     <meta name="keywords" content=""/>
     <meta name="description" content=""/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
     <%@include file="/WEB-INF/jsp/public/commons-styles.jspf" %>
-
     <!-- page specific plugin styles -->
     <link rel="stylesheet" href="${pageContext.request.contextPath }/assets/css/jquery-ui-1.10.3.full.min.css"/>
-
-
 </head>
 
 <body>
@@ -32,105 +28,99 @@
                 数据导出
             </s:a>
         </h4>
-        <!-- /.page-header -->
+
         <div class="row">
             <div class="col-xs-12">
-                <!-- PAGE CONTENT BEGINS -->
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="table-responsive">
-                            <table id="sample-table-1" class="table table-striped table-bordered table-hover">
-                                <thead>
-                                <tr>
-                                    <th class="center"><label> <input type="checkbox" class="ace"/> <span
-                                            class="lbl"></span>
-                                    </label></th>
-                                    <th>班级名称</th>
-                                    <th>年级</th>
-                                    <th>人数</th>
-                                    <th>班长</th>
-                                    <th>班主任</th>
-                                    <th>操作</th>
-                                </tr>
-                                </thead>
+                <div class="table-responsive">
+                    <table id="sample-table-1" class="table table-striped table-bordered table-hover">
+                        <thead>
+                        <tr>
+                            <th class="center"><label> <input type="checkbox" class="ace"/> <span
+                                    class="lbl"></span>
+                            </label></th>
+                            <th>班级名称</th>
+                            <th>年级</th>
+                            <th>人数</th>
+                            <th>班长</th>
+                            <th>班主任</th>
+                            <th>操作</th>
+                        </tr>
+                        </thead>
 
-                                <tbody>
-                                <s:iterator value="records" status="dis">
-                                    <tr>
-                                        <td class="center"><label> <input name="claszIds" value="${id}" type="checkbox" class="ace"/> <span
-                                                class="lbl"></span>
-                                        </label></td>
+                        <tbody>
+                        <s:iterator value="records" status="dis">
+                            <tr>
+                                <td class="center"><label> <input name="claszIds" value="${id}" type="checkbox"
+                                                                  class="ace"/> <span
+                                        class="lbl"></span>
+                                </label></td>
 
-                                        <td>${name }</td>
-                                        <td>${grade}</td>
-                                        <td>${number}</td>
-                                        <td><a class="grey"
-                                               title="电话：<s:if test="monitor.phoneNumber != null && monitor.phoneNumber !=''">${monitor.phoneNumber}</s:if><s:else>暂无信息</s:else>"
-                                               href="#">
-                                                ${monitor.name}
-                                        </a></td>
-                                        <td><a class="grey"
-                                               title="电话：<s:if test="teacher.phoneNumber != null && teacher.phoneNumber != ''">${teacher.phoneNumber}</s:if><s:else>暂无信息</s:else>"
-                                               href="#">
-                                                ${teacher.name}
-                                        </a></td>
-                                        <td>
-                                            <div class="visible-md visible-lg hidden-sm hidden-xs btn-group">
-                                                <s:a action="clasz_editUI?id=%{id}&pageNum=%{currentPage}"
-                                                   cssClass="btn btn-xs btn-info">
-                                                    <i class="icon-edit bigger-120"></i>
-                                                </s:a>
-                                                <s:a action="clasz_delete?id=%{id}&pageNum=%{currentPage}"
-                                                     cssClass="btn btn-xs btn-danger">
-                                                    <i class="icon-trash bigger-120"></i>
-                                                </s:a>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </s:iterator>
-                                <!-- #dialog-confirm -->
-                                </tbody>
-                            </table>
-                        </div>
-                        <!-- /.table-responsive -->
-                    </div>
-                    <!-- /span -->
+                                <td>${name }</td>
+                                <td>${grade}</td>
+                                <td>${number}</td>
+                                <td><a class="grey"
+                                       title="电话：<s:if test="monitor.phoneNumber != null && monitor.phoneNumber !=''">${monitor.phoneNumber}</s:if><s:else>暂无信息</s:else>"
+                                       href="#">
+                                        ${monitor.name}
+                                </a></td>
+                                <td><a class="grey"
+                                       title="电话：<s:if test="teacher.phoneNumber != null && teacher.phoneNumber != ''">${teacher.phoneNumber}</s:if><s:else>暂无信息</s:else>"
+                                       href="#">
+                                        ${teacher.name}
+                                </a></td>
+                                <td>
+                                    <div class="visible-md visible-lg hidden-sm hidden-xs btn-group">
+                                        <s:a action="clasz_editUI?id=%{id}&pageNum=%{currentPage}"
+                                             cssClass="btn btn-xs btn-info">
+                                            <i class="icon-edit bigger-120"></i>
+                                        </s:a>
+                                        <s:a action="clasz_delete?id=%{id}&pageNum=%{currentPage}"
+                                             cssClass="btn btn-xs btn-danger">
+                                            <i class="icon-trash bigger-120"></i>
+                                        </s:a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </s:iterator>
+                        <!-- #dialog-confirm -->
+                        </tbody>
+                    </table>
                 </div>
-                <!-- 分页 -->
-                <s:form id="page" action="clasz_list"></s:form>
-                <%@include file="/WEB-INF/jsp/public/commons-pageView.jspf" %>
-                <!-- /row -->
-                <div id="dialog-confirm" class="hide">
-                    <div class="alert alert-info bigger-110">
-                        这个操作将会删除此班级下的所有信息（信息包括寝室信息以及寝室成员的姓名/学号/电话等信息），请慎重！
-                    </div>
-                    <div class="space-6"></div>
-                    <p class="bigger-110 bolder center grey">
-                        <i class="icon-hand-right blue bigger-120"></i>
-                        您确认吗?
-                    </p>
-                </div>
-                <!-- PAGE CONTENT ENDS -->
-                <!-- PAGE CONTENT ENDS -->
-                <div id="dialog-message" class="modal hide">
-                    <div class="center">
-                        <h3 id="progress-label" class="blue lighter">准备中...</h3>
+                <!-- /.table-responsive -->
+            </div>
+            <!-- /span -->
+        </div>
+        <!-- 分页 -->
+        <s:form id="page" action="clasz_list"></s:form>
+        <%@include file="/WEB-INF/jsp/public/commons-pageView.jspf" %>
+        <!-- /row -->
+        <div id="dialog-confirm" class="hide">
+            <div class="alert alert-info bigger-110">
+                这个操作将会删除此班级下的所有信息（信息包括寝室信息以及寝室成员的姓名/学号/电话等信息），请慎重！
+            </div>
+            <div class="space-6"></div>
+            <p class="bigger-110 bolder center grey">
+                <i class="icon-hand-right blue bigger-120"></i>
+                您确认吗?
+            </p>
+        </div>
+        <!-- PAGE CONTENT ENDS -->
+        <div id="dialog-message" class="modal hide">
+            <div class="center">
+                <h3 id="progress-label" class="blue lighter">准备中...</h3>
 
-                        <div id="progressbar"
-                             class="ui-progressbar ui-widget ui-widget-content ui-corner-all progress progress-striped active"
-                             role="progressbar" aria-valuemin="0" aria-valuemax="100"
-                             aria-valuenow="37">
-                            <div id="progressbar-value"
-                                 class="ui-progressbar-value ui-widget-header ui-corner-left progress-bar progress-bar-success"></div>
-                        </div>
-                    </div>
+                <div id="progressbar"
+                     class="ui-progressbar ui-widget ui-widget-content ui-corner-all progress progress-striped active"
+                     role="progressbar" aria-valuemin="0" aria-valuemax="100"
+                     aria-valuenow="37">
+                    <div id="progressbar-value"
+                         class="ui-progressbar-value ui-widget-header ui-corner-left progress-bar progress-bar-success"></div>
                 </div>
             </div>
         </div>
     </div>
 </div>
 <!-- /.main-container -->
-
 <!-- basic scripts -->
 <%@include file="/WEB-INF/jsp/public/commons-scripts.jspf" %>
 
@@ -266,15 +256,13 @@
                                         $("body").append("<a id='hidden'></a>");
                                         var a = $("#hidden");
                                         a.addClass("hide");
-                                        a.attr("href","clasz_download.action");
+                                        a.attr("href", "clasz_download.action");
                                         document.getElementById("hidden").click();
                                     }, 1000);
 
 
-
                                 }
                             });
-
                             function progress() {
                                 var val = progressbar.progressbar("value") || 0;
                                 $.ajax({
@@ -285,19 +273,15 @@
                                         progressbar.progressbar("value", val);
                                     }
                                 });
-
                                 if (val < 100) {
                                     setTimeout(progress, 80);
                                 }
                             }
-
                             // 调用方法
                             setTimeout(progress, 1000);
                         }
                     }
                 });
-
-
             }
         });
     })

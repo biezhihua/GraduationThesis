@@ -19,18 +19,10 @@ import java.util.*;
  */
 @Controller
 @Scope("prototype")
-public class InfoAction extends BaseAction<Student> {
+public class InfoAction extends ClaszBaseAction<Student> {
 
     static Logger logger = Logger.getLogger(InfoAction.class);
-
-    private Long claszId;
-    private String apartment_dor_bed; // 公寓#寝室-床铺
-    private Object data; // json数据
-    private Long apartmentId;
-
     /**
-     * C(Create) R(Read) U(Update) D(Delete)
-     * <p/>
      * 概要: 转向到列表页面
      */
     public String list() {
@@ -59,6 +51,7 @@ public class InfoAction extends BaseAction<Student> {
             queryHelper.addOrderByProperty("s.sno", true);
             queryHelper.addOrderByProperty("s.name", true);
             PageBean pageBean = studentService.getPageBean(pageNum, pageSize, queryHelper);
+
             ActionContext.getContext().getValueStack().push(pageBean);
             ActionContext.getContext().put("claszId", claszId);
             ActionContext.getContext().put("pageNum", pageNum);
@@ -92,10 +85,10 @@ public class InfoAction extends BaseAction<Student> {
 
     /**
      * 概要: 转达到添加页面
-     * 返回类型: 添加和编辑共用一个页面
      */
-    @Deprecated
     public String addUI() throws Exception {
+        // 准备待分配寝室公寓数据
+        ActionContext.getContext().put("apartmentList", getApartmetnListCopy(apartmentService.getAll()));
         return "saveUI";
     }
 
@@ -106,46 +99,36 @@ public class InfoAction extends BaseAction<Student> {
         Clasz clasz = claszService.getById(claszId);
         if (clasz != null) {
             model.setClasz(clasz);
+            // 保存学生数据
             studentService.save(model);
         }
 
-        // 是否符合格式 31#504-1
-        if (RegExpUtil.isMatchesSpecialApartDorBed(apartment_dor_bed)) {
-            String apartmentName = apartment_dor_bed.substring(0, 2) + "栋";
-            String dormitoryName = apartment_dor_bed.substring(3, 6);
-            String bedNo = apartment_dor_bed.substring(7, 8);
-            Bed bed = bedService.getByApartmentAndDormitoryAndBed(apartmentName, dormitoryName, bedNo);
-            if (bed != null) {
-                Dormitory dormitory = bed.getDormitory();
-                if (dormitory.getClasz() == null) {
-                    dormitory.setClasz(clasz);
-                    dormitoryService.update(dormitory);
-                }
-
-                if (bed.getStudent() == null) {
-                    model.setBed(bed);
-                    studentService.update(model);
-                    bed.setStudent(model);
-                    bedService.update(bed);
-                }
+        Bed bed = bedService.getById(bedId);
+        if (bed != null) {
+            Dormitory dormitory = bed.getDormitory();
+            if (dormitory.getClasz() == null) {
+                dormitory.setClasz(clasz);
+                dormitoryService.update(dormitory);
             }
-
+            model.setBed(bed);
+            studentService.update(model);
+            bed.setStudent(model);
+            bedService.update(bed);
         }
         return "toList";
     }
 
     /**
      * 概要: 转达到编辑页面
-     * 返回类型: 添加和编辑共用一个页面
      */
-    @Deprecated
     public String editUI() {
+        // 准备三级联动 公寓列表
+        ActionContext.getContext().put("apartmentList", getApartmetnListCopy(apartmentService.getAll()));
+        // 准备学生数据
         Student student = studentService.getById(model.getId());
-        Bed bed = student.getBed();
-        if (bed != null) {
-            Dormitory dormitory = bed.getDormitory();
-            Apartment apartment = dormitory.getApartment();
-            apartment_dor_bed = apartment.getName().substring(0, apartment.getName().length() - 1) + "#" + dormitory.getName() + "-" + bed.getBedNO();
+        if (student.getBed() != null)  {
+            //  回显所在公寓，学生数据
+            ActionContext.getContext().getValueStack().push(apartmentId = student.getBed().getDormitory().getApartment().getId());
         }
         ActionContext.getContext().getValueStack().push(student);
         ActionContext.getContext().put("claszId", claszId);
@@ -167,92 +150,29 @@ public class InfoAction extends BaseAction<Student> {
 
         // 更新与寝室的关联关系
         Clasz clasz = claszService.getById(claszId);
-        // 是否符合格式 31#504-1
-        if (RegExpUtil.isMatchesSpecialApartDorBed(apartment_dor_bed)) {
-            String apartmentName = apartment_dor_bed.substring(0, 2) + "栋";
-            String dormitoryName = apartment_dor_bed.substring(3, 6);
-            String bedNo = apartment_dor_bed.substring(7, 8);
-            Bed bed = bedService.getByApartmentAndDormitoryAndBed(apartmentName, dormitoryName, bedNo);
-            if (bed != null) {
-                Dormitory dormitory = bed.getDormitory();
-                if (dormitory.getClasz() == null) {
-                    dormitory.setClasz(clasz);
-                    dormitoryService.update(dormitory);
-                }
-
-                if (bed.getStudent() == null) {
-                    // 解除与之前bed的关系
-                    Bed oldBed = student.getBed();
-                    if (oldBed != null) {
-                        oldBed.setStudent(null);
-                        bedService.update(oldBed);
-                    }
-
-                    student.setBed(bed);
-                    studentService.update(student);
-                    bed.setStudent(student);
-                    bedService.update(bed);
-                }
+        Bed bed = bedService.getById(bedId);
+        if (bed != null) {
+            Dormitory dormitory = bed.getDormitory();
+            if (dormitory.getClasz() == null) {
+                dormitory.setClasz(clasz);
+                dormitoryService.update(dormitory);
             }
-
+            if (bed.getStudent() == null) {
+                // 解除与之前bed的关系
+                Bed oldBed = student.getBed();
+                if (oldBed != null) {
+                    oldBed.setStudent(null);
+                    bedService.update(oldBed);
+                }
+                student.setBed(bed);
+                studentService.update(student);
+                bed.setStudent(student);
+                bedService.update(bed);
+            }
         }
         ActionContext.getContext().put("claszId", claszId);
         ActionContext.getContext().put("pageNum", pageNum);
         return "toList";
     }
 
-
-    // ========AJAX============
-    public String getApartment() {
-        List<Apartment> apartments = apartmentService.getAll();
-        for (Apartment apartment : apartments) {
-            apartment.setDormitories(null);
-        }
-        data = apartments;
-        return "json";
-    }
-
-    public String getDormitory() {
-        List<Dormitory> dormitories = dormitoryService.getByApartmentId(apartmentId);
-        for (Dormitory dormitory : dormitories) {
-            dormitory.setClasz(null);
-            dormitory.setApartment(null);
-            dormitory.setBeds(null);
-            dormitory.setMonitor(null);
-        }
-        data = dormitories;
-        return "json";
-    }
-
-    public Long getClaszId() {
-        return claszId;
-    }
-
-    public void setClaszId(Long claszId) {
-        this.claszId = claszId;
-    }
-
-    public String getApartment_dor_bed() {
-        return apartment_dor_bed;
-    }
-
-    public void setApartment_dor_bed(String apartment_dor_bed) {
-        this.apartment_dor_bed = apartment_dor_bed;
-    }
-
-    public Object getData() {
-        return data;
-    }
-
-    public void setData(Object data) {
-        this.data = data;
-    }
-
-    public Long getApartmentId() {
-        return apartmentId;
-    }
-
-    public void setApartmentId(Long apartmentId) {
-        this.apartmentId = apartmentId;
-    }
 }
