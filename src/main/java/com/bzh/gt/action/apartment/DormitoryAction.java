@@ -42,6 +42,7 @@ public class DormitoryAction extends BaseAction<Dormitory> {
     private Integer bedNumber; // 床铺数
 
     /**
+     * sdsd
      * 概要: 转向到列表页面
      */
     public String list() throws Exception {
