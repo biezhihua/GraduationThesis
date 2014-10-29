@@ -15706,3 +15706,149 @@
 2014-10-29 14:04:43  [ main:4351 ] - [ INFO ]  Initializing Struts-Spring integration...
 2014-10-29 14:04:43  [ main:4351 ] - [ INFO ]  Setting autowire strategy to name
 2014-10-29 14:04:43  [ main:4352 ] - [ INFO ]  ... initialized Struts-Spring integration successfully
+2014-10-29 14:31:57  [ main:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2014-10-29 14:31:57  [ main:139 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Wed Oct 29 14:31:57 CST 2014]; root of context hierarchy
+2014-10-29 14:31:57  [ main:184 ] - [ INFO ]  Loading XML bean definitions from class path resource [beans.xml]
+2014-10-29 14:31:58  [ main:777 ] - [ INFO ]  Loading properties file from class path resource [jdbc.properties]
+2014-10-29 14:31:58  [ main:787 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-10-29 14:31:58  [ main:881 ] - [ INFO ]  MLog clients using log4j logging.
+2014-10-29 14:31:58  [ main:982 ] - [ INFO ]  Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2014-10-29 14:31:59  [ main:1271 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2014-10-29 14:31:59  [ main:1280 ] - [ INFO ]  HHH000412: Hibernate Core {4.2.7.Final}
+2014-10-29 14:31:59  [ main:1284 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2014-10-29 14:31:59  [ main:1287 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2014-10-29 14:31:59  [ main:1314 ] - [ INFO ]  HHH000044: Configuring from URL: file:/D:/桌面/Desktop/GraduationThesis/target/classes/hibernate.cfg.xml
+2014-10-29 14:31:59  [ main:1358 ] - [ INFO ]  HHH000221: Reading mappings from resource: com/bzh/gt/bean/Department.hbm.xml
+2014-10-29 14:31:59  [ main:1392 ] - [ INFO ]  HHH000221: Reading mappings from resource: com/bzh/gt/bean/LoginLog.hbm.xml
+2014-10-29 14:31:59  [ main:1424 ] - [ INFO ]  HHH000221: Reading mappings from resource: com/bzh/gt/bean/Privilege.hbm.xml
+2014-10-29 14:31:59  [ main:1448 ] - [ INFO ]  HHH000221: Reading mappings from resource: com/bzh/gt/bean/Role.hbm.xml
+2014-10-29 14:31:59  [ main:1478 ] - [ INFO ]  HHH000221: Reading mappings from resource: com/bzh/gt/bean/User.hbm.xml
+2014-10-29 14:31:59  [ main:1506 ] - [ INFO ]  HHH000221: Reading mappings from resource: com/bzh/gt/bean/Apartment.hbm.xml
+2014-10-29 14:31:59  [ main:1535 ] - [ INFO ]  HHH000221: Reading mappings from resource: com/bzh/gt/bean/Clasz.hbm.xml
+2014-10-29 14:31:59  [ main:1565 ] - [ INFO ]  HHH000221: Reading mappings from resource: com/bzh/gt/bean/Dormitory.hbm.xml
+2014-10-29 14:31:59  [ main:1589 ] - [ INFO ]  HHH000221: Reading mappings from resource: com/bzh/gt/bean/Student.hbm.xml
+2014-10-29 14:31:59  [ main:1613 ] - [ INFO ]  HHH000221: Reading mappings from resource: com/bzh/gt/bean/Bed.hbm.xml
+2014-10-29 14:31:59  [ main:1642 ] - [ INFO ]  HHH000221: Reading mappings from resource: com/bzh/gt/bean/Teacher.hbm.xml
+2014-10-29 14:31:59  [ main:1667 ] - [ INFO ]  HHH000221: Reading mappings from resource: com/bzh/gt/bean/ExcelFile.hbm.xml
+2014-10-29 14:31:59  [ main:1692 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2014-10-29 14:31:59  [ main:1870 ] - [ INFO ]  Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hgerya95p50jy51ejx7u6|7c42186c, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgerya95p50jy51ejx7u6|7c42186c, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/thesis?useUnicode=true&amp;characterEncoding=utf-8, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 5, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2014-10-29 14:31:59  [ main:2126 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2014-10-29 14:31:59  [ main:2137 ] - [ INFO ]  HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2014-10-29 14:32:00  [ main:2239 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
+2014-10-29 14:32:00  [ main:2248 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2014-10-29 14:32:00  [ main:2620 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2014-10-29 14:32:00  [ main:2621 ] - [ INFO ]  HHH000102: Fetching database metadata
+2014-10-29 14:32:00  [ main:2627 ] - [ INFO ]  HHH000396: Updating schema
+2014-10-29 14:32:00  [ main:2652 ] - [ INFO ]  HHH000261: Table found: thesis.apartment
+2014-10-29 14:32:00  [ main:2653 ] - [ INFO ]  HHH000037: Columns: [id, sex, rank, name, topfloor, roomnumber, bednumber]
+2014-10-29 14:32:00  [ main:2653 ] - [ INFO ]  HHH000108: Foreign keys: []
+2014-10-29 14:32:00  [ main:2653 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2014-10-29 14:32:00  [ main:2666 ] - [ INFO ]  HHH000261: Table found: thesis.bed
+2014-10-29 14:32:00  [ main:2667 ] - [ INFO ]  HHH000037: Columns: [id, bedno, dormitoryid, studentid]
+2014-10-29 14:32:00  [ main:2667 ] - [ INFO ]  HHH000108: Foreign keys: [fk_dnad03ysq051o2b2c30d6rqju, fk_34ltwyvikndmr1dj44n7tdgri]
+2014-10-29 14:32:00  [ main:2667 ] - [ INFO ]  HHH000126: Indexes: [uk_34ltwyvikndmr1dj44n7tdgri, fk_dnad03ysq051o2b2c30d6rqju, fk_34ltwyvikndmr1dj44n7tdgri, primary]
+2014-10-29 14:32:00  [ main:2681 ] - [ INFO ]  HHH000261: Table found: thesis.clasz
+2014-10-29 14:32:00  [ main:2681 ] - [ INFO ]  HHH000037: Columns: [id, isreservoir, name, teacherid, grade, number, monitorid, womanreservoir, manreservoir]
+2014-10-29 14:32:00  [ main:2681 ] - [ INFO ]  HHH000108: Foreign keys: [fk_3mqh4va1xsvvc3mwiarnhsb69, fk_hqwix6e9cmgl7k127qgs0aq55]
+2014-10-29 14:32:00  [ main:2682 ] - [ INFO ]  HHH000126: Indexes: [uk_3mqh4va1xsvvc3mwiarnhsb69, fk_3mqh4va1xsvvc3mwiarnhsb69, fk_hqwix6e9cmgl7k127qgs0aq55, primary, uk_hqwix6e9cmgl7k127qgs0aq55]
+2014-10-29 14:32:00  [ main:2694 ] - [ INFO ]  HHH000261: Table found: thesis.dormitory
+2014-10-29 14:32:00  [ main:2695 ] - [ INFO ]  HHH000037: Columns: [claszid, id, level, apartmentid, name, monitorid, isallocation]
+2014-10-29 14:32:00  [ main:2695 ] - [ INFO ]  HHH000108: Foreign keys: [fk_ij80xxuu1s2ngafdxfei3a8ss, fk_28aoi2f1aq6s5w3h3ytnw8ylh, fk_mhpb3ol0ort8os0g23e2xf2oh]
+2014-10-29 14:32:00  [ main:2695 ] - [ INFO ]  HHH000126: Indexes: [fk_ij80xxuu1s2ngafdxfei3a8ss, uk_ij80xxuu1s2ngafdxfei3a8ss, primary, fk_28aoi2f1aq6s5w3h3ytnw8ylh, fk_mhpb3ol0ort8os0g23e2xf2oh]
+2014-10-29 14:32:00  [ main:2708 ] - [ INFO ]  HHH000261: Table found: thesis.excelfile
+2014-10-29 14:32:00  [ main:2708 ] - [ INFO ]  HHH000037: Columns: [template, id, filepath, filename, contenttype]
+2014-10-29 14:32:00  [ main:2708 ] - [ INFO ]  HHH000108: Foreign keys: []
+2014-10-29 14:32:00  [ main:2709 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2014-10-29 14:32:00  [ main:2720 ] - [ INFO ]  HHH000261: Table found: thesis.student
+2014-10-29 14:32:00  [ main:2720 ] - [ INFO ]  HHH000037: Columns: [claszid, id, phonenumber, sex, sno, name]
+2014-10-29 14:32:00  [ main:2720 ] - [ INFO ]  HHH000108: Foreign keys: [fk_po1bnnk04jne6egxhsk59c7ey]
+2014-10-29 14:32:00  [ main:2721 ] - [ INFO ]  HHH000126: Indexes: [fk_po1bnnk04jne6egxhsk59c7ey, primary]
+2014-10-29 14:32:00  [ main:2730 ] - [ INFO ]  HHH000261: Table found: thesis.teacher
+2014-10-29 14:32:00  [ main:2731 ] - [ INFO ]  HHH000037: Columns: [id, phonenumber, name]
+2014-10-29 14:32:00  [ main:2731 ] - [ INFO ]  HHH000108: Foreign keys: []
+2014-10-29 14:32:00  [ main:2731 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2014-10-29 14:32:00  [ main:2742 ] - [ INFO ]  HHH000261: Table found: thesis.department
+2014-10-29 14:32:00  [ main:2743 ] - [ INFO ]  HHH000037: Columns: [id, description, name, parentid]
+2014-10-29 14:32:00  [ main:2743 ] - [ INFO ]  HHH000108: Foreign keys: [fk_9ehajpceo8bvautsnnqchwud4]
+2014-10-29 14:32:00  [ main:2743 ] - [ INFO ]  HHH000126: Indexes: [fk_9ehajpceo8bvautsnnqchwud4, primary]
+2014-10-29 14:32:00  [ main:2753 ] - [ INFO ]  HHH000261: Table found: thesis.loginlog
+2014-10-29 14:32:00  [ main:2754 ] - [ INFO ]  HHH000037: Columns: [id, logindate, logoutdate, userid, ip]
+2014-10-29 14:32:00  [ main:2754 ] - [ INFO ]  HHH000108: Foreign keys: [fk_nq4ppyww4vygccws7txs73cbk]
+2014-10-29 14:32:00  [ main:2754 ] - [ INFO ]  HHH000126: Indexes: [fk_nq4ppyww4vygccws7txs73cbk, primary]
+2014-10-29 14:32:00  [ main:2766 ] - [ INFO ]  HHH000261: Table found: thesis.privilege
+2014-10-29 14:32:00  [ main:2766 ] - [ INFO ]  HHH000037: Columns: [id, name, parentid, url]
+2014-10-29 14:32:00  [ main:2767 ] - [ INFO ]  HHH000108: Foreign keys: [fk_a8fpgo4y3h1w8lt1nghfx9c2x]
+2014-10-29 14:32:00  [ main:2767 ] - [ INFO ]  HHH000126: Indexes: [primary, fk_a8fpgo4y3h1w8lt1nghfx9c2x]
+2014-10-29 14:32:00  [ main:2778 ] - [ INFO ]  HHH000261: Table found: thesis.role
+2014-10-29 14:32:00  [ main:2778 ] - [ INFO ]  HHH000037: Columns: [id, departmentid, description, name]
+2014-10-29 14:32:00  [ main:2779 ] - [ INFO ]  HHH000108: Foreign keys: [fk_bns7wilhyxv3kl7j1ykav2nbx]
+2014-10-29 14:32:00  [ main:2779 ] - [ INFO ]  HHH000126: Indexes: [primary, fk_bns7wilhyxv3kl7j1ykav2nbx]
+2014-10-29 14:32:00  [ main:2790 ] - [ INFO ]  HHH000261: Table found: thesis.role_privilege
+2014-10-29 14:32:00  [ main:2790 ] - [ INFO ]  HHH000037: Columns: [roleid, privilegeid]
+2014-10-29 14:32:00  [ main:2790 ] - [ INFO ]  HHH000108: Foreign keys: [fk_bn0nninekblrccarahdruxfjt, fk_t5q48778s6nlx68vvw1dule4m]
+2014-10-29 14:32:00  [ main:2791 ] - [ INFO ]  HHH000126: Indexes: [fk_bn0nninekblrccarahdruxfjt, primary, fk_t5q48778s6nlx68vvw1dule4m]
+2014-10-29 14:32:00  [ main:2802 ] - [ INFO ]  HHH000261: Table found: thesis.user
+2014-10-29 14:32:00  [ main:2803 ] - [ INFO ]  HHH000037: Columns: [claszid, id, phonenumber, loginname, description, name, gender, password, qq]
+2014-10-29 14:32:00  [ main:2803 ] - [ INFO ]  HHH000108: Foreign keys: [fk_oi8a962co696ordro43oel2wi]
+2014-10-29 14:32:00  [ main:2803 ] - [ INFO ]  HHH000126: Indexes: [primary, uk_oi8a962co696ordro43oel2wi, fk_oi8a962co696ordro43oel2wi]
+2014-10-29 14:32:00  [ main:2813 ] - [ INFO ]  HHH000261: Table found: thesis.user_role
+2014-10-29 14:32:00  [ main:2814 ] - [ INFO ]  HHH000037: Columns: [roleid, userid]
+2014-10-29 14:32:00  [ main:2814 ] - [ INFO ]  HHH000108: Foreign keys: [fk_kt76tbwgvgf7m5rhnrkxxvgyc, fk_oj50qpdthexxxmvur61ggy2fb]
+2014-10-29 14:32:00  [ main:2814 ] - [ INFO ]  HHH000126: Indexes: [fk_kt76tbwgvgf7m5rhnrkxxvgyc, primary, fk_oj50qpdthexxxmvur61ggy2fb]
+2014-10-29 14:32:00  [ main:2816 ] - [ INFO ]  HHH000232: Schema update complete
+2014-10-29 14:32:00  [ main:2963 ] - [ INFO ]  com.bzh.gt.bean.Apartment类已获取参数化类型的真是类型:class com.bzh.gt.bean.Apartment
+2014-10-29 14:32:00  [ main:2982 ] - [ INFO ]  com.bzh.gt.bean.Bed类已获取参数化类型的真是类型:class com.bzh.gt.bean.Bed
+2014-10-29 14:32:00  [ main:2993 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已获取参数化类型的真是类型:class com.bzh.gt.bean.Clasz
+2014-10-29 14:32:00  [ main:3007 ] - [ INFO ]  com.bzh.gt.bean.Department类已获取参数化类型的真是类型:class com.bzh.gt.bean.Department
+2014-10-29 14:32:00  [ main:3019 ] - [ INFO ]  com.bzh.gt.bean.Dormitory类已获取参数化类型的真是类型:class com.bzh.gt.bean.Dormitory
+2014-10-29 14:32:00  [ main:3030 ] - [ INFO ]  com.bzh.gt.bean.ExcelFile类已获取参数化类型的真是类型:class com.bzh.gt.bean.ExcelFile
+2014-10-29 14:32:00  [ main:3039 ] - [ INFO ]  com.bzh.gt.bean.Privilege类已获取参数化类型的真是类型:class com.bzh.gt.bean.Privilege
+2014-10-29 14:32:00  [ main:3049 ] - [ INFO ]  com.bzh.gt.bean.Role类已获取参数化类型的真是类型:class com.bzh.gt.bean.Role
+2014-10-29 14:32:00  [ main:3058 ] - [ INFO ]  com.bzh.gt.bean.Student类已获取参数化类型的真是类型:class com.bzh.gt.bean.Student
+2014-10-29 14:32:00  [ main:3067 ] - [ INFO ]  com.bzh.gt.bean.Teacher类已获取参数化类型的真是类型:class com.bzh.gt.bean.Teacher
+2014-10-29 14:32:00  [ main:3079 ] - [ INFO ]  com.bzh.gt.bean.User类已获取参数化类型的真是类型:class com.bzh.gt.bean.User
+2014-10-29 14:32:00  [ main:3118 ] - [ INFO ]  Using DataSource [com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hgerya95p50jy51ejx7u6|7c42186c, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgerya95p50jy51ejx7u6|7c42186c, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/thesis?useUnicode=true&amp;characterEncoding=utf-8, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 5, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]] of Hibernate SessionFactory for HibernateTransactionManager
+2014-10-29 14:32:00  [ main:3125 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 3120 ms
+2014-10-29 14:32:01  [ main:3502 ] - [ INFO ]  == 已经在最大作用域中存入左侧菜单列表 ==
+2014-10-29 14:32:01  [ main:3515 ] - [ INFO ]  == 已经在最大作用域中存入所有权限URL列表 ==
+2014-10-29 14:32:01  [ main:3728 ] - [ INFO ]  Parsing configuration file [struts-default.xml]
+2014-10-29 14:32:01  [ main:3801 ] - [ INFO ]  Parsing configuration file [struts-plugin.xml]
+2014-10-29 14:32:01  [ main:3854 ] - [ INFO ]  Parsing configuration file [struts.xml]
+2014-10-29 14:32:01  [ main:3858 ] - [ INFO ]  Choosing bean (spring) for (com.opensymphony.xwork2.ObjectFactory)
+2014-10-29 14:32:01  [ main:3859 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)
+2014-10-29 14:32:01  [ main:3859 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)
+2014-10-29 14:32:01  [ main:3860 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)
+2014-10-29 14:32:01  [ main:3860 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)
+2014-10-29 14:32:01  [ main:3860 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)
+2014-10-29 14:32:01  [ main:3860 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+2014-10-29 14:32:01  [ main:3860 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+2014-10-29 14:32:01  [ main:3861 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+2014-10-29 14:32:01  [ main:3861 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+2014-10-29 14:32:01  [ main:3861 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+2014-10-29 14:32:01  [ main:3861 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+2014-10-29 14:32:01  [ main:3862 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+2014-10-29 14:32:01  [ main:3862 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+2014-10-29 14:32:01  [ main:3862 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+2014-10-29 14:32:01  [ main:3862 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+2014-10-29 14:32:01  [ main:3863 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+2014-10-29 14:32:01  [ main:3863 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+2014-10-29 14:32:01  [ main:3863 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+2014-10-29 14:32:01  [ main:3864 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+2014-10-29 14:32:01  [ main:3864 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+2014-10-29 14:32:01  [ main:3864 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+2014-10-29 14:32:01  [ main:3865 ] - [ INFO ]  Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+2014-10-29 14:32:01  [ main:3865 ] - [ INFO ]  Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+2014-10-29 14:32:01  [ main:3865 ] - [ INFO ]  Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)
+2014-10-29 14:32:01  [ main:3868 ] - [ INFO ]  Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+2014-10-29 14:32:01  [ main:3869 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+2014-10-29 14:32:01  [ main:3869 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+2014-10-29 14:32:01  [ main:3869 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+2014-10-29 14:32:01  [ main:3870 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+2014-10-29 14:32:01  [ main:3870 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+2014-10-29 14:32:01  [ main:3870 ] - [ INFO ]  Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+2014-10-29 14:32:01  [ main:3871 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+2014-10-29 14:32:01  [ main:3871 ] - [ INFO ]  Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+2014-10-29 14:32:01  [ main:3871 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+2014-10-29 14:32:01  [ main:3894 ] - [ INFO ]  Initializing Struts-Spring integration...
+2014-10-29 14:32:01  [ main:3894 ] - [ INFO ]  Setting autowire strategy to name
+2014-10-29 14:32:01  [ main:3895 ] - [ INFO ]  ... initialized Struts-Spring integration successfully

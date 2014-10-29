@@ -47,7 +47,7 @@ public class DormitoryAction extends BaseAction<Dormitory> {
      */
     public String list() throws Exception {
 
-        /**
+        /**f
          * 获取所有公寓的信息，存到上下文中
          * 在JSP的页面显示出一个Menu
          */
