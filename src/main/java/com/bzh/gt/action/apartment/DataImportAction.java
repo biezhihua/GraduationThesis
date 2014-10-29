@@ -40,8 +40,10 @@ public class DataImportAction extends BaseAction<ExcelFile> {
     private File file; // 上传文件
     private String fileContentType; // 上传类型
     private String fileFileName;// 上传名字
+
     private Object data; // json数据
     private static Progress progress = new Progress(); // 静态“进度”变量
+
     private InputStream excelStream; // 输出流
     private String excelFileName; // 下载文件名
     @Resource
@@ -52,7 +54,6 @@ public class DataImportAction extends BaseAction<ExcelFile> {
     }
 
     // ============AJAX==============
-
     /**
      * 加载Excel中的数据到系统中
      */
