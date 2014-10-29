@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+    <package name="systemPart" namespace="/system" extends="interceptor_global_result">
+        <!-- 部门设置 -->
+        <action name="department_*" class="departmentAction" method="{1}">
+            <result name="list">/WEB-INF/jsp/system/departmentAction/list.jsp
+            </result>
+            <result name="saveUI">/WEB-INF/jsp/system/departmentAction/saveUI.jsp
+            </result>
+            <result name="toList" type="redirectAction">department_list</result>
+        </action>
+        <!-- 岗位/角色设置 -->
+        <action name="role_*" class="roleAction" method="{1}">
+            <result name="list">/WEB-INF/jsp/system/roleAction/list.jsp
+            </result>
+            <result name="saveUI">/WEB-INF/jsp/system/roleAction/saveUI.jsp
+            </result>
+            <result name="setPrivilegeUI">/WEB-INF/jsp/system/roleAction/setPrivilegeUI.jsp
+            </result>
+            <result name="toList" type="redirectAction">role_list</result>
+        </action>
+        <!-- 用户设置 -->
+        <action name="user_*" class="userAction" method="{1}">
+            <result name="logout">/WEB-INF/jsp/system/userAction/logout.jsp
+            </result>
+            <result name="toIndex" type="redirect">/index.jsp
+            </result>
+            <result name="list">/WEB-INF/jsp/system/userAction/list.jsp
+            </result>
+            <result name="setProfileUI">/WEB-INF/jsp/system/userAction/setProfileUI.jsp
+            </result>
+            <result name="saveUI">/WEB-INF/jsp/system/userAction/saveUI.jsp
+            </result>
+            <result name="toList" type="redirectAction">user_list</result>
+        </action>
+    </package>
+
+</struts>

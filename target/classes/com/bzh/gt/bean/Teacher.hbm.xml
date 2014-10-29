@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.bzh.gt.bean">
+    <class name="Teacher">
+        <id name="id">
+            <generator class="native"/>
+        </id>
+        <!-- 班级名称 -->
+        <property name="name"/>
+        <property name="phoneNumber"/>
+
+        <!-- clasz，本类与Clasz的一对一关系 -->
+        <one-to-one name="clasz" class="Clasz" fetch="join"/>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+    <!-- 班级管理 -->
+    <package name="claszPart" namespace="/clasz" extends="interceptor_global_result">
+
+        <!-- 班级管理 -->
+        <action name="clasz_*" class="claszAction" method="{1}">
+            <result name="list">/WEB-INF/jsp/clasz/claszAction/list.jsp
+            </result>
+            <result name="saveUI">/WEB-INF/jsp/clasz/claszAction/saveUI.jsp
+            </result>
+            <result name="toList" type="redirectAction">clasz_list</result>
+            <result type="stream" name="download">
+                <param name="contentType">
+                    application/vnd.ms-excel
+                </param>
+                <param name="inputName">excelStream</param>
+                <param name="contentDisposition">
+                    attachment;filename=${excelFileName}
+                </param>
+                <param name="bufferSize">1024</param>
+            </result>
+        </action>
+        <!-- 信息管理 -->
+        <action name="info_*" class="infoAction" method="{1}">
+            <result name="list">/WEB-INF/jsp/clasz/infoAction/list.jsp
+            </result>
+            <result name="saveUI">/WEB-INF/jsp/clasz/infoAction/saveUI.jsp
+            </result>
+            <result name="toList" type="redirectAction">info_list?claszId=${claszId}&amp;pageNum=${pageNum}</result>
+        </action>
+
+        <!-- 信息管理 -->
+        <action name="myClasz_*" class="myClaszAction" method="{1}">
+            <result name="list">/WEB-INF/jsp/clasz/myClaszAction/list.jsp
+            </result>
+            <result name="saveUI">/WEB-INF/jsp/clasz/myClaszAction/saveUI.jsp
+            </result>
+            <result name="toList" type="redirectAction">myClasz_list</result>
+        </action>
+    </package>
+
+</struts>

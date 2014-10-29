@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+    <package name="allocationPart" namespace="/allocation" extends="interceptor_global_result">
+
+        <action name="roomSetting_*" class="roomSettingAction" method="{1}">
+            <result name="list">/WEB-INF/jsp/allocation/roomSettingAction/list.jsp
+            </result>
+            <result name="toList" type="redirectAction">roomSetting_list?apartmentId=${#session._dor_filter_apartmentId}&amp;dormitoryLevel=${#session._dor_filter_level}</result>
+        </action>
+
+        <action name="allocation_*" class="allocationAction" method="{1}">
+            <result name="infoEntering">/WEB-INF/jsp/allocation/allocationAction/infoEntering.jsp
+            </result>
+            <result name="checkInUI">
+                /WEB-INF/jsp/allocation/allocationAction/checkInUI.jsp
+            </result>
+            <result name="manualUI">
+                /WEB-INF/jsp/allocation/allocationAction/manualUI.jsp
+            </result>
+            <result name="saveUI">/WEB-INF/jsp/apartment/dormitoryAction/saveUI.jsp
+            </result>
+            <result name="toInfoEntering" type="redirectAction">allocation_infoEntering</result>
+        </action>
+
+        <action name="overView_*" class="overViewAction" method="{1}">
+            <result name="list">/WEB-INF/jsp/allocation/overViewAction/list.jsp
+            </result>
+            <result name="toList" type="redirectAction">overView_list</result>
+        </action>
+
+    </package>
+
+</struts>

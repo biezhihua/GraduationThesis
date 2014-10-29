@@ -1,0 +1,1866 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/bzh/gt/action/system/UserAction.java" line="193" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/bzh/gt/action/allocation/RoomSettingAction.java" line="71" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bee55556-9de3-4f14-825e-bb7adba7841e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <list id="b5360779-8717-41a1-9bcc-38b00fdc2ea9" name="Rejected commit: Default" comment="修改了宿舍-床铺-学生之间的关系&#10;" />
+    <ignored path="GraduationThesis.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="ClassPatternConfiguration">
+    <testPatterns>
+      <classPattern testedClass="$CLASS$" testClass="test/$CLASS$Test" />
+    </testPatterns>
+  </component>
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="autoscrollToSource" value="true" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="GraduationThesis" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="DataImportAction.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bzh/gt/action/apartment/DataImportAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="968" max-vertical-offset="12870">
+              <caret line="44" column="43" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DormitoryAction.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bzh/gt/action/apartment/DormitoryAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5247706" vertical-offset="242" max-vertical-offset="4532">
+              <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="true" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="SYNC_SETTING" value="DONT" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="AUTO_COMMIT_ON_CHERRY_PICK" value="true" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/struts-system.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/allocation/roomSettingAction/list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bzh/gt/service/DormitoryService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/bzh/gt/test/DormitoryAllocation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bzh/gt/bean/Clasz.java" />
+        <option value="$PROJECT_DIR$/权限" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/allocation/infoEnteringAction/saveUI.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/departmentAction/list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/allocation/infoEnteringAction/list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bzh/gt/action/allocation/InfoEnteringAction.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/allocation/allocationAction/infoEntering.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/allocation/allocationAction/saveUI.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bzh/gt/action/allocation/OverViewAction.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/allocation/allocationAction/checkIn.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bzh/gt/service/impl/ClaszServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bzh/gt/service/ClaszService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/clasz/claszAction/list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/bzh/gt/bean/Clasz.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/allocation/overViewAction/list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/struts-allocation.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/allocation/allocationAction/checkInUI.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/allocation/allocationAction/manualUI.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bzh/gt/action/allocation/AllocationAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bzh/gt/action/allocation/RoomSettingAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bzh/gt/install/Installer.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/assets/css/validate.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/public/commons-styles.jspf" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/public/commons-scripts.jspf" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/departmentAction/saveUI.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/bzh/gt/bean/Role.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/roleAction/saveUI.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/bzh/gt/bean/User.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/assets/js/additional-methods.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/bzh/gt/bean/Department.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/userAction/list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/userAction/saveUI.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bzh/gt/action/system/DepartmentAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bzh/gt/action/system/RoleAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bzh/gt/action/system/UserAction.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/bzh/gt/bean/Apartment.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bzh/gt/action/apartment/ApartmentAction.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/apartment/apartmentAction/list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/bzh/gt/bean/Dormitory.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/apartment/dormitoryAction/list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/apartment/apartmentAction/saveUI.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/apartment/dormitoryAction/saveUI.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/apartment/dataImportAction/list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bzh/gt/action/apartment/DataImportAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bzh/gt/action/apartment/DormitoryAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bzh/gt/bean/Apartment.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JUnitClassTemplateConfiguration">
+    <option name="DONT_SHOW_TEMPLATE_DIALOG_IF_ONLY_ONE_TEMPLATE" value="false" />
+    <option name="DONT_SHOW_METHODS_DIALOG_IF_ONLY_ONE_METHOD" value="false" />
+    <option name="LAST_TEMPLATE_NAME" value="Default Test Class.java" />
+    <option name="TEST_TEMPLATES">
+      <value>
+        <list size="1">
+          <item index="0" class="java.lang.String" itemvalue="Default Test Class.java" />
+        </list>
+      </value>
+    </option>
+  </component>
+  <component name="JUnitMethodTemplateConfiguration">
+    <option name="DONT_SHOW_TEMPLATE_DIALOG_IF_ONLY_ONE_TEMPLATE" value="false" />
+    <option name="DONT_SHOW_METHODS_DIALOG_IF_ONLY_ONE_METHOD" value="false" />
+    <option name="LAST_TEMPLATE_NAME" value="Default Test Method.java" />
+    <option name="TEST_TEMPLATES">
+      <value>
+        <list size="2">
+          <item index="0" class="java.lang.String" itemvalue="Default Test Method.java" />
+          <item index="1" class="java.lang.String" itemvalue="Test Method throws Exception.java" />
+        </list>
+      </value>
+    </option>
+  </component>
+  <component name="JUnitTestConfiguration">
+    <option name="IS_AUTO_TEST_CLASS_RENAME_ENABLED" value="true" />
+    <option name="IS_AUTO_TEST_CLASS_MOVE_ENABLED" value="true" />
+    <option name="IS_AUTO_TEST_CLASS_REFACTORING_ENABLED" value="true" />
+    <option name="IS_AUTO_TEST_METHODS_RENAME_ENABLED" value="true" />
+    <option name="IS_UNTESTED_METHOD_ICON_ENABLED" value="true" />
+    <option name="IS_GET_METHOD_ICONS_ENABLED" value="true" />
+    <option name="IS_SET_METHOD_ICONS_ENABLED" value="true" />
+    <option name="IS_UNIT_TEST_ENABLED" value="true" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="D:\apache-maven-3.2.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GraduationThesis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GraduationThesis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GraduationThesis" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="last_opened_file_path" value="D:/Program Files (x86)/Git/bin/git.exe" />
+    <property name="recentsLimit" value="5" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="dynamic.classpath" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bzh.gt.service" />
+      <recent name="com.bzh.gt.service.impl" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Ubuntu_Programming\GraduationThesis\src\main\webapp\assets\js" />
+      <recent name="E:\Ubuntu_Programming\GraduationThesis\src\main\webapp\assets\css" />
+      <recent name="E:\Ubuntu_Programming\GraduationThesis\src\main\webapp\WEB-INF\jsp\allocation\allocationAction" />
+      <recent name="E:\Ubuntu_Programming\GraduationThesis\src\main\webapp\WEB-INF\jsp\allocation\infoEnteringAction" />
+      <recent name="E:\Ubuntu_Programming\GraduationThesis\src\main\webapp\WEB-INF\jsp\allocation\overViewAction" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Ubuntu_Programming\GraduationThesis\src\main\webapp\WEB-INF\jsp\allocation\allocationAction" />
+      <recent name="E:\Ubuntu_Programming\GraduationThesis\src\main\webapp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Maven.JettyRun">
+    <configuration default="false" name="MakeTableTest.makeTable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.bzh.gt.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="GraduationThesis" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.bzh.gt.test" />
+      <option name="MAIN_CLASS_NAME" value="com.bzh.gt.test.MakeTableTest" />
+      <option name="METHOD_NAME" value="makeTable" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Installer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.bzh.gt.install.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.bzh.gt.install.Installer" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="GraduationThesis" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Regex.RegexTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.bzh.gt.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="GraduationThesis" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.bzh.gt.test" />
+      <option name="MAIN_CLASS_NAME" value="com.bzh.gt.test.Regex" />
+      <option name="METHOD_NAME" value="RegexTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="StudentTest.studentInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.bzh.gt.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="GraduationThesis" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.bzh.gt.test" />
+      <option name="MAIN_CLASS_NAME" value="com.bzh.gt.test.StudentTest" />
+      <option name="METHOD_NAME" value="studentInfo" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Regex.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.bzh.gt.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="GraduationThesis" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.bzh.gt.test" />
+      <option name="MAIN_CLASS_NAME" value="com.bzh.gt.test.Regex" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="false" name="JettyRun" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="jetty:run" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Tomcat7" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="7">
+      <item index="0" class="java.lang.String" itemvalue="Maven.JettyRun" />
+      <item index="1" class="java.lang.String" itemvalue="Maven.Tomcat7" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MakeTableTest.makeTable" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Installer" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.Regex.RegexTest" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.StudentTest.studentInfo" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.Regex.test2" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.Installer" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.Regex.test2" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.StudentTest.studentInfo" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.Regex.RegexTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.MakeTableTest.makeTable" />
+      </list>
+    </recent_temporary>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bee55556-9de3-4f14-825e-bb7adba7841e" name="Default" comment="" />
+      <created>1409907167326</created>
+      <updated>1409907167326</updated>
+      <workItem from="1409907167798" duration="6000" />
+      <workItem from="1409907187547" duration="8000" />
+      <workItem from="1409907217117" duration="34000" />
+      <workItem from="1410275942286" duration="1620000" />
+      <workItem from="1410336655257" duration="1087000" />
+      <workItem from="1410338251269" duration="365000" />
+      <workItem from="1410444889319" duration="6466000" />
+      <workItem from="1410567583501" duration="8666000" />
+      <workItem from="1410591225807" duration="2896000" />
+      <workItem from="1410604278770" duration="7789000" />
+      <workItem from="1410656414752" duration="14112000" />
+      <workItem from="1410694713663" duration="1312000" />
+      <workItem from="1410697503341" duration="641000" />
+      <workItem from="1410780089390" duration="3447000" />
+      <workItem from="1410794949996" duration="5614000" />
+      <workItem from="1410944104000" duration="4868000" />
+      <workItem from="1410966446325" duration="2630000" />
+      <workItem from="1411049925451" duration="3794000" />
+      <workItem from="1411175113892" duration="5134000" />
+      <workItem from="1411197038604" duration="2293000" />
+      <workItem from="1411260136385" duration="11294000" />
+      <workItem from="1411345046247" duration="1294000" />
+      <workItem from="1411347021921" duration="666000" />
+      <workItem from="1411351747640" duration="3915000" />
+      <workItem from="1411365613171" duration="7419000" />
+      <workItem from="1411375739765" duration="484000" />
+      <workItem from="1411382692461" duration="4856000" />
+      <workItem from="1411432183842" duration="28000" />
+      <workItem from="1411453306851" duration="248000" />
+      <workItem from="1411454563999" duration="4392000" />
+      <workItem from="1411471189854" duration="1981000" />
+      <workItem from="1411516935231" duration="9458000" />
+      <workItem from="1411538448701" duration="5531000" />
+      <workItem from="1411547064052" duration="4950000" />
+      <workItem from="1411603409556" duration="8995000" />
+      <workItem from="1411626678876" duration="4129000" />
+      <workItem from="1411633605221" duration="45000" />
+      <workItem from="1411633722100" duration="3104000" />
+      <workItem from="1411689854974" duration="5067000" />
+      <workItem from="1411698074686" duration="1864000" />
+      <workItem from="1411700454418" duration="2325000" />
+      <workItem from="1411716685167" duration="5628000" />
+      <workItem from="1411726844561" duration="852000" />
+      <workItem from="1411862873813" duration="4996000" />
+      <workItem from="1411873418529" duration="1327000" />
+      <workItem from="1411884893866" duration="415000" />
+      <workItem from="1411885366312" duration="1583000" />
+      <workItem from="1411956050846" duration="18381000" />
+      <workItem from="1411997974591" duration="3094000" />
+      <workItem from="1412002316104" duration="88000" />
+      <workItem from="1412035419569" duration="7925000" />
+      <workItem from="1412149242872" duration="43000" />
+      <workItem from="1412297311409" duration="5995000" />
+      <workItem from="1412389566990" duration="12283000" />
+      <workItem from="1412473310120" duration="2244000" />
+      <workItem from="1412475582181" duration="415000" />
+      <workItem from="1412476105775" duration="2486000" />
+      <workItem from="1412478687425" duration="522000" />
+      <workItem from="1412482636246" duration="1015000" />
+      <workItem from="1412555392667" duration="6911000" />
+      <workItem from="1412562331459" duration="1036000" />
+      <workItem from="1412563571972" duration="1190000" />
+      <workItem from="1412565192395" duration="2139000" />
+      <workItem from="1412575156186" duration="4394000" />
+      <workItem from="1412595634225" duration="6000" />
+      <workItem from="1412599919582" duration="686000" />
+      <workItem from="1412603806131" duration="1340000" />
+      <workItem from="1412606588933" duration="1815000" />
+      <workItem from="1412643425085" duration="4170000" />
+      <workItem from="1412647995133" duration="4236000" />
+      <workItem from="1412660990242" duration="7023000" />
+      <workItem from="1412742922986" duration="13175000" />
+      <workItem from="1412772143683" duration="7473000" />
+      <workItem from="1412815004428" duration="1299000" />
+      <workItem from="1412816320427" duration="124000" />
+      <workItem from="1412816461589" duration="8807000" />
+      <workItem from="1412835168355" duration="2989000" />
+      <workItem from="1412858855460" duration="2966000" />
+      <workItem from="1412901459719" duration="2268000" />
+      <workItem from="1412903906122" duration="7515000" />
+      <workItem from="1412920574969" duration="6769000" />
+      <workItem from="1412940732508" duration="1041000" />
+      <workItem from="1412950703889" duration="2086000" />
+      <workItem from="1412988200230" duration="9700000" />
+      <workItem from="1413074207393" duration="13522000" />
+      <workItem from="1413120565201" duration="3317000" />
+      <workItem from="1413126043062" duration="268000" />
+      <workItem from="1413162871657" duration="3463000" />
+      <workItem from="1413167573881" duration="1792000" />
+      <workItem from="1413179521483" duration="4644000" />
+      <workItem from="1413184855119" duration="1830000" />
+      <workItem from="1413199555741" duration="1888000" />
+      <workItem from="1413214431909" duration="641000" />
+      <workItem from="1413243566815" duration="5937000" />
+      <workItem from="1413256436975" duration="679000" />
+      <workItem from="1413260587813" duration="10760000" />
+      <workItem from="1413282422282" duration="12482000" />
+      <workItem from="1413332234156" duration="7729000" />
+      <workItem from="1413349064250" duration="14740000" />
+      <workItem from="1413385426214" duration="2638000" />
+      <workItem from="1413418419784" duration="9280000" />
+      <workItem from="1413434064331" duration="5651000" />
+      <workItem from="1413592670099" duration="11272000" />
+      <workItem from="1413627828013" duration="2916000" />
+      <workItem from="1413633348994" duration="5148000" />
+      <workItem from="1413678956163" duration="8715000" />
+      <workItem from="1413715158518" duration="8815000" />
+      <workItem from="1413731590370" duration="3046000" />
+      <workItem from="1413763605740" duration="5516000" />
+      <workItem from="1413769840306" duration="6473000" />
+      <workItem from="1413782772041" duration="2125000" />
+      <workItem from="1413786087385" duration="4184000" />
+      <workItem from="1413790299661" duration="2126000" />
+      <workItem from="1413800404028" duration="7747000" />
+      <workItem from="1413818719208" duration="1925000" />
+      <workItem from="1413850751413" duration="9944000" />
+      <workItem from="1413863674326" duration="14203000" />
+      <workItem from="1413890891113" duration="9000" />
+      <workItem from="1413938005227" duration="6014000" />
+      <workItem from="1413953439062" duration="8457000" />
+      <workItem from="1413975596289" duration="2729000" />
+      <workItem from="1413984043734" duration="8319000" />
+      <workItem from="1414039232593" duration="11518000" />
+      <workItem from="1414060829241" duration="86000" />
+      <workItem from="1414109373332" duration="14653000" />
+      <workItem from="1414131379095" duration="5723000" />
+      <workItem from="1414139045773" duration="1262000" />
+      <workItem from="1414197552210" duration="20012000" />
+      <workItem from="1414221992405" duration="30000" />
+      <workItem from="1414302221707" duration="6704000" />
+      <workItem from="1414327968031" duration="115000" />
+      <workItem from="1414328218928" duration="17000" />
+      <workItem from="1414391100894" duration="4018000" />
+      <workItem from="1414458929780" duration="45000" />
+      <workItem from="1414466352563" duration="990000" />
+      <workItem from="1414501245207" duration="1108000" />
+      <workItem from="1414504567267" duration="55000" />
+      <workItem from="1414505197751" duration="168000" />
+      <workItem from="1414544049060" duration="843000" />
+      <workItem from="1414546609376" duration="9000" />
+      <workItem from="1414548608181" duration="478000" />
+      <workItem from="1414549137032" duration="953000" />
+      <workItem from="1414560593271" duration="965000" />
+      <workItem from="1414561683141" duration="647000" />
+      <workItem from="1414562657877" duration="373000" />
+    </task>
+    <task id="LOCAL-00001" summary="无">
+      <created>1410276726453</created>
+      <updated>1410276726453</updated>
+    </task>
+    <task id="LOCAL-00002" summary="无">
+      <created>1410338511363</created>
+      <updated>1410338511363</updated>
+    </task>
+    <task id="LOCAL-00003" summary="修改了宿舍-床铺-学生之间的关系">
+      <created>1410569093510</created>
+      <updated>1410569093510</updated>
+    </task>
+    <task id="LOCAL-00004" summary="修改了宿舍-床铺-学生之间的关系">
+      <created>1410569100216</created>
+      <updated>1410569100216</updated>
+    </task>
+    <task id="LOCAL-00005" summary="修改了宿舍-床铺-学生之间的关系">
+      <created>1410569107165</created>
+      <updated>1410569107165</updated>
+    </task>
+    <task id="LOCAL-00006" summary="修改了宿舍-床铺-学生之间的关系">
+      <created>1410569115828</created>
+      <updated>1410569115828</updated>
+    </task>
+    <task id="LOCAL-00007" summary="修改了宿舍-床铺-学生之间的关系">
+      <created>1410569127912</created>
+      <updated>1410569127913</updated>
+    </task>
+    <task id="LOCAL-00008" summary="修改了宿舍-床铺-学生之间的关系">
+      <created>1410569170635</created>
+      <updated>1410569170635</updated>
+    </task>
+    <task id="LOCAL-00009" summary="修改了宿舍-床铺-学生之间的关系">
+      <created>1410569617673</created>
+      <updated>1410569617673</updated>
+    </task>
+    <task id="LOCAL-00010" summary="修改了宿舍-床铺-学生之间的关系&#10;">
+      <created>1410569680544</created>
+      <updated>1410569680544</updated>
+    </task>
+    <task id="LOCAL-00011" summary="修改了宿舍-床铺-学生之间的关系&#10;">
+      <created>1410570813619</created>
+      <updated>1410570813620</updated>
+    </task>
+    <task id="LOCAL-00012" summary="修改了宿舍-床铺-学生之间的关系&#10;">
+      <created>1410570889476</created>
+      <updated>1410570889476</updated>
+    </task>
+    <task id="LOCAL-00013" summary="修改了宿舍-床铺-学生之间的关系&#10;">
+      <created>1410592369698</created>
+      <updated>1410592369698</updated>
+    </task>
+    <task id="LOCAL-00014" summary="修改了宿舍-床铺-学生之间的关系&#10;">
+      <created>1410612732749</created>
+      <updated>1410612732749</updated>
+    </task>
+    <task id="LOCAL-00015" summary="修改了宿舍-床铺-学生之间的关系&#10;">
+      <created>1410668725989</created>
+      <updated>1410668725989</updated>
+    </task>
+    <task id="LOCAL-00016" summary="修改了宿舍-床铺-学生之间的关系&#10;">
+      <created>1410674444938</created>
+      <updated>1410674444938</updated>
+    </task>
+    <task id="LOCAL-00017" summary="完成了宿舍列表的展示">
+      <created>1410945435941</created>
+      <updated>1410945435941</updated>
+    </task>
+    <task id="LOCAL-00018" summary="完成了宿舍列表的展示">
+      <created>1410945446736</created>
+      <updated>1410945446736</updated>
+    </task>
+    <task id="LOCAL-00019" summary="完成了宿舍列表的展示">
+      <created>1410969855411</created>
+      <updated>1410969855411</updated>
+    </task>
+    <task id="LOCAL-00020" summary="完成了宿舍列表的展示">
+      <created>1411180399631</created>
+      <updated>1411180399631</updated>
+    </task>
+    <task id="LOCAL-00021" summary="开始班级模块的部分">
+      <created>1411265462439</created>
+      <updated>1411265462439</updated>
+    </task>
+    <task id="LOCAL-00022" summary="添加与班级班主任实体">
+      <created>1411270854139</created>
+      <updated>1411270854139</updated>
+    </task>
+    <task id="LOCAL-00023" summary="修改ErrorTag&#10;">
+      <created>1411271409330</created>
+      <updated>1411271409330</updated>
+    </task>
+    <task id="LOCAL-00024" summary="修改床铺数可能为8个的BUG&#10;">
+      <created>1411361731025</created>
+      <updated>1411361731025</updated>
+    </task>
+    <task id="LOCAL-00025" summary="修改床铺数可能为8个的BUG&#10;">
+      <created>1411374193564</created>
+      <updated>1411374193564</updated>
+    </task>
+    <task id="LOCAL-00026" summary="格式化公寓代码">
+      <created>1411374715637</created>
+      <updated>1411374715637</updated>
+    </task>
+    <task id="LOCAL-00027" summary="格式化公寓代码">
+      <created>1411375414135</created>
+      <updated>1411375414135</updated>
+    </task>
+    <task id="LOCAL-00028" summary="完善了公寓/寝室模块的list机制，下一步进行数据的导入">
+      <created>1411386506218</created>
+      <updated>1411386506218</updated>
+    </task>
+    <task id="LOCAL-00029" summary="修改了栅格">
+      <created>1411386807496</created>
+      <updated>1411386807496</updated>
+    </task>
+    <task id="LOCAL-00030" summary="开始进行文件上传模块">
+      <created>1411458938883</created>
+      <updated>1411458938883</updated>
+    </task>
+    <task id="LOCAL-00031" summary="开始进行文件上传模块">
+      <created>1411472337539</created>
+      <updated>1411472337539</updated>
+    </task>
+    <task id="LOCAL-00032" summary="开始进行文件上传模块">
+      <created>1411523937309</created>
+      <updated>1411523937309</updated>
+    </task>
+    <task id="LOCAL-00033" summary="开始进行文件上传模块">
+      <created>1411551172413</created>
+      <updated>1411551172413</updated>
+    </task>
+    <task id="LOCAL-00034" summary="开始进行文件上传模块">
+      <created>1411630783326</created>
+      <updated>1411630783326</updated>
+    </task>
+    <task id="LOCAL-00035" summary="完成了数据导入的第二个步骤的删除">
+      <created>1411636599291</created>
+      <updated>1411636599291</updated>
+    </task>
+    <task id="LOCAL-00036" summary="完成了数据导入的第二个步骤的删除">
+      <created>1411694821387</created>
+      <updated>1411694821387</updated>
+    </task>
+    <task id="LOCAL-00037" summary="开始Excel文件的读取部分">
+      <created>1411865937495</created>
+      <updated>1411865937495</updated>
+    </task>
+    <task id="LOCAL-00038" summary="更改了公寓-宿舍-床铺-学生-班级的级联关系">
+      <created>1411874707598</created>
+      <updated>1411874707598</updated>
+    </task>
+    <task id="LOCAL-00039" summary="完成了数据导入的后台工作">
+      <created>1412045710035</created>
+      <updated>1412045710035</updated>
+    </task>
+    <task id="LOCAL-00040" summary="完成了数据导入的后台工作">
+      <created>1412477904241</created>
+      <updated>1412477904241</updated>
+    </task>
+    <task id="LOCAL-00041" summary="完成了数据导入的后台工作">
+      <created>1412478197221</created>
+      <updated>1412478197221</updated>
+    </task>
+    <task id="LOCAL-00042" summary="完成了数据导入的后台工作">
+      <created>1412560717426</created>
+      <updated>1412560717426</updated>
+    </task>
+    <task id="LOCAL-00043" summary="完成了数据导入的后台工作">
+      <created>1412562400399</created>
+      <updated>1412562400399</updated>
+    </task>
+    <task id="LOCAL-00044" summary="完成了数据导入的后台工作">
+      <created>1412563743329</created>
+      <updated>1412563743329</updated>
+    </task>
+    <task id="LOCAL-00045" summary="修正班级管理的修改逻辑">
+      <created>1412564561845</created>
+      <updated>1412564561845</updated>
+    </task>
+    <task id="LOCAL-00046" summary="班级与学生的映射关系出现了问题">
+      <created>1412595307884</created>
+      <updated>1412595307884</updated>
+    </task>
+    <task id="LOCAL-00047" summary="在Clasz中添加一个和Student的一对一关联关系，使访问班长更简单">
+      <created>1412605044585</created>
+      <updated>1412605044585</updated>
+    </task>
+    <task id="LOCAL-00048" summary="在Clasz中添加一个和Student的一对一关联关系，使访问班长更简单">
+      <created>1412605098375</created>
+      <updated>1412605098375</updated>
+    </task>
+    <task id="LOCAL-00049" summary="为Doritory添加了与Student的寝室长 一对一映射关系">
+      <created>1412609371734</created>
+      <updated>1412609371734</updated>
+    </task>
+    <task id="LOCAL-00050" summary="修正了学生所属班级不正确的BUG">
+      <created>1412663983603</created>
+      <updated>1412663983604</updated>
+    </task>
+    <task id="LOCAL-00051" summary="修正了学生所属班级不正确的BUG">
+      <created>1412749100071</created>
+      <updated>1412749100071</updated>
+    </task>
+    <task id="LOCAL-00052" summary="修复了导入自动生成的班级无法删除的BUG，原因是部分寝室有8个人，会增加8个学生，而床铺只有6个，无法级联删除">
+      <created>1412774940384</created>
+      <updated>1412774940384</updated>
+    </task>
+    <task id="LOCAL-00053" summary="修复了导入自动生成的班级无法删除的BUG，原因是部分寝室有重名学生，而重名无法加入到Set集合中，导致无法进行删除操作">
+      <created>1412822370314</created>
+      <updated>1412822370314</updated>
+    </task>
+    <task id="LOCAL-00054" summary="模块化了代码">
+      <created>1412837832893</created>
+      <updated>1412837832893</updated>
+    </task>
+    <task id="LOCAL-00055" summary="修复了新建班级的BUG">
+      <created>1412862684609</created>
+      <updated>1412862684609</updated>
+    </task>
+    <task id="LOCAL-00056" summary="开始班级信息管理模块的开发">
+      <created>1412923968868</created>
+      <updated>1412923968868</updated>
+    </task>
+    <task id="LOCAL-00057" summary="添加了一些图标，开始添加学生的UI">
+      <created>1412952700061</created>
+      <updated>1412952700062</updated>
+    </task>
+    <task id="LOCAL-00058" summary="在导入数据时出现BUG，该BUG是设置关联关系不正确，导致在Student方，访问Bed-&gt;Dormitory-&gt;Apartment时，出现异常">
+      <created>1412992083727</created>
+      <updated>1412992083728</updated>
+    </task>
+    <task id="LOCAL-00059" summary="为实体增加了equals和hashCode方法">
+      <created>1412997829498</created>
+      <updated>1412997829498</updated>
+    </task>
+    <task id="LOCAL-00060" summary="碰到了很难的BUG，多线程与session">
+      <created>1413165057077</created>
+      <updated>1413165057077</updated>
+    </task>
+    <task id="LOCAL-00061" summary="解决了多线程SessionBUG&#10;">
+      <created>1413169717340</created>
+      <updated>1413169717340</updated>
+    </task>
+    <task id="LOCAL-00062" summary="解决了多线程SessionBUG&#10;">
+      <created>1413185288734</created>
+      <updated>1413185288734</updated>
+    </task>
+    <task id="LOCAL-00063" summary="班级管理模块，暂告结束，开始系统设置，加入登陆退出权限等">
+      <created>1413263149243</created>
+      <updated>1413263149243</updated>
+    </task>
+    <task id="LOCAL-00064" summary="开始权限">
+      <created>1413291308835</created>
+      <updated>1413291308835</updated>
+    </task>
+    <task id="LOCAL-00065" summary="完成了权限模块&#10;">
+      <created>1413428290263</created>
+      <updated>1413428290263</updated>
+    </task>
+    <task id="LOCAL-00066" summary="完成了个人设置。开始完善权限所有的权限URL&#10;">
+      <created>1413596062266</created>
+      <updated>1413596062266</updated>
+    </task>
+    <task id="LOCAL-00067" summary="完成了公共模块，准备数据汇总模块">
+      <created>1413630383523</created>
+      <updated>1413630383523</updated>
+    </task>
+    <task id="LOCAL-00068" summary="完成了，公寓的导出，下一步设置表格样式。添加多线程">
+      <created>1413688698154</created>
+      <updated>1413688698154</updated>
+    </task>
+    <task id="LOCAL-00069" summary="完成了公寓的导出操作，并且添加了友好话提示。不足之处是，未对无人寝室进行过滤&#10;">
+      <created>1413787629003</created>
+      <updated>1413787629003</updated>
+    </task>
+    <task id="LOCAL-00070" summary="完成了公寓的导出操作，并且添加了友好话提示。不足之处是，未对无人寝室进行过滤&#10;">
+      <created>1413792419160</created>
+      <updated>1413792419160</updated>
+    </task>
+    <task id="LOCAL-00071" summary="完成了我的班级，下面是完善权限，修复小BUG，准备最后一个宿舍分配模块">
+      <created>1413860978161</created>
+      <updated>1413860978161</updated>
+    </task>
+    <task id="LOCAL-00072" summary="完善了权限控制，接下来，面包屑">
+      <created>1413869521680</created>
+      <updated>1413869521680</updated>
+    </task>
+    <task id="LOCAL-00073" summary="完成了，面包屑的导航改变，以及用户信息的即时修改">
+      <created>1413881636249</created>
+      <updated>1413881636249</updated>
+    </task>
+    <task id="LOCAL-00074" summary="开始新生分配">
+      <created>1413992420881</created>
+      <updated>1413992420881</updated>
+    </task>
+    <task id="LOCAL-00075" summary="做完概览">
+      <created>1414109515995</created>
+      <updated>1414109515995</updated>
+    </task>
+    <task id="LOCAL-00076" summary="初步完成了自动分类，还差手动分配">
+      <created>1414218535428</created>
+      <updated>1414218535428</updated>
+    </task>
+    <task id="LOCAL-00077" summary="功能全部完成，剩下校验，和代码微调">
+      <created>1414221857854</created>
+      <updated>1414221857854</updated>
+    </task>
+    <task id="LOCAL-00078" summary="完成系统模块的检查">
+      <created>1414393054276</created>
+      <updated>1414393054277</updated>
+    </task>
+    <task id="LOCAL-00079" summary="完成公寓模块的公寓信息和寝室信息的检查，下一步是综合数据导入的检查">
+      <created>1414395044215</created>
+      <updated>1414395044215</updated>
+    </task>
+    <task id="LOCAL-00080" summary="完成公寓模块的公寓信息和寝室信息的检查，下一步是综合数据导入的检查">
+      <created>1414562024917</created>
+      <updated>1414562024917</updated>
+    </task>
+    <task id="LOCAL-00081" summary="完成公寓模块的公寓信息和寝室信息的检查，下一步是综合数据导入的检查">
+      <created>1414562880555</created>
+      <updated>1414562880555</updated>
+    </task>
+    <task id="LOCAL-00082" summary="完成公寓模块的公寓信息和寝室信息的检查，下一步是综合数据导入的检查">
+      <created>1414562975252</created>
+      <updated>1414562975252</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="616993000" />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32427844" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1923664" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24961832" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22241087" sideWeight="0.49847794" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28072837" sideWeight="0.50254667" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.61290324" sideWeight="0.50152206" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977098" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32840723" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.325" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32512316" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24886191" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32852808" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16540213" sideWeight="0.4974533" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.553125" sideWeight="0.49960473" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964426" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17251909" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288364" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32676518" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28072837" sideWeight="0.50254667" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32512316" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964426" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1923664" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24961832" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.61290324" sideWeight="0.50152206" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977098" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32840723" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32512316" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16540213" sideWeight="0.4974533" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17251909" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.553125" sideWeight="0.49960473" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288364" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32676518" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.89303905" sideWeight="0.49847794" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28072837" sideWeight="0.50254667" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28072837" sideWeight="0.50254667" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.325" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24886191" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900763" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="修复了导入自动生成的班级无法删除的BUG，原因是部分寝室有重名学生，而重名无法加入到Set集合中，导致无法进行删除操作" />
+    <MESSAGE value="模块化了代码" />
+    <MESSAGE value="修复了新建班级的BUG" />
+    <MESSAGE value="开始班级信息管理模块的开发" />
+    <MESSAGE value="添加了一些图标，开始添加学生的UI" />
+    <MESSAGE value="在导入数据时出现BUG，该BUG是设置关联关系不正确，导致在Student方，访问Bed-&gt;Dormitory-&gt;Apartment时，出现异常" />
+    <MESSAGE value="为实体增加了equals和hashCode方法" />
+    <MESSAGE value="碰到了很难的BUG，多线程与session" />
+    <MESSAGE value="解决了多线程SessionBUG&#10;" />
+    <MESSAGE value="班级管理模块，暂告结束，开始系统设置，加入登陆退出权限等" />
+    <MESSAGE value="开始权限" />
+    <MESSAGE value="完成了权限模块&#10;" />
+    <MESSAGE value="完成了个人设置。开始完善权限所有的权限URL&#10;" />
+    <MESSAGE value="完成了公共模块，准备数据汇总模块" />
+    <MESSAGE value="完成了，公寓的导出，下一步设置表格样式。添加多线程" />
+    <MESSAGE value="完成了公寓的导出操作，并且添加了友好话提示。不足之处是，未对无人寝室进行过滤&#10;" />
+    <MESSAGE value="完成了我的班级，下面是完善权限，修复小BUG，准备最后一个宿舍分配模块" />
+    <MESSAGE value="完善了权限控制，接下来，面包屑" />
+    <MESSAGE value="完成了，面包屑的导航改变，以及用户信息的即时修改" />
+    <MESSAGE value="开始新生分配" />
+    <MESSAGE value="做完概览" />
+    <MESSAGE value="初步完成了自动分类，还差手动分配" />
+    <MESSAGE value="功能全部完成，剩下校验，和代码微调" />
+    <MESSAGE value="完成系统模块的检查" />
+    <MESSAGE value="完成公寓模块的公寓信息和寝室信息的检查，下一步是综合数据导入的检查" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成公寓模块的公寓信息和寝室信息的检查，下一步是综合数据导入的检查" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../Hibermate_Mapping/src/main/java/com/bzh/bean/Student.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/clasz/infoAction/list.jsp</url>
+          <properties />
+          <option name="timeStamp" value="261" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/bzh/gt/action/apartment/DataImportAction.java</url>
+          <line>247</line>
+          <properties />
+          <option name="timeStamp" value="399" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="492" />
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bzh/gt/action/apartment/DataImportAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="220" max-vertical-offset="11484">
+          <caret line="44" column="24" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/allocation/overViewAction/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.096774" vertical-offset="818" max-vertical-offset="1870">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/struts-allocation.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="132" max-vertical-offset="946">
+          <caret line="22" column="65" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/allocation/allocationAction/checkInUI.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.903226" vertical-offset="0" max-vertical-offset="3058">
+          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bzh/gt/bean/Dormitory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="462" max-vertical-offset="2596">
+          <caret line="29" column="32" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bzh/gt/action/allocation/OverViewAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="1188">
+          <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/allocation/allocationAction/saveUI.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="25.67742" vertical-offset="1522" max-vertical-offset="2068">
+          <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/allocation/allocationAction/manualUI.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.8387096" vertical-offset="2587" max-vertical-offset="3982">
+          <caret line="123" column="39" selection-start-line="123" selection-start-column="39" selection-end-line="123" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bzh/gt/action/allocation/RoomSettingAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3908873" vertical-offset="2345" max-vertical-offset="3828">
+          <caret line="128" column="0" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/messages_zh.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.76744187" vertical-offset="66" max-vertical-offset="572">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/jquery.validate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="29986">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bzh/gt/install/Installer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="498" max-vertical-offset="5148">
+          <caret line="144" column="36" selection-start-line="144" selection-start-column="36" selection-end-line="144" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/public/commons-pageView.jspf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6214689" vertical-offset="330" max-vertical-offset="1232">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/css/validate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="286">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/public/commons-scripts.jspf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.75141245" vertical-offset="305" max-vertical-offset="858">
+          <caret line="32" column="79" selection-start-line="32" selection-start-column="79" selection-end-line="32" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/public/commons-styles.jspf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21280603" vertical-offset="217" max-vertical-offset="748">
+          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/departmentAction/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12429378" vertical-offset="2046" max-vertical-offset="3388">
+          <caret line="96" column="4" selection-start-line="96" selection-start-column="4" selection-end-line="96" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/departmentAction/saveUI.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39548022" vertical-offset="1924" max-vertical-offset="2464">
+          <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/roleAction/saveUI.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5856874" vertical-offset="2065" max-vertical-offset="2596">
+          <caret line="108" column="11" selection-start-line="84" selection-start-column="8" selection-end-line="108" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/additional-methods.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.81125826" vertical-offset="17522" max-vertical-offset="18126">
+          <caret line="948" column="0" selection-start-line="948" selection-start-column="0" selection-end-line="948" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="609">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bzh/gt/action/allocation/AllocationAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39932886" vertical-offset="2314" max-vertical-offset="9834">
+          <caret line="126" column="37" selection-start-line="126" selection-start-column="37" selection-end-line="126" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/权限">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.181208" vertical-offset="792" max-vertical-offset="1936">
+          <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="14.0" vertical-offset="856" max-vertical-offset="1452">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="9.2" vertical-offset="230" max-vertical-offset="814">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="609">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="638">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.5134228" vertical-offset="0" max-vertical-offset="1078">
+          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6275168" vertical-offset="528" max-vertical-offset="1210">
+          <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/bzh/gt/bean/Bed.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="596">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/bzh/gt/bean/Clasz.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7785235" vertical-offset="130" max-vertical-offset="1056">
+          <caret line="27" column="112" selection-start-line="27" selection-start-column="112" selection-end-line="27" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/bzh/gt/bean/Department.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="132" max-vertical-offset="770">
+          <caret line="18" column="60" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/bzh/gt/bean/Role.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="249" max-vertical-offset="858">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/bzh/gt/bean/User.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.04761905" vertical-offset="315" max-vertical-offset="924">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/userAction/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="22.612904" vertical-offset="2175" max-vertical-offset="3234">
+          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/userAction/logout.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="968">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/userAction/saveUI.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4159292" vertical-offset="2449" max-vertical-offset="3014">
+          <caret line="122" column="0" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bzh/gt/action/system/DepartmentAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.110738255" vertical-offset="2046" max-vertical-offset="2684">
+          <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bzh/gt/action/system/RoleAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37248322" vertical-offset="2506" max-vertical-offset="3146">
+          <caret line="136" column="0" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bzh/gt/action/system/UserAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.110738255" vertical-offset="4092" max-vertical-offset="4708">
+          <caret line="202" column="11" selection-start-line="202" selection-start-column="11" selection-end-line="202" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bzh/gt/action/apartment/ApartmentAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51510066" vertical-offset="2399" max-vertical-offset="3850">
+          <caret line="182" column="24" selection-start-line="182" selection-start-column="24" selection-end-line="182" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/bzh/gt/bean/Apartment.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.590604" vertical-offset="0" max-vertical-offset="638">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/bzh/gt/bean/Dormitory.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3691275" vertical-offset="66" max-vertical-offset="770">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/apartment/apartmentAction/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="9.582301" vertical-offset="482" max-vertical-offset="6358">
+          <caret line="268" column="39" selection-start-line="268" selection-start-column="39" selection-end-line="268" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/apartment/apartmentAction/saveUI.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.88318586" vertical-offset="3659" max-vertical-offset="4488">
+          <caret line="189" column="0" selection-start-line="189" selection-start-column="0" selection-end-line="189" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/apartment/dormitoryAction/saveUI.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.54513276" vertical-offset="1320" max-vertical-offset="2244">
+          <caret line="46" column="40" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/apartment/dormitoryAction/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9769912" vertical-offset="4508" max-vertical-offset="5280">
+          <caret line="230" column="0" selection-start-line="230" selection-start-column="0" selection-end-line="230" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/apartment/dataImportAction/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="6.061947" vertical-offset="1261" max-vertical-offset="6358">
+          <caret line="235" column="0" selection-start-line="235" selection-start-column="0" selection-end-line="235" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bzh/gt/action/apartment/DataImportAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="242" max-vertical-offset="11484">
+          <caret line="44" column="43" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bzh/gt/bean/Apartment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.6513762" vertical-offset="777" max-vertical-offset="2706">
+          <caret line="137" column="5" selection-start-line="137" selection-start-column="5" selection-end-line="137" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bzh/gt/action/apartment/DormitoryAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5247706" vertical-offset="242" max-vertical-offset="4532">
+          <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>GraduationThesis:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web|GraduationThesis</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+

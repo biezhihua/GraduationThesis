@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.bzh.gt.bean">
+    <class name="Student">
+        <id name="id">
+            <generator class="native"/>
+        </id>
+        <property name="name"/>
+        <property name="sno"/>
+        <property name="phoneNumber"/>
+        <property name="sex"/>
+
+        <!-- clasz属性，本类与Clasz的多对一关系 -->
+        <many-to-one name="clasz" column="claszId" class="Clasz"></many-to-one>
+
+        <!-- bed属性，本类与Bed的一对一关系 -->
+        <one-to-one name="bed" lazy="false" class="Bed" cascade="none" property-ref="student"/>
+
+        <!--dormitory属性，本类与Dormitory的一对一关系-->
+        <one-to-one name="dormitory" class="Dormitory"/>
+    </class>
+</hibernate-mapping>

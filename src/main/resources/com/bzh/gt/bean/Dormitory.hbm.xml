@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.bzh.gt.bean">
+    <class name="Dormitory">
+        <id name="id">
+            <generator class="native"/>
+        </id>
+        <property name="name"/>
+        <property name="level"/>
+        <property name="isAllocation"/>
+
+        <!-- apartment属性，本类与Apartment的多对一关系 -->
+        <many-to-one name="apartment" lazy="false" column="apartmentId" class="Apartment"></many-to-one>
+
+        <!-- clasz属性，本类与Clasz的多对一关系 -->
+        <many-to-one name="clasz" column="claszId" class="Clasz"></many-to-one>
+
+        <!-- beds属性，本类与Bed的一对多关系 -->
+        <set name="beds" inverse="true" lazy="extra" fetch="select" cascade="all-delete-orphan" order-by="bedNO ASC">
+            <key column="dormitoryId"></key>
+            <one-to-many class="Bed"/>
+        </set>
+
+        <!-- monitor属性，本类与Student的一对一关系 -->
+        <many-to-one name="monitor" class="Student" column="monitorId" unique="true"/>
+    </class>
+</hibernate-mapping>

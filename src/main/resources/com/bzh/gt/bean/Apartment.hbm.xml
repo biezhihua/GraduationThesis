@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.bzh.gt.bean">
+    <class name="Apartment">
+        <id name="id">
+            <generator class="native"/>
+        </id>
+        <property name="name" length="10" not-null="true"/>
+        <property name="rank" not-null="true"/>
+        <property name="sex" not-null="true"/>
+        <property name="topFloor" not-null="true"/>
+        <property name="roomNumber" not-null="true"/>
+        <property name="bedNumber" not-null="true"/>
+
+        <!-- dormitories属性，本类与Dormitory的一对多关系 -->
+        <set name="dormitories" inverse="true" lazy="extra" fetch="select" cascade="all-delete-orphan">
+            <key column="apartmentId"></key>
+            <one-to-many class="Dormitory"/>
+        </set>
+    </class>
+</hibernate-mapping>

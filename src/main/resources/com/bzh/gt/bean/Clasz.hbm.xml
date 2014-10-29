@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.bzh.gt.bean">
+    <class name="Clasz">
+        <id name="id">
+            <generator class="native"/>
+        </id>
+        <!-- 班级名称 -->
+        <property name="name" length="10" not-null="true"/>
+        <!-- 所在年级 -->
+        <property name="grade"/>
+        <!-- 班级人数 -->
+        <property name="number"/>
+        <property name="manReservoir"/>
+        <property name="womanReservoir"/>
+        <property name="isReservoir"/>
+
+        <!-- students属性，本类与Student的一对多关系 -->
+        <set name="students" lazy="extra" fetch="select"  inverse="true" cascade="all-delete-orphan">
+            <key column="claszId"></key>
+            <one-to-many class="Student"/>
+        </set>
+
+        <!-- dormitories属性，本类与Dormitory的一对多关系 -->
+        <set name="dormitories" lazy="extra" fetch="select" inverse="true" cascade="none" order-by="name ASC    ">
+            <key column="claszId"></key>
+            <one-to-many class="Dormitory"/>
+        </set>
+
+        <!-- teacher属性，本类与Teacher的一对一关系 -->
+        <many-to-one name="teacher" cascade="all-delete-orphan" class="Teacher" column="teacherId"
+                     unique="true"></many-to-one>
+
+        <!-- monitor属性，本类与Student的一对一关系 -->
+        <many-to-one name="monitor" class="Student" cascade="all-delete-orphan" column="monitorId" unique="true"/>
+
+        <!-- clasz，本类与Clasz的一对一关系 -->
+        <one-to-one name="user" class="User" fetch="join"/>
+    </class>
+</hibernate-mapping>

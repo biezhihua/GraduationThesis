@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:jee="http://www.springframework.org/schema/jee" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans      
+               http://www.springframework.org/schema/beans/spring-beans-3.0.xsd      
+               http://www.springframework.org/schema/context      
+               http://www.springframework.org/schema/context/spring-context-3.0.xsd   
+               http://www.springframework.org/schema/jee  
+               http://www.springframework.org/schema/jee/spring-jee-3.0.xsd  
+               http://www.springframework.org/schema/tx     
+               http://www.springframework.org/schema/tx/spring-tx-3.0.xsd      
+               http://www.springframework.org/schema/aop      
+               http://www.springframework.org/schema/aop/spring-aop-3.0.xsd      
+               ">
+
+	<!-- <aop:aspectj-autoproxy proxy-target-class="true"></aop:aspectj-autoproxy> 
+		<bean class="org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator"></bean> -->
+	<!-- 自动扫描与装配 -->
+	<context:component-scan base-package="com.bzh.*">
+	<!--  
+		<context:include-filter type="annotation"
+			expression="org.aspectj.lang.annotation.Aspect" />
+			 -->
+	</context:component-scan>
+
+	<context:property-placeholder location="classpath:jdbc.properties" />
+
+	<!-- C3P0数据库连接池 -->
+	<bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+		<!-- 数据库连接信息 -->
+		<property name="driverClass" value="${driverClass}"></property>
+		<property name="jdbcUrl" value="${jdbcUrl}"></property>
+		<property name="user" value="${user}"></property>
+		<property name="password" value="${password}"></property>
+		<!-- 管理相关的配置 -->
+		<property name="maxPoolSize" value="5"></property>
+		<property name="minPoolSize" value="3"></property>
+		<property name="initialPoolSize" value="3"></property>
+		<property name="maxIdleTime" value="1800"></property>
+		<property name="acquireIncrement" value="3"></property>
+	</bean>
+
+	<!-- 配置SessionFactory -->
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+		<!-- 指定hibernate的配置文件路径 -->
+		<property name="configLocation" value="classpath:hibernate.cfg.xml" />
+		<!-- 配置C3P0数据库连接池 -->
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+
+	<!-- 配置声明式事务管理(采用注解) -->
+	<bean id="transactionManager"
+		class="org.springframework.orm.hibernate4.HibernateTransactionManager">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+	<tx:annotation-driven transaction-manager="transactionManager" />
+</beans>

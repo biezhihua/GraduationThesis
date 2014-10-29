@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.bzh.gt.bean">
+    <class name="User" table="user">
+        <id name="id">
+            <generator class="native"/>
+        </id>
+        <property name="loginName" length="20" not-null="true"/>
+        <property name="password" not-null="true"/>
+        <property name="name" length="10"/>
+        <property name="gender"/>
+        <property name="phoneNumber"/>
+        <property name="qq"/>
+        <property name="description"/>
+
+        <!-- 关联关系 -->
+
+        <!-- roles属性，本类与Role类的”多对多“关系 -->
+        <set name="roles" table="user_role" lazy="false">
+            <key column="userId"></key>
+            <many-to-many column="roleId" class="Role"></many-to-many>
+        </set>
+
+        <!-- loginLogs属性，本类与LoginLog类的“一对多”关系 -->
+        <set name="loginLogs" lazy="extra" fetch="select" inverse="true">
+            <key column="userId"></key>
+            <one-to-many class="LoginLog"/>
+        </set>
+
+        <!-- clasz，本类与Clasz的一对一关系 -->
+        <many-to-one name="clasz" class="Clasz" column="claszId"
+                     unique="true"></many-to-one>
+    </class>
+</hibernate-mapping>

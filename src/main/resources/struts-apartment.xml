@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+    <!-- 宿管部职能 -->
+    <package name="apartmentPart" namespace="/apartment" extends="interceptor_global_result">
+
+        <!-- 公寓管理 -->
+        <action name="apartment_*" class="apartmentAction" method="{1}">
+            <result name="list">/WEB-INF/jsp/apartment/apartmentAction/list.jsp
+            </result>
+            <result name="saveUI">/WEB-INF/jsp/apartment/apartmentAction/saveUI.jsp
+            </result>
+            <result name="toList" type="redirectAction">apartment_list</result>
+            <result type="stream" name="download">
+                <param name="contentType">
+                    application/vnd.ms-excel
+                </param>
+                <param name="inputName">excelStream</param>
+                <param name="contentDisposition">
+                    attachment;filename=${excelFileName}
+                </param>
+                <param name="bufferSize">1024</param>
+            </result>
+        </action>
+
+        <!-- 宿舍管理 -->
+        <action name="dormitory_*" class="dormitoryAction" method="{1}">
+            <result name="list">/WEB-INF/jsp/apartment/dormitoryAction/list.jsp
+            </result>
+            <result name="saveUI">/WEB-INF/jsp/apartment/dormitoryAction/saveUI.jsp
+            </result>
+            <result name="toList" type="redirectAction">dormitory_list?apartmentId=${#session._dor_filter_apartmentId}&amp;dormitoryLevel=${#session._dor_filter_level}</result>
+        </action>
+
+        <action name="dataImport_*" class="dataImportAction" method="{1}">
+            <result name="list">
+                /WEB-INF/jsp/apartment/dataImportAction/list.jsp
+            </result>
+            <result type="stream" name="download">
+                <param name="contentType">
+                    application/vnd.ms-excel
+                </param>
+                <param name="inputName">excelStream</param>
+                <param name="contentDisposition">
+                    attachment;filename=${excelFileName}
+                </param>
+                <param name="bufferSize">1024</param>
+            </result>
+        </action>
+    </package>
+
+</struts>

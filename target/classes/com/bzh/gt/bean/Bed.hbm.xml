@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.bzh.gt.bean">
+    <class name="Bed">
+        <id name="id">
+            <generator class="native"/>
+        </id>
+        <property name="bedNO"/>
+
+        <!-- 关联关系 -->
+
+        <!-- dormitory，本类与Dormitory的多对一关系 -->
+        <many-to-one name="dormitory" lazy="false" column="dormitoryId" class="Dormitory"/>
+
+        <!-- student，本类与Student的一对一关系 -->
+        <many-to-one name="student" cascade="none"  lazy="false" column="studentId" unique="true" class="Student"/>
+    </class>
+</hibernate-mapping>

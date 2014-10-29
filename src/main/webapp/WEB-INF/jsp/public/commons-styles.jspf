@@ -1,0 +1,29 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8" %>
+<%@ taglib prefix="s" uri="/struts-tags" %>
+<!-- base styles -->
+<link href="${pageContext.request.contextPath }/assets/css/bootstrap.min.css" rel="stylesheet"/>
+<link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/font-awesome-fa.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath }/assets/css/font-awesome-ic.css"/>
+
+<!--[if IE 7]>
+<link rel="stylesheet" href="${pageContext.request.contextPath }/assets/css/font-awesome-ie7.min.css" />
+<![endif]-->
+
+<!-- ace styles -->
+<link rel="stylesheet" href="${pageContext.request.contextPath }/assets/css/ace.min.css"/>
+<link rel="stylesheet" href="${pageContext.request.contextPath }/assets/css/ace-rtl.min.css"/>
+<link rel="stylesheet" href="${pageContext.request.contextPath }/assets/css/ace-skins.min.css"/>
+<link rel="stylesheet" href="${pageContext.request.contextPath }/assets/css/validate.css"/>
+
+<!--[if lte IE 8]>
+<link rel="stylesheet" href="${pageContext.request.contextPath }/assets/css/ace-ie.min.css" />
+<![endif]-->
+
+<!-- ace settings handler -->
+<script src="${pageContext.request.contextPath }/assets/js/ace-extra.min.js"></script>
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+<script src="${pageContext.request.contextPath }/assets/js/html5shiv.js"></script>
+<script src="${pageContext.request.contextPath }/assets/js/respond.min.js"></script>
+<![endif]-->

@@ -1,0 +1,728 @@
+2014-10-28 11:21:29  [ main:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2014-10-28 11:21:29  [ main:218 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Tue Oct 28 11:21:29 CST 2014]; root of context hierarchy
+2014-10-28 11:21:29  [ main:301 ] - [ INFO ]  Loading XML bean definitions from class path resource [beans.xml]
+2014-10-28 11:21:30  [ main:1478 ] - [ INFO ]  Loading properties file from class path resource [jdbc.properties]
+2014-10-28 11:21:30  [ main:1489 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-10-28 11:21:30  [ main:1614 ] - [ INFO ]  MLog clients using log4j logging.
+2014-10-28 11:21:30  [ main:1776 ] - [ INFO ]  Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2014-10-28 11:21:31  [ main:2207 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2014-10-28 11:21:31  [ main:2227 ] - [ INFO ]  HHH000412: Hibernate Core {4.2.7.Final}
+2014-10-28 11:21:31  [ main:2234 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2014-10-28 11:21:31  [ main:2237 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2014-10-28 11:21:31  [ main:2287 ] - [ INFO ]  HHH000044: Configuring from URL: file:/E:/Ubuntu_Programming/GraduationThesis/target/classes/hibernate.cfg.xml
+2014-10-28 11:21:31  [ main:2411 ] - [ INFO ]  HHH000221: Reading mappings from resource: com/bzh/gt/bean/Department.hbm.xml
+2014-10-28 11:21:31  [ main:2498 ] - [ INFO ]  HHH000221: Reading mappings from resource: com/bzh/gt/bean/LoginLog.hbm.xml
+2014-10-28 11:21:32  [ main:2883 ] - [ INFO ]  HHH000221: Reading mappings from resource: com/bzh/gt/bean/Privilege.hbm.xml
+2014-10-28 11:21:32  [ main:2946 ] - [ INFO ]  HHH000221: Reading mappings from resource: com/bzh/gt/bean/Role.hbm.xml
+2014-10-28 11:21:32  [ main:2989 ] - [ INFO ]  HHH000221: Reading mappings from resource: com/bzh/gt/bean/User.hbm.xml
+2014-10-28 11:21:32  [ main:3026 ] - [ INFO ]  HHH000221: Reading mappings from resource: com/bzh/gt/bean/Apartment.hbm.xml
+2014-10-28 11:21:32  [ main:3067 ] - [ INFO ]  HHH000221: Reading mappings from resource: com/bzh/gt/bean/Clasz.hbm.xml
+2014-10-28 11:21:32  [ main:3116 ] - [ INFO ]  HHH000221: Reading mappings from resource: com/bzh/gt/bean/Dormitory.hbm.xml
+2014-10-28 11:21:32  [ main:3148 ] - [ INFO ]  HHH000221: Reading mappings from resource: com/bzh/gt/bean/Student.hbm.xml
+2014-10-28 11:21:32  [ main:3192 ] - [ INFO ]  HHH000221: Reading mappings from resource: com/bzh/gt/bean/Bed.hbm.xml
+2014-10-28 11:21:32  [ main:3233 ] - [ INFO ]  HHH000221: Reading mappings from resource: com/bzh/gt/bean/Teacher.hbm.xml
+2014-10-28 11:21:32  [ main:3267 ] - [ INFO ]  HHH000221: Reading mappings from resource: com/bzh/gt/bean/ExcelFile.hbm.xml
+2014-10-28 11:21:32  [ main:3293 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2014-10-28 11:21:32  [ main:3492 ] - [ INFO ]  Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hgewap95nirrg98p506x|3cd1248a, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgewap95nirrg98p506x|3cd1248a, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/thesis?useUnicode=true&amp;characterEncoding=utf-8, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 5, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2014-10-28 11:21:33  [ main:3923 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2014-10-28 11:21:33  [ main:3938 ] - [ INFO ]  HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2014-10-28 11:21:33  [ main:4063 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
+2014-10-28 11:21:33  [ main:4071 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2014-10-28 11:21:33  [ main:4538 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2014-10-28 11:21:33  [ main:4539 ] - [ INFO ]  HHH000102: Fetching database metadata
+2014-10-28 11:21:33  [ main:4544 ] - [ INFO ]  HHH000396: Updating schema
+2014-10-28 11:21:33  [ main:4597 ] - [ INFO ]  HHH000261: Table found: thesis.apartment
+2014-10-28 11:21:33  [ main:4598 ] - [ INFO ]  HHH000037: Columns: [id, sex, rank, name, topfloor, roomnumber, bednumber]
+2014-10-28 11:21:33  [ main:4598 ] - [ INFO ]  HHH000108: Foreign keys: []
+2014-10-28 11:21:33  [ main:4599 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2014-10-28 11:21:33  [ main:4624 ] - [ INFO ]  HHH000261: Table found: thesis.bed
+2014-10-28 11:21:33  [ main:4624 ] - [ INFO ]  HHH000037: Columns: [id, bedno, dormitoryid, studentid]
+2014-10-28 11:21:33  [ main:4625 ] - [ INFO ]  HHH000108: Foreign keys: [fk_dnad03ysq051o2b2c30d6rqju, fk_34ltwyvikndmr1dj44n7tdgri]
+2014-10-28 11:21:33  [ main:4625 ] - [ INFO ]  HHH000126: Indexes: [uk_34ltwyvikndmr1dj44n7tdgri, fk_dnad03ysq051o2b2c30d6rqju, fk_34ltwyvikndmr1dj44n7tdgri, primary]
+2014-10-28 11:21:33  [ main:4647 ] - [ INFO ]  HHH000261: Table found: thesis.clasz
+2014-10-28 11:21:33  [ main:4648 ] - [ INFO ]  HHH000037: Columns: [id, isreservoir, name, teacherid, grade, number, monitorid, womanreservoir, manreservoir]
+2014-10-28 11:21:33  [ main:4648 ] - [ INFO ]  HHH000108: Foreign keys: [fk_3mqh4va1xsvvc3mwiarnhsb69, fk_hqwix6e9cmgl7k127qgs0aq55]
+2014-10-28 11:21:33  [ main:4648 ] - [ INFO ]  HHH000126: Indexes: [uk_3mqh4va1xsvvc3mwiarnhsb69, fk_3mqh4va1xsvvc3mwiarnhsb69, fk_hqwix6e9cmgl7k127qgs0aq55, primary, uk_hqwix6e9cmgl7k127qgs0aq55]
+2014-10-28 11:21:33  [ main:4675 ] - [ INFO ]  HHH000261: Table found: thesis.dormitory
+2014-10-28 11:21:33  [ main:4675 ] - [ INFO ]  HHH000037: Columns: [claszid, id, level, apartmentid, name, monitorid, isallocation]
+2014-10-28 11:21:33  [ main:4675 ] - [ INFO ]  HHH000108: Foreign keys: [fk_ij80xxuu1s2ngafdxfei3a8ss, fk_28aoi2f1aq6s5w3h3ytnw8ylh, fk_mhpb3ol0ort8os0g23e2xf2oh]
+2014-10-28 11:21:33  [ main:4676 ] - [ INFO ]  HHH000126: Indexes: [fk_ij80xxuu1s2ngafdxfei3a8ss, uk_ij80xxuu1s2ngafdxfei3a8ss, primary, fk_28aoi2f1aq6s5w3h3ytnw8ylh, fk_mhpb3ol0ort8os0g23e2xf2oh]
+2014-10-28 11:21:33  [ main:4696 ] - [ INFO ]  HHH000261: Table found: thesis.excelfile
+2014-10-28 11:21:33  [ main:4697 ] - [ INFO ]  HHH000037: Columns: [template, id, filepath, filename, contenttype]
+2014-10-28 11:21:33  [ main:4697 ] - [ INFO ]  HHH000108: Foreign keys: []
+2014-10-28 11:21:33  [ main:4697 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2014-10-28 11:21:33  [ main:4715 ] - [ INFO ]  HHH000261: Table found: thesis.student
+2014-10-28 11:21:33  [ main:4716 ] - [ INFO ]  HHH000037: Columns: [claszid, id, phonenumber, sex, sno, name]
+2014-10-28 11:21:33  [ main:4716 ] - [ INFO ]  HHH000108: Foreign keys: [fk_po1bnnk04jne6egxhsk59c7ey]
+2014-10-28 11:21:33  [ main:4717 ] - [ INFO ]  HHH000126: Indexes: [fk_po1bnnk04jne6egxhsk59c7ey, primary]
+2014-10-28 11:21:33  [ main:4733 ] - [ INFO ]  HHH000261: Table found: thesis.teacher
+2014-10-28 11:21:33  [ main:4734 ] - [ INFO ]  HHH000037: Columns: [id, phonenumber, name]
+2014-10-28 11:21:33  [ main:4734 ] - [ INFO ]  HHH000108: Foreign keys: []
+2014-10-28 11:21:33  [ main:4734 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2014-10-28 11:21:33  [ main:4752 ] - [ INFO ]  HHH000261: Table found: thesis.department
+2014-10-28 11:21:33  [ main:4752 ] - [ INFO ]  HHH000037: Columns: [id, description, name, parentid]
+2014-10-28 11:21:33  [ main:4753 ] - [ INFO ]  HHH000108: Foreign keys: [fk_9ehajpceo8bvautsnnqchwud4]
+2014-10-28 11:21:33  [ main:4753 ] - [ INFO ]  HHH000126: Indexes: [fk_9ehajpceo8bvautsnnqchwud4, primary]
+2014-10-28 11:21:33  [ main:4771 ] - [ INFO ]  HHH000261: Table found: thesis.loginlog
+2014-10-28 11:21:33  [ main:4771 ] - [ INFO ]  HHH000037: Columns: [id, logindate, logoutdate, userid, ip]
+2014-10-28 11:21:33  [ main:4772 ] - [ INFO ]  HHH000108: Foreign keys: [fk_nq4ppyww4vygccws7txs73cbk]
+2014-10-28 11:21:33  [ main:4772 ] - [ INFO ]  HHH000126: Indexes: [fk_nq4ppyww4vygccws7txs73cbk, primary]
+2014-10-28 11:21:33  [ main:4791 ] - [ INFO ]  HHH000261: Table found: thesis.privilege
+2014-10-28 11:21:33  [ main:4792 ] - [ INFO ]  HHH000037: Columns: [id, name, parentid, url]
+2014-10-28 11:21:33  [ main:4792 ] - [ INFO ]  HHH000108: Foreign keys: [fk_a8fpgo4y3h1w8lt1nghfx9c2x]
+2014-10-28 11:21:33  [ main:4793 ] - [ INFO ]  HHH000126: Indexes: [primary, fk_a8fpgo4y3h1w8lt1nghfx9c2x]
+2014-10-28 11:21:33  [ main:4814 ] - [ INFO ]  HHH000261: Table found: thesis.role
+2014-10-28 11:21:33  [ main:4815 ] - [ INFO ]  HHH000037: Columns: [id, departmentid, description, name]
+2014-10-28 11:21:33  [ main:4815 ] - [ INFO ]  HHH000108: Foreign keys: [fk_bns7wilhyxv3kl7j1ykav2nbx]
+2014-10-28 11:21:33  [ main:4815 ] - [ INFO ]  HHH000126: Indexes: [primary, fk_bns7wilhyxv3kl7j1ykav2nbx]
+2014-10-28 11:21:33  [ main:4833 ] - [ INFO ]  HHH000261: Table found: thesis.role_privilege
+2014-10-28 11:21:33  [ main:4834 ] - [ INFO ]  HHH000037: Columns: [roleid, privilegeid]
+2014-10-28 11:21:33  [ main:4834 ] - [ INFO ]  HHH000108: Foreign keys: [fk_bn0nninekblrccarahdruxfjt, fk_t5q48778s6nlx68vvw1dule4m]
+2014-10-28 11:21:33  [ main:4835 ] - [ INFO ]  HHH000126: Indexes: [fk_bn0nninekblrccarahdruxfjt, primary, fk_t5q48778s6nlx68vvw1dule4m]
+2014-10-28 11:21:34  [ main:4858 ] - [ INFO ]  HHH000261: Table found: thesis.user
+2014-10-28 11:21:34  [ main:4858 ] - [ INFO ]  HHH000037: Columns: [claszid, id, phonenumber, loginname, description, name, gender, password, qq]
+2014-10-28 11:21:34  [ main:4859 ] - [ INFO ]  HHH000108: Foreign keys: [fk_oi8a962co696ordro43oel2wi]
+2014-10-28 11:21:34  [ main:4859 ] - [ INFO ]  HHH000126: Indexes: [primary, uk_oi8a962co696ordro43oel2wi, fk_oi8a962co696ordro43oel2wi]
+2014-10-28 11:21:34  [ main:4878 ] - [ INFO ]  HHH000261: Table found: thesis.user_role
+2014-10-28 11:21:34  [ main:4878 ] - [ INFO ]  HHH000037: Columns: [roleid, userid]
+2014-10-28 11:21:34  [ main:4879 ] - [ INFO ]  HHH000108: Foreign keys: [fk_kt76tbwgvgf7m5rhnrkxxvgyc, fk_oj50qpdthexxxmvur61ggy2fb]
+2014-10-28 11:21:34  [ main:4879 ] - [ INFO ]  HHH000126: Indexes: [fk_kt76tbwgvgf7m5rhnrkxxvgyc, primary, fk_oj50qpdthexxxmvur61ggy2fb]
+2014-10-28 11:21:34  [ main:4882 ] - [ INFO ]  HHH000232: Schema update complete
+2014-10-28 11:21:34  [ main:5157 ] - [ INFO ]  com.bzh.gt.bean.Apartment类已获取参数化类型的真是类型:class com.bzh.gt.bean.Apartment
+2014-10-28 11:21:34  [ main:5178 ] - [ INFO ]  com.bzh.gt.bean.Bed类已获取参数化类型的真是类型:class com.bzh.gt.bean.Bed
+2014-10-28 11:21:34  [ main:5196 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已获取参数化类型的真是类型:class com.bzh.gt.bean.Clasz
+2014-10-28 11:21:34  [ main:5211 ] - [ INFO ]  com.bzh.gt.bean.Department类已获取参数化类型的真是类型:class com.bzh.gt.bean.Department
+2014-10-28 11:21:34  [ main:5230 ] - [ INFO ]  com.bzh.gt.bean.Dormitory类已获取参数化类型的真是类型:class com.bzh.gt.bean.Dormitory
+2014-10-28 11:21:34  [ main:5244 ] - [ INFO ]  com.bzh.gt.bean.ExcelFile类已获取参数化类型的真是类型:class com.bzh.gt.bean.ExcelFile
+2014-10-28 11:21:34  [ main:5256 ] - [ INFO ]  com.bzh.gt.bean.Privilege类已获取参数化类型的真是类型:class com.bzh.gt.bean.Privilege
+2014-10-28 11:21:34  [ main:5270 ] - [ INFO ]  com.bzh.gt.bean.Role类已获取参数化类型的真是类型:class com.bzh.gt.bean.Role
+2014-10-28 11:21:34  [ main:5282 ] - [ INFO ]  com.bzh.gt.bean.Student类已获取参数化类型的真是类型:class com.bzh.gt.bean.Student
+2014-10-28 11:21:34  [ main:5294 ] - [ INFO ]  com.bzh.gt.bean.Teacher类已获取参数化类型的真是类型:class com.bzh.gt.bean.Teacher
+2014-10-28 11:21:34  [ main:5308 ] - [ INFO ]  com.bzh.gt.bean.User类已获取参数化类型的真是类型:class com.bzh.gt.bean.User
+2014-10-28 11:21:34  [ main:5362 ] - [ INFO ]  Using DataSource [com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hgewap95nirrg98p506x|3cd1248a, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgewap95nirrg98p506x|3cd1248a, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/thesis?useUnicode=true&amp;characterEncoding=utf-8, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 5, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]] of Hibernate SessionFactory for HibernateTransactionManager
+2014-10-28 11:21:34  [ main:5375 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 5366 ms
+2014-10-28 11:21:34  [ main:5842 ] - [ INFO ]  == 已经在最大作用域中存入左侧菜单列表 ==
+2014-10-28 11:21:35  [ main:5856 ] - [ INFO ]  == 已经在最大作用域中存入所有权限URL列表 ==
+2014-10-28 11:21:35  [ main:6151 ] - [ INFO ]  Parsing configuration file [struts-default.xml]
+2014-10-28 11:21:35  [ main:6249 ] - [ INFO ]  Parsing configuration file [struts-plugin.xml]
+2014-10-28 11:21:35  [ main:6384 ] - [ INFO ]  Parsing configuration file [struts.xml]
+2014-10-28 11:21:35  [ main:6389 ] - [ INFO ]  Choosing bean (spring) for (com.opensymphony.xwork2.ObjectFactory)
+2014-10-28 11:21:35  [ main:6389 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)
+2014-10-28 11:21:35  [ main:6390 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)
+2014-10-28 11:21:35  [ main:6390 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)
+2014-10-28 11:21:35  [ main:6390 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)
+2014-10-28 11:21:35  [ main:6390 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)
+2014-10-28 11:21:35  [ main:6391 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+2014-10-28 11:21:35  [ main:6391 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+2014-10-28 11:21:35  [ main:6391 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+2014-10-28 11:21:35  [ main:6392 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+2014-10-28 11:21:35  [ main:6392 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+2014-10-28 11:21:35  [ main:6392 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+2014-10-28 11:21:35  [ main:6393 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+2014-10-28 11:21:35  [ main:6393 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+2014-10-28 11:21:35  [ main:6393 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+2014-10-28 11:21:35  [ main:6393 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+2014-10-28 11:21:35  [ main:6394 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+2014-10-28 11:21:35  [ main:6394 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+2014-10-28 11:21:35  [ main:6394 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+2014-10-28 11:21:35  [ main:6394 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+2014-10-28 11:21:35  [ main:6395 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+2014-10-28 11:21:35  [ main:6395 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+2014-10-28 11:21:35  [ main:6395 ] - [ INFO ]  Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+2014-10-28 11:21:35  [ main:6396 ] - [ INFO ]  Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+2014-10-28 11:21:35  [ main:6396 ] - [ INFO ]  Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)
+2014-10-28 11:21:35  [ main:6399 ] - [ INFO ]  Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+2014-10-28 11:21:35  [ main:6400 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+2014-10-28 11:21:35  [ main:6400 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+2014-10-28 11:21:35  [ main:6400 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+2014-10-28 11:21:35  [ main:6401 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+2014-10-28 11:21:35  [ main:6401 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+2014-10-28 11:21:35  [ main:6401 ] - [ INFO ]  Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+2014-10-28 11:21:35  [ main:6401 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+2014-10-28 11:21:35  [ main:6402 ] - [ INFO ]  Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+2014-10-28 11:21:35  [ main:6402 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+2014-10-28 11:21:35  [ main:6427 ] - [ INFO ]  Initializing Struts-Spring integration...
+2014-10-28 11:21:35  [ main:6427 ] - [ INFO ]  Setting autowire strategy to name
+2014-10-28 11:21:35  [ main:6428 ] - [ INFO ]  ... initialized Struts-Spring integration successfully
+2014-10-28 11:21:48  [ main:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2014-10-28 11:21:49  [ main:178 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Tue Oct 28 11:21:49 CST 2014]; root of context hierarchy
+2014-10-28 11:21:49  [ main:233 ] - [ INFO ]  Loading XML bean definitions from class path resource [beans.xml]
+2014-10-28 11:21:49  [ main:958 ] - [ INFO ]  Loading properties file from class path resource [jdbc.properties]
+2014-10-28 11:21:49  [ main:971 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-10-28 11:21:49  [ main:1091 ] - [ INFO ]  MLog clients using log4j logging.
+2014-10-28 11:21:50  [ main:1264 ] - [ INFO ]  Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2014-10-28 11:21:50  [ main:1635 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2014-10-28 11:21:50  [ main:1644 ] - [ INFO ]  HHH000412: Hibernate Core {4.2.7.Final}
+2014-10-28 11:21:50  [ main:1648 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2014-10-28 11:21:50  [ main:1652 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2014-10-28 11:21:50  [ main:1692 ] - [ INFO ]  HHH000044: Configuring from URL: file:/E:/Ubuntu_Programming/GraduationThesis/target/classes/hibernate.cfg.xml
+2014-10-28 11:21:50  [ main:1758 ] - [ INFO ]  HHH000221: Reading mappings from resource: com/bzh/gt/bean/Department.hbm.xml
+2014-10-28 11:21:50  [ main:1806 ] - [ INFO ]  HHH000221: Reading mappings from resource: com/bzh/gt/bean/LoginLog.hbm.xml
+2014-10-28 11:21:50  [ main:1847 ] - [ INFO ]  HHH000221: Reading mappings from resource: com/bzh/gt/bean/Privilege.hbm.xml
+2014-10-28 11:21:50  [ main:1890 ] - [ INFO ]  HHH000221: Reading mappings from resource: com/bzh/gt/bean/Role.hbm.xml
+2014-10-28 11:21:50  [ main:1926 ] - [ INFO ]  HHH000221: Reading mappings from resource: com/bzh/gt/bean/User.hbm.xml
+2014-10-28 11:21:50  [ main:1971 ] - [ INFO ]  HHH000221: Reading mappings from resource: com/bzh/gt/bean/Apartment.hbm.xml
+2014-10-28 11:21:50  [ main:2001 ] - [ INFO ]  HHH000221: Reading mappings from resource: com/bzh/gt/bean/Clasz.hbm.xml
+2014-10-28 11:21:50  [ main:2036 ] - [ INFO ]  HHH000221: Reading mappings from resource: com/bzh/gt/bean/Dormitory.hbm.xml
+2014-10-28 11:21:50  [ main:2069 ] - [ INFO ]  HHH000221: Reading mappings from resource: com/bzh/gt/bean/Student.hbm.xml
+2014-10-28 11:21:51  [ main:2104 ] - [ INFO ]  HHH000221: Reading mappings from resource: com/bzh/gt/bean/Bed.hbm.xml
+2014-10-28 11:21:51  [ main:2147 ] - [ INFO ]  HHH000221: Reading mappings from resource: com/bzh/gt/bean/Teacher.hbm.xml
+2014-10-28 11:21:51  [ main:2194 ] - [ INFO ]  HHH000221: Reading mappings from resource: com/bzh/gt/bean/ExcelFile.hbm.xml
+2014-10-28 11:21:51  [ main:2229 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2014-10-28 11:21:51  [ main:2497 ] - [ INFO ]  Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hgewap95nis6aa1knehxd|55c656b4, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgewap95nis6aa1knehxd|55c656b4, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/thesis?useUnicode=true&amp;characterEncoding=utf-8, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 5, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2014-10-28 11:21:51  [ main:2844 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2014-10-28 11:21:51  [ main:2859 ] - [ INFO ]  HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2014-10-28 11:21:51  [ main:2995 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
+2014-10-28 11:21:51  [ main:3004 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2014-10-28 11:21:52  [ main:3530 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2014-10-28 11:21:52  [ main:3530 ] - [ INFO ]  HHH000102: Fetching database metadata
+2014-10-28 11:21:52  [ main:3537 ] - [ INFO ]  HHH000396: Updating schema
+2014-10-28 11:21:52  [ main:3578 ] - [ INFO ]  HHH000261: Table found: thesis.apartment
+2014-10-28 11:21:52  [ main:3579 ] - [ INFO ]  HHH000037: Columns: [id, sex, rank, name, topfloor, roomnumber, bednumber]
+2014-10-28 11:21:52  [ main:3579 ] - [ INFO ]  HHH000108: Foreign keys: []
+2014-10-28 11:21:52  [ main:3579 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2014-10-28 11:21:52  [ main:3601 ] - [ INFO ]  HHH000261: Table found: thesis.bed
+2014-10-28 11:21:52  [ main:3603 ] - [ INFO ]  HHH000037: Columns: [id, bedno, dormitoryid, studentid]
+2014-10-28 11:21:52  [ main:3603 ] - [ INFO ]  HHH000108: Foreign keys: [fk_dnad03ysq051o2b2c30d6rqju, fk_34ltwyvikndmr1dj44n7tdgri]
+2014-10-28 11:21:52  [ main:3604 ] - [ INFO ]  HHH000126: Indexes: [uk_34ltwyvikndmr1dj44n7tdgri, fk_dnad03ysq051o2b2c30d6rqju, fk_34ltwyvikndmr1dj44n7tdgri, primary]
+2014-10-28 11:21:52  [ main:3623 ] - [ INFO ]  HHH000261: Table found: thesis.clasz
+2014-10-28 11:21:52  [ main:3624 ] - [ INFO ]  HHH000037: Columns: [id, isreservoir, name, teacherid, grade, number, monitorid, womanreservoir, manreservoir]
+2014-10-28 11:21:52  [ main:3624 ] - [ INFO ]  HHH000108: Foreign keys: [fk_3mqh4va1xsvvc3mwiarnhsb69, fk_hqwix6e9cmgl7k127qgs0aq55]
+2014-10-28 11:21:52  [ main:3625 ] - [ INFO ]  HHH000126: Indexes: [uk_3mqh4va1xsvvc3mwiarnhsb69, fk_3mqh4va1xsvvc3mwiarnhsb69, fk_hqwix6e9cmgl7k127qgs0aq55, primary, uk_hqwix6e9cmgl7k127qgs0aq55]
+2014-10-28 11:21:52  [ main:3646 ] - [ INFO ]  HHH000261: Table found: thesis.dormitory
+2014-10-28 11:21:52  [ main:3646 ] - [ INFO ]  HHH000037: Columns: [claszid, id, level, apartmentid, name, monitorid, isallocation]
+2014-10-28 11:21:52  [ main:3647 ] - [ INFO ]  HHH000108: Foreign keys: [fk_ij80xxuu1s2ngafdxfei3a8ss, fk_28aoi2f1aq6s5w3h3ytnw8ylh, fk_mhpb3ol0ort8os0g23e2xf2oh]
+2014-10-28 11:21:52  [ main:3647 ] - [ INFO ]  HHH000126: Indexes: [fk_ij80xxuu1s2ngafdxfei3a8ss, uk_ij80xxuu1s2ngafdxfei3a8ss, primary, fk_28aoi2f1aq6s5w3h3ytnw8ylh, fk_mhpb3ol0ort8os0g23e2xf2oh]
+2014-10-28 11:21:52  [ main:3668 ] - [ INFO ]  HHH000261: Table found: thesis.excelfile
+2014-10-28 11:21:52  [ main:3668 ] - [ INFO ]  HHH000037: Columns: [template, id, filepath, filename, contenttype]
+2014-10-28 11:21:52  [ main:3669 ] - [ INFO ]  HHH000108: Foreign keys: []
+2014-10-28 11:21:52  [ main:3669 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2014-10-28 11:21:52  [ main:3687 ] - [ INFO ]  HHH000261: Table found: thesis.student
+2014-10-28 11:21:52  [ main:3688 ] - [ INFO ]  HHH000037: Columns: [claszid, id, phonenumber, sex, sno, name]
+2014-10-28 11:21:52  [ main:3688 ] - [ INFO ]  HHH000108: Foreign keys: [fk_po1bnnk04jne6egxhsk59c7ey]
+2014-10-28 11:21:52  [ main:3688 ] - [ INFO ]  HHH000126: Indexes: [fk_po1bnnk04jne6egxhsk59c7ey, primary]
+2014-10-28 11:21:52  [ main:3701 ] - [ INFO ]  HHH000261: Table found: thesis.teacher
+2014-10-28 11:21:52  [ main:3701 ] - [ INFO ]  HHH000037: Columns: [id, phonenumber, name]
+2014-10-28 11:21:52  [ main:3702 ] - [ INFO ]  HHH000108: Foreign keys: []
+2014-10-28 11:21:52  [ main:3702 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2014-10-28 11:21:52  [ main:3715 ] - [ INFO ]  HHH000261: Table found: thesis.department
+2014-10-28 11:21:52  [ main:3716 ] - [ INFO ]  HHH000037: Columns: [id, description, name, parentid]
+2014-10-28 11:21:52  [ main:3716 ] - [ INFO ]  HHH000108: Foreign keys: [fk_9ehajpceo8bvautsnnqchwud4]
+2014-10-28 11:21:52  [ main:3716 ] - [ INFO ]  HHH000126: Indexes: [fk_9ehajpceo8bvautsnnqchwud4, primary]
+2014-10-28 11:21:52  [ main:3735 ] - [ INFO ]  HHH000261: Table found: thesis.loginlog
+2014-10-28 11:21:52  [ main:3735 ] - [ INFO ]  HHH000037: Columns: [id, logindate, logoutdate, userid, ip]
+2014-10-28 11:21:52  [ main:3736 ] - [ INFO ]  HHH000108: Foreign keys: [fk_nq4ppyww4vygccws7txs73cbk]
+2014-10-28 11:21:52  [ main:3736 ] - [ INFO ]  HHH000126: Indexes: [fk_nq4ppyww4vygccws7txs73cbk, primary]
+2014-10-28 11:21:52  [ main:3758 ] - [ INFO ]  HHH000261: Table found: thesis.privilege
+2014-10-28 11:21:52  [ main:3759 ] - [ INFO ]  HHH000037: Columns: [id, name, parentid, url]
+2014-10-28 11:21:52  [ main:3759 ] - [ INFO ]  HHH000108: Foreign keys: [fk_a8fpgo4y3h1w8lt1nghfx9c2x]
+2014-10-28 11:21:52  [ main:3760 ] - [ INFO ]  HHH000126: Indexes: [primary, fk_a8fpgo4y3h1w8lt1nghfx9c2x]
+2014-10-28 11:21:52  [ main:3774 ] - [ INFO ]  HHH000261: Table found: thesis.role
+2014-10-28 11:21:52  [ main:3774 ] - [ INFO ]  HHH000037: Columns: [id, departmentid, description, name]
+2014-10-28 11:21:52  [ main:3775 ] - [ INFO ]  HHH000108: Foreign keys: [fk_bns7wilhyxv3kl7j1ykav2nbx]
+2014-10-28 11:21:52  [ main:3775 ] - [ INFO ]  HHH000126: Indexes: [primary, fk_bns7wilhyxv3kl7j1ykav2nbx]
+2014-10-28 11:21:52  [ main:3791 ] - [ INFO ]  HHH000261: Table found: thesis.role_privilege
+2014-10-28 11:21:52  [ main:3791 ] - [ INFO ]  HHH000037: Columns: [roleid, privilegeid]
+2014-10-28 11:21:52  [ main:3792 ] - [ INFO ]  HHH000108: Foreign keys: [fk_bn0nninekblrccarahdruxfjt, fk_t5q48778s6nlx68vvw1dule4m]
+2014-10-28 11:21:52  [ main:3792 ] - [ INFO ]  HHH000126: Indexes: [fk_bn0nninekblrccarahdruxfjt, primary, fk_t5q48778s6nlx68vvw1dule4m]
+2014-10-28 11:21:52  [ main:3806 ] - [ INFO ]  HHH000261: Table found: thesis.user
+2014-10-28 11:21:52  [ main:3806 ] - [ INFO ]  HHH000037: Columns: [claszid, id, phonenumber, loginname, description, name, gender, password, qq]
+2014-10-28 11:21:52  [ main:3807 ] - [ INFO ]  HHH000108: Foreign keys: [fk_oi8a962co696ordro43oel2wi]
+2014-10-28 11:21:52  [ main:3807 ] - [ INFO ]  HHH000126: Indexes: [primary, uk_oi8a962co696ordro43oel2wi, fk_oi8a962co696ordro43oel2wi]
+2014-10-28 11:21:52  [ main:3821 ] - [ INFO ]  HHH000261: Table found: thesis.user_role
+2014-10-28 11:21:52  [ main:3821 ] - [ INFO ]  HHH000037: Columns: [roleid, userid]
+2014-10-28 11:21:52  [ main:3822 ] - [ INFO ]  HHH000108: Foreign keys: [fk_kt76tbwgvgf7m5rhnrkxxvgyc, fk_oj50qpdthexxxmvur61ggy2fb]
+2014-10-28 11:21:52  [ main:3822 ] - [ INFO ]  HHH000126: Indexes: [fk_kt76tbwgvgf7m5rhnrkxxvgyc, primary, fk_oj50qpdthexxxmvur61ggy2fb]
+2014-10-28 11:21:52  [ main:3825 ] - [ INFO ]  HHH000232: Schema update complete
+2014-10-28 11:21:52  [ main:4025 ] - [ INFO ]  com.bzh.gt.bean.Apartment类已获取参数化类型的真是类型:class com.bzh.gt.bean.Apartment
+2014-10-28 11:21:52  [ main:4050 ] - [ INFO ]  com.bzh.gt.bean.Bed类已获取参数化类型的真是类型:class com.bzh.gt.bean.Bed
+2014-10-28 11:21:52  [ main:4072 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已获取参数化类型的真是类型:class com.bzh.gt.bean.Clasz
+2014-10-28 11:21:52  [ main:4091 ] - [ INFO ]  com.bzh.gt.bean.Department类已获取参数化类型的真是类型:class com.bzh.gt.bean.Department
+2014-10-28 11:21:53  [ main:4108 ] - [ INFO ]  com.bzh.gt.bean.Dormitory类已获取参数化类型的真是类型:class com.bzh.gt.bean.Dormitory
+2014-10-28 11:21:53  [ main:4142 ] - [ INFO ]  com.bzh.gt.bean.ExcelFile类已获取参数化类型的真是类型:class com.bzh.gt.bean.ExcelFile
+2014-10-28 11:21:53  [ main:4168 ] - [ INFO ]  com.bzh.gt.bean.Privilege类已获取参数化类型的真是类型:class com.bzh.gt.bean.Privilege
+2014-10-28 11:21:53  [ main:4198 ] - [ INFO ]  com.bzh.gt.bean.Role类已获取参数化类型的真是类型:class com.bzh.gt.bean.Role
+2014-10-28 11:21:53  [ main:4218 ] - [ INFO ]  com.bzh.gt.bean.Student类已获取参数化类型的真是类型:class com.bzh.gt.bean.Student
+2014-10-28 11:21:53  [ main:4244 ] - [ INFO ]  com.bzh.gt.bean.Teacher类已获取参数化类型的真是类型:class com.bzh.gt.bean.Teacher
+2014-10-28 11:21:53  [ main:4274 ] - [ INFO ]  com.bzh.gt.bean.User类已获取参数化类型的真是类型:class com.bzh.gt.bean.User
+2014-10-28 11:21:53  [ main:4399 ] - [ INFO ]  Using DataSource [com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hgewap95nis6aa1knehxd|55c656b4, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgewap95nis6aa1knehxd|55c656b4, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/thesis?useUnicode=true&amp;characterEncoding=utf-8, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 5, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]] of Hibernate SessionFactory for HibernateTransactionManager
+2014-10-28 11:21:53  [ main:4416 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 4410 ms
+2014-10-28 11:21:53  [ main:4976 ] - [ INFO ]  == 已经在最大作用域中存入左侧菜单列表 ==
+2014-10-28 11:21:53  [ main:4995 ] - [ INFO ]  == 已经在最大作用域中存入所有权限URL列表 ==
+2014-10-28 11:21:54  [ main:5264 ] - [ INFO ]  Parsing configuration file [struts-default.xml]
+2014-10-28 11:21:54  [ main:5357 ] - [ INFO ]  Parsing configuration file [struts-plugin.xml]
+2014-10-28 11:21:54  [ main:5428 ] - [ INFO ]  Parsing configuration file [struts.xml]
+2014-10-28 11:21:54  [ main:5435 ] - [ INFO ]  Choosing bean (spring) for (com.opensymphony.xwork2.ObjectFactory)
+2014-10-28 11:21:54  [ main:5435 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)
+2014-10-28 11:21:54  [ main:5435 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)
+2014-10-28 11:21:54  [ main:5436 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)
+2014-10-28 11:21:54  [ main:5436 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)
+2014-10-28 11:21:54  [ main:5436 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)
+2014-10-28 11:21:54  [ main:5436 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+2014-10-28 11:21:54  [ main:5436 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+2014-10-28 11:21:54  [ main:5437 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+2014-10-28 11:21:54  [ main:5437 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+2014-10-28 11:21:54  [ main:5437 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+2014-10-28 11:21:54  [ main:5438 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+2014-10-28 11:21:54  [ main:5438 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+2014-10-28 11:21:54  [ main:5440 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+2014-10-28 11:21:54  [ main:5441 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+2014-10-28 11:21:54  [ main:5441 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+2014-10-28 11:21:54  [ main:5441 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+2014-10-28 11:21:54  [ main:5441 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+2014-10-28 11:21:54  [ main:5442 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+2014-10-28 11:21:54  [ main:5442 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+2014-10-28 11:21:54  [ main:5442 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+2014-10-28 11:21:54  [ main:5442 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+2014-10-28 11:21:54  [ main:5443 ] - [ INFO ]  Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+2014-10-28 11:21:54  [ main:5443 ] - [ INFO ]  Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+2014-10-28 11:21:54  [ main:5444 ] - [ INFO ]  Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)
+2014-10-28 11:21:54  [ main:5450 ] - [ INFO ]  Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+2014-10-28 11:21:54  [ main:5451 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+2014-10-28 11:21:54  [ main:5451 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+2014-10-28 11:21:54  [ main:5452 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+2014-10-28 11:21:54  [ main:5453 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+2014-10-28 11:21:54  [ main:5453 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+2014-10-28 11:21:54  [ main:5454 ] - [ INFO ]  Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+2014-10-28 11:21:54  [ main:5455 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+2014-10-28 11:21:54  [ main:5455 ] - [ INFO ]  Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+2014-10-28 11:21:54  [ main:5455 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+2014-10-28 11:21:54  [ main:5498 ] - [ INFO ]  Initializing Struts-Spring integration...
+2014-10-28 11:21:54  [ main:5499 ] - [ INFO ]  Setting autowire strategy to name
+2014-10-28 11:21:54  [ main:5503 ] - [ INFO ]  ... initialized Struts-Spring integration successfully
+2014-10-28 11:22:04  [ qtp332374270-29:15704 ] - [ WARN ]  [DEPRECATION] Encountered positional parameter near line 1, column 47.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2014-10-28 11:22:04  [ qtp332374270-29:15707 ] - [ WARN ]  [DEPRECATION] Encountered positional parameter near line 1, column 64.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2014-10-28 11:22:21  [ qtp332374270-32:32457 ] - [ INFO ]  已获取com.bzh.gt.bean.Apartment类的所有实体
+2014-10-28 11:22:27  [ qtp332374270-23:38947 ] - [ INFO ]  已获取com.bzh.gt.bean.Apartment类的所有实体
+2014-10-28 11:22:27  [ qtp332374270-23:38974 ] - [ WARN ]  [DEPRECATION] Encountered positional parameter near line 1, column 56.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2014-10-28 11:22:27  [ qtp332374270-23:38975 ] - [ WARN ]  [DEPRECATION] Encountered positional parameter near line 1, column 70.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2014-10-28 11:22:27  [ qtp332374270-23:39002 ] - [ WARN ]  [DEPRECATION] Encountered positional parameter near line 1, column 72.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2014-10-28 11:22:27  [ qtp332374270-23:39003 ] - [ WARN ]  [DEPRECATION] Encountered positional parameter near line 1, column 86.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2014-10-28 11:23:57  [ qtp332374270-32:128670 ] - [ INFO ]  Unable to find 'struts.multipart.saveDir' property setting. Defaulting to javax.servlet.context.tempdir
+2014-10-28 11:23:57  [ qtp332374270-32:128816 ] - [ INFO ]  com.bzh.gt.bean.ExcelFile类已保存实体:com.bzh.gt.bean.ExcelFile@f54540ac
+2014-10-28 11:24:18  [ qtp332374270-21:149469 ] - [ INFO ]  已获取com.bzh.gt.bean.ExcelFile类的所有实体
+2014-10-28 11:24:21  [ qtp332374270-26:152588 ] - [ INFO ]  com.bzh.gt.bean.ExcelFile类已根据:1获取实体
+2014-10-28 11:24:21  [ Thread-29:153012 ] - [ INFO ]  处理进度:0.0当前行：1,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:21  [ Thread-29:153026 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@1ceb6475
+2014-10-28 11:24:22  [ Thread-29:153151 ] - [ INFO ]  处理进度:1.0当前行：2,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:22  [ Thread-29:153214 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@1cf9f416
+2014-10-28 11:24:22  [ Thread-29:153288 ] - [ INFO ]  处理进度:1.0当前行：3,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:22  [ Thread-29:153437 ] - [ INFO ]  处理进度:1.0当前行：4,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:22  [ Thread-29:153595 ] - [ INFO ]  处理进度:1.0当前行：5,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:22  [ Thread-29:153744 ] - [ INFO ]  处理进度:2.0当前行：6,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:22  [ Thread-29:153752 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@1cec50f4
+2014-10-28 11:24:22  [ Thread-29:153880 ] - [ INFO ]  处理进度:2.0当前行：7,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:22  [ Thread-29:153956 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@1cedaa50
+2014-10-28 11:24:22  [ Thread-29:154015 ] - [ INFO ]  处理进度:2.0当前行：8,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:23  [ Thread-29:154125 ] - [ INFO ]  处理进度:3.0当前行：9,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:23  [ Thread-29:154245 ] - [ INFO ]  处理进度:3.0当前行：10,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:23  [ Thread-29:154372 ] - [ INFO ]  处理进度:3.0当前行：11,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:23  [ Thread-29:154509 ] - [ INFO ]  处理进度:3.0当前行：12,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:23  [ Thread-29:154519 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@1ced3d73
+2014-10-28 11:24:23  [ Thread-29:154587 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@51f17932
+2014-10-28 11:24:23  [ Thread-29:154603 ] - [ INFO ]  处理进度:4.0当前行：13,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:23  [ Thread-29:154749 ] - [ INFO ]  处理进度:4.0当前行：14,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:23  [ Thread-29:154875 ] - [ INFO ]  处理进度:4.0当前行：15,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:23  [ Thread-29:154956 ] - [ INFO ]  处理进度:4.0当前行：16,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:23  [ Thread-29:155090 ] - [ INFO ]  处理进度:5.0当前行：17,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:23  [ Thread-29:155097 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@1cee930e
+2014-10-28 11:24:24  [ Thread-29:155152 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@1cef0b2e
+2014-10-28 11:24:24  [ Thread-29:155240 ] - [ INFO ]  处理进度:5.0当前行：18,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:24  [ Thread-29:155348 ] - [ INFO ]  处理进度:5.0当前行：19,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:24  [ Thread-29:155427 ] - [ INFO ]  处理进度:6.0当前行：20,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:24  [ Thread-29:155555 ] - [ INFO ]  处理进度:6.0当前行：21,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:24  [ Thread-29:155611 ] - [ INFO ]  处理进度:6.0当前行：22,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:24  [ Thread-29:155717 ] - [ INFO ]  处理进度:6.0当前行：23,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:24  [ Thread-29:155841 ] - [ INFO ]  处理进度:7.000000000000001当前行：24,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:24  [ Thread-29:155954 ] - [ INFO ]  处理进度:7.000000000000001当前行：25,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:24  [ Thread-29:156088 ] - [ INFO ]  处理进度:7.000000000000001当前行：26,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:25  [ Thread-29:156203 ] - [ INFO ]  处理进度:8.0当前行：27,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:25  [ Thread-29:156331 ] - [ INFO ]  处理进度:8.0当前行：28,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:25  [ Thread-29:156425 ] - [ INFO ]  处理进度:8.0当前行：29,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:25  [ Thread-29:156523 ] - [ INFO ]  处理进度:8.0当前行：30,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:25  [ Thread-29:156619 ] - [ INFO ]  处理进度:9.0当前行：31,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:25  [ Thread-29:156712 ] - [ INFO ]  处理进度:9.0当前行：32,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:25  [ Thread-29:156816 ] - [ INFO ]  处理进度:9.0当前行：33,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:25  [ Thread-29:156879 ] - [ INFO ]  处理进度:9.0当前行：34,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:25  [ Thread-29:156969 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@1cfd9acf
+2014-10-28 11:24:25  [ Thread-29:157020 ] - [ INFO ]  处理进度:10.0当前行：35,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:25  [ Thread-29:157083 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@51e3d24f
+2014-10-28 11:24:25  [ Thread-29:157096 ] - [ INFO ]  处理进度:10.0当前行：36,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:26  [ Thread-29:157156 ] - [ INFO ]  处理进度:10.0当前行：37,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:26  [ Thread-29:157242 ] - [ INFO ]  处理进度:11.0当前行：38,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:26  [ Thread-29:157322 ] - [ INFO ]  处理进度:11.0当前行：39,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:26  [ Thread-29:157401 ] - [ INFO ]  处理进度:11.0当前行：40,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:26  [ Thread-29:157502 ] - [ INFO ]  处理进度:11.0当前行：41,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:26  [ Thread-29:157601 ] - [ INFO ]  处理进度:12.0当前行：42,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:26  [ Thread-29:157677 ] - [ INFO ]  处理进度:12.0当前行：43,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:26  [ Thread-29:157683 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@1cfe0f2e
+2014-10-28 11:24:26  [ Thread-29:157738 ] - [ INFO ]  处理进度:12.0当前行：44,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:26  [ Thread-29:157861 ] - [ INFO ]  处理进度:13.0当前行：45,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:26  [ Thread-29:157975 ] - [ INFO ]  处理进度:13.0当前行：46,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:26  [ Thread-29:158034 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@1cff688a
+2014-10-28 11:24:26  [ Thread-29:158072 ] - [ INFO ]  处理进度:13.0当前行：47,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:27  [ Thread-29:158153 ] - [ INFO ]  处理进度:13.0当前行：48,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:27  [ Thread-29:158228 ] - [ INFO ]  处理进度:14.000000000000002当前行：49,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:27  [ Thread-29:158312 ] - [ INFO ]  处理进度:14.000000000000002当前行：50,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:27  [ Thread-29:158389 ] - [ INFO ]  处理进度:14.000000000000002当前行：51,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:27  [ Thread-29:158398 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@1cfefbad
+2014-10-28 11:24:27  [ Thread-29:158470 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@51e7ed67
+2014-10-28 11:24:27  [ Thread-29:158482 ] - [ INFO ]  处理进度:15.0当前行：52,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:27  [ Thread-29:158579 ] - [ INFO ]  处理进度:15.0当前行：53,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:27  [ Thread-29:158656 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@1cffe82c
+2014-10-28 11:24:27  [ Thread-29:158686 ] - [ INFO ]  处理进度:15.0当前行：54,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:27  [ Thread-29:158770 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@51e6904a
+2014-10-28 11:24:27  [ Thread-29:158807 ] - [ INFO ]  处理进度:15.0当前行：55,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:27  [ Thread-29:158931 ] - [ INFO ]  处理进度:16.0当前行：56,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:27  [ Thread-29:159040 ] - [ INFO ]  处理进度:16.0当前行：57,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:28  [ Thread-29:159154 ] - [ INFO ]  处理进度:16.0当前行：58,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:28  [ Thread-29:159250 ] - [ INFO ]  处理进度:16.0当前行：59,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:28  [ Thread-29:159345 ] - [ INFO ]  处理进度:17.0当前行：60,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:28  [ Thread-29:159471 ] - [ INFO ]  处理进度:17.0当前行：61,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:28  [ Thread-29:159559 ] - [ INFO ]  处理进度:17.0当前行：62,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:28  [ Thread-29:159643 ] - [ INFO ]  处理进度:18.0当前行：63,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:28  [ Thread-29:159705 ] - [ INFO ]  处理进度:18.0当前行：64,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:28  [ Thread-29:159711 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@1d013a06
+2014-10-28 11:24:28  [ Thread-29:159831 ] - [ INFO ]  处理进度:18.0当前行：65,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:28  [ Thread-29:159928 ] - [ INFO ]  处理进度:18.0当前行：66,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:28  [ Thread-29:160009 ] - [ INFO ]  处理进度:19.0当前行：67,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:28  [ Thread-29:160075 ] - [ INFO ]  处理进度:19.0当前行：68,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:29  [ Thread-29:160149 ] - [ INFO ]  处理进度:19.0当前行：69,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:29  [ Thread-29:160241 ] - [ INFO ]  处理进度:20.0当前行：70,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:29  [ Thread-29:160333 ] - [ INFO ]  处理进度:20.0当前行：71,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:29  [ Thread-29:160432 ] - [ INFO ]  处理进度:20.0当前行：72,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:29  [ Thread-29:160528 ] - [ INFO ]  处理进度:20.0当前行：73,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:29  [ Thread-29:160620 ] - [ INFO ]  处理进度:21.0当前行：74,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:29  [ Thread-29:160723 ] - [ INFO ]  处理进度:21.0当前行：75,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:29  [ Thread-29:160809 ] - [ INFO ]  处理进度:21.0当前行：76,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:29  [ Thread-29:160887 ] - [ INFO ]  处理进度:22.0当前行：77,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:29  [ Thread-29:161001 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@1d1041c7
+2014-10-28 11:24:29  [ Thread-29:161017 ] - [ INFO ]  处理进度:22.0当前行：78,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:30  [ Thread-29:161106 ] - [ INFO ]  处理进度:22.0当前行：79,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:30  [ Thread-29:161189 ] - [ INFO ]  处理进度:22.0当前行：80,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:30  [ Thread-29:161270 ] - [ INFO ]  处理进度:23.0当前行：81,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:30  [ Thread-29:161358 ] - [ INFO ]  处理进度:23.0当前行：82,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:30  [ Thread-29:161367 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@1d0fc9a7
+2014-10-28 11:24:30  [ Thread-29:161430 ] - [ INFO ]  处理进度:23.0当前行：83,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:30  [ Thread-29:161630 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@1d1126c4
+2014-10-28 11:24:30  [ Thread-29:161647 ] - [ INFO ]  处理进度:23.0当前行：84,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:30  [ Thread-29:161771 ] - [ INFO ]  处理进度:24.0当前行：85,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:30  [ Thread-29:161863 ] - [ INFO ]  处理进度:24.0当前行：86,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:30  [ Thread-29:161958 ] - [ INFO ]  处理进度:24.0当前行：87,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:30  [ Thread-29:162053 ] - [ INFO ]  处理进度:25.0当前行：88,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:30  [ Thread-29:162072 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@1d10b626
+2014-10-28 11:24:31  [ Thread-29:162142 ] - [ INFO ]  处理进度:25.0当前行：89,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:31  [ Thread-29:162245 ] - [ INFO ]  处理进度:25.0当前行：90,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:31  [ Thread-29:162320 ] - [ INFO ]  处理进度:25.0当前行：91,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:31  [ Thread-29:162420 ] - [ INFO ]  处理进度:26.0当前行：92,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:31  [ Thread-29:162504 ] - [ INFO ]  处理进度:26.0当前行：93,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:31  [ Thread-29:162591 ] - [ INFO ]  处理进度:26.0当前行：94,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:31  [ Thread-29:162683 ] - [ INFO ]  处理进度:27.0当前行：95,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:31  [ Thread-29:162690 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@1d119b23
+2014-10-28 11:24:31  [ Thread-29:162752 ] - [ INFO ]  处理进度:27.0当前行：96,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:31  [ Thread-29:162878 ] - [ INFO ]  处理进度:27.0当前行：97,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:31  [ Thread-29:162984 ] - [ INFO ]  处理进度:27.0当前行：98,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:31  [ Thread-29:163001 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@51f76205
+2014-10-28 11:24:32  [ Thread-29:163122 ] - [ INFO ]  处理进度:28.000000000000004当前行：99,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:32  [ Thread-29:163447 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@1d14c9bc
+2014-10-28 11:24:32  [ Thread-29:163516 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@1d218ba2
+2014-10-28 11:24:32  [ Thread-29:163587 ] - [ INFO ]  处理进度:28.000000000000004当前行：100,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:32  [ Thread-29:163689 ] - [ INFO ]  处理进度:28.000000000000004当前行：101,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:32  [ Thread-29:163833 ] - [ INFO ]  处理进度:28.000000000000004当前行：102,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:32  [ Thread-29:163921 ] - [ INFO ]  处理进度:28.999999999999996当前行：103,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:32  [ Thread-29:164049 ] - [ INFO ]  处理进度:28.999999999999996当前行：104,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:33  [ Thread-29:164351 ] - [ INFO ]  处理进度:28.999999999999996当前行：105,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:33  [ Thread-29:164579 ] - [ INFO ]  处理进度:30.0当前行：106,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:33  [ Thread-29:164697 ] - [ INFO ]  处理进度:30.0当前行：107,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:33  [ Thread-29:164850 ] - [ INFO ]  处理进度:30.0当前行：108,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:33  [ Thread-29:164980 ] - [ INFO ]  处理进度:30.0当前行：109,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:34  [ Thread-29:165132 ] - [ INFO ]  处理进度:31.0当前行：110,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:34  [ Thread-29:165282 ] - [ INFO ]  处理进度:31.0当前行：111,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:34  [ Thread-29:165417 ] - [ INFO ]  处理进度:31.0当前行：112,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:34  [ Thread-29:165679 ] - [ INFO ]  处理进度:32.0当前行：113,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:34  [ Thread-29:165790 ] - [ INFO ]  处理进度:32.0当前行：114,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:34  [ Thread-29:165916 ] - [ INFO ]  处理进度:32.0当前行：115,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:34  [ Thread-29:166029 ] - [ INFO ]  处理进度:32.0当前行：116,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:35  [ Thread-29:166206 ] - [ INFO ]  处理进度:33.0当前行：117,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:35  [ Thread-29:166374 ] - [ INFO ]  处理进度:33.0当前行：118,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:35  [ Thread-29:166522 ] - [ INFO ]  处理进度:33.0当前行：119,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:35  [ Thread-29:166698 ] - [ INFO ]  处理进度:34.0当前行：120,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:35  [ Thread-29:166707 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@1d211382
+2014-10-28 11:24:35  [ Thread-29:166838 ] - [ INFO ]  处理进度:34.0当前行：121,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:35  [ Thread-29:167002 ] - [ INFO ]  处理进度:34.0当前行：122,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:35  [ Thread-29:167056 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@1d218ba2
+2014-10-28 11:24:36  [ Thread-29:167156 ] - [ INFO ]  处理进度:34.0当前行：123,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:36  [ Thread-29:167265 ] - [ INFO ]  处理进度:35.0当前行：124,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:36  [ Thread-29:167396 ] - [ INFO ]  处理进度:35.0当前行：125,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:36  [ Thread-29:167490 ] - [ INFO ]  处理进度:35.0当前行：126,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:36  [ Thread-29:167574 ] - [ INFO ]  处理进度:35.0当前行：127,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:36  [ Thread-29:167761 ] - [ INFO ]  处理进度:36.0当前行：128,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:36  [ Thread-29:167932 ] - [ INFO ]  处理进度:36.0当前行：129,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:36  [ Thread-29:167997 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@1d23595d
+2014-10-28 11:24:37  [ Thread-29:168125 ] - [ INFO ]  处理进度:36.0当前行：130,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:37  [ Thread-29:168339 ] - [ INFO ]  处理进度:37.0当前行：131,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:37  [ Thread-29:168447 ] - [ INFO ]  处理进度:37.0当前行：132,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:37  [ Thread-29:168567 ] - [ INFO ]  处理进度:37.0当前行：133,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:37  [ Thread-29:168735 ] - [ INFO ]  处理进度:37.0当前行：134,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:37  [ Thread-29:168824 ] - [ INFO ]  处理进度:38.0当前行：135,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:37  [ Thread-29:168835 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@1d22e4fe
+2014-10-28 11:24:37  [ Thread-29:168947 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@1d235d1e
+2014-10-28 11:24:37  [ Thread-29:169014 ] - [ INFO ]  处理进度:38.0当前行：136,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:38  [ Thread-29:169151 ] - [ INFO ]  处理进度:38.0当前行：137,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:38  [ Thread-29:169273 ] - [ INFO ]  处理进度:39.0当前行：138,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:38  [ Thread-29:169354 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@5209949e
+2014-10-28 11:24:38  [ Thread-29:169610 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@520a0cbe
+2014-10-28 11:24:38  [ Thread-29:169632 ] - [ INFO ]  处理进度:39.0当前行：139,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:38  [ Thread-29:169718 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@1d252ad9
+2014-10-28 11:24:38  [ Thread-29:169808 ] - [ INFO ]  处理进度:39.0当前行：140,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:38  [ Thread-29:169945 ] - [ INFO ]  处理进度:39.0当前行：141,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:38  [ Thread-29:170059 ] - [ INFO ]  处理进度:40.0当前行：142,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:39  [ Thread-29:170104 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@1d2687f6
+2014-10-28 11:24:39  [ Thread-29:170171 ] - [ INFO ]  处理进度:40.0当前行：143,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:39  [ Thread-29:170285 ] - [ INFO ]  处理进度:40.0当前行：144,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:39  [ Thread-29:170393 ] - [ INFO ]  处理进度:41.0当前行：145,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:39  [ Thread-29:170505 ] - [ INFO ]  处理进度:41.0当前行：146,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:39  [ Thread-29:170686 ] - [ INFO ]  处理进度:41.0当前行：147,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:40  [ Thread-29:171498 ] - [ INFO ]  处理进度:41.0当前行：148,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:40  [ Thread-29:171625 ] - [ INFO ]  处理进度:42.0当前行：149,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:40  [ Thread-29:171775 ] - [ INFO ]  处理进度:42.0当前行：150,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:40  [ Thread-29:171922 ] - [ INFO ]  处理进度:42.0当前行：151,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:40  [ Thread-29:172083 ] - [ INFO ]  处理进度:42.0当前行：152,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:41  [ Thread-29:172231 ] - [ INFO ]  处理进度:43.0当前行：153,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:41  [ Thread-29:172378 ] - [ INFO ]  处理进度:43.0当前行：154,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:41  [ Thread-29:172541 ] - [ INFO ]  处理进度:43.0当前行：155,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:41  [ Thread-29:172690 ] - [ INFO ]  处理进度:44.0当前行：156,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:41  [ Thread-29:172849 ] - [ INFO ]  处理进度:44.0当前行：157,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:41  [ Thread-29:172978 ] - [ INFO ]  处理进度:44.0当前行：158,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:41  [ Thread-29:173074 ] - [ INFO ]  处理进度:44.0当前行：159,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:42  [ Thread-29:173287 ] - [ INFO ]  处理进度:45.0当前行：160,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:42  [ Thread-29:173343 ] - [ INFO ]  处理进度:45.0当前行：161,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:42  [ Thread-29:173453 ] - [ INFO ]  处理进度:45.0当前行：162,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:42  [ Thread-29:173667 ] - [ INFO ]  处理进度:46.0当前行：163,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:42  [ Thread-29:173819 ] - [ INFO ]  处理进度:46.0当前行：164,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:42  [ Thread-29:173981 ] - [ INFO ]  处理进度:46.0当前行：165,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:42  [ Thread-29:174067 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@520c5299
+2014-10-28 11:24:43  [ Thread-29:174106 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@520cc337
+2014-10-28 11:24:43  [ Thread-29:174141 ] - [ INFO ]  处理进度:46.0当前行：166,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:43  [ Thread-29:174212 ] - [ INFO ]  处理进度:47.0当前行：167,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:43  [ Thread-29:174357 ] - [ INFO ]  处理进度:47.0当前行：168,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:43  [ Thread-29:174562 ] - [ INFO ]  处理进度:47.0当前行：169,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:43  [ Thread-29:174692 ] - [ INFO ]  处理进度:47.0当前行：170,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:43  [ Thread-29:174837 ] - [ INFO ]  处理进度:48.0当前行：171,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:43  [ Thread-29:174975 ] - [ INFO ]  处理进度:48.0当前行：172,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:44  [ Thread-29:175144 ] - [ INFO ]  处理进度:48.0当前行：173,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:44  [ Thread-29:175337 ] - [ INFO ]  处理进度:49.0当前行：174,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:44  [ Thread-29:175517 ] - [ INFO ]  处理进度:49.0当前行：175,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:44  [ Thread-29:175628 ] - [ INFO ]  处理进度:49.0当前行：176,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:44  [ Thread-29:175788 ] - [ INFO ]  处理进度:49.0当前行：177,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:44  [ Thread-29:175942 ] - [ INFO ]  处理进度:50.0当前行：178,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:44  [ Thread-29:176049 ] - [ INFO ]  处理进度:50.0当前行：179,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:45  [ Thread-29:176164 ] - [ INFO ]  处理进度:50.0当前行：180,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:45  [ Thread-29:176294 ] - [ INFO ]  处理进度:51.0当前行：181,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:45  [ Thread-29:176446 ] - [ INFO ]  处理进度:51.0当前行：182,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:45  [ Thread-29:176471 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@51f08cb3
+2014-10-28 11:24:45  [ Thread-29:176624 ] - [ INFO ]  处理进度:51.0当前行：183,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:45  [ Thread-29:176787 ] - [ INFO ]  处理进度:51.0当前行：184,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:45  [ Thread-29:176893 ] - [ INFO ]  处理进度:52.0当前行：185,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:45  [ Thread-29:176901 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@51f17571
+2014-10-28 11:24:45  [ Thread-29:176917 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@51f25e2f
+2014-10-28 11:24:45  [ Thread-29:176942 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@51f261f0
+2014-10-28 11:24:45  [ Thread-29:176966 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@52024aed
+2014-10-28 11:24:45  [ Thread-29:176985 ] - [ INFO ]  处理进度:52.0当前行：186,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:46  [ Thread-29:177114 ] - [ INFO ]  处理进度:52.0当前行：187,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:46  [ Thread-29:177305 ] - [ INFO ]  处理进度:53.0当前行：188,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:46  [ Thread-29:177465 ] - [ INFO ]  处理进度:53.0当前行：189,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:46  [ Thread-29:177651 ] - [ INFO ]  处理进度:53.0当前行：190,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:46  [ Thread-29:177893 ] - [ INFO ]  处理进度:53.0当前行：191,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:47  [ Thread-29:178603 ] - [ INFO ]  处理进度:54.0当前行：192,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:47  [ Thread-29:178782 ] - [ INFO ]  处理进度:54.0当前行：193,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:48  [ Thread-29:179151 ] - [ INFO ]  处理进度:54.0当前行：194,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:48  [ Thread-29:179285 ] - [ INFO ]  处理进度:54.0当前行：195,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:48  [ Thread-29:179418 ] - [ INFO ]  处理进度:55.00000000000001当前行：196,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:48  [ Thread-29:179588 ] - [ INFO ]  处理进度:55.00000000000001当前行：197,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:48  [ Thread-29:179700 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@51f4a40a
+2014-10-28 11:24:48  [ Thread-29:179788 ] - [ INFO ]  处理进度:55.00000000000001当前行：198,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:50  [ Thread-29:181629 ] - [ INFO ]  处理进度:56.00000000000001当前行：199,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:50  [ Thread-29:182062 ] - [ INFO ]  处理进度:56.00000000000001当前行：200,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:51  [ Thread-29:182263 ] - [ INFO ]  处理进度:56.00000000000001当前行：201,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:51  [ Thread-29:182367 ] - [ INFO ]  处理进度:56.00000000000001当前行：202,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:51  [ Thread-29:182374 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@51f4a40a
+2014-10-28 11:24:51  [ Thread-29:182590 ] - [ INFO ]  处理进度:56.99999999999999当前行：203,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:51  [ Thread-29:182657 ] - [ INFO ]  处理进度:56.99999999999999当前行：204,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:51  [ Thread-29:182756 ] - [ INFO ]  处理进度:56.99999999999999当前行：205,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:51  [ Thread-29:182892 ] - [ INFO ]  处理进度:57.99999999999999当前行：206,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:51  [ Thread-29:182979 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@51f60127
+2014-10-28 11:24:51  [ Thread-29:182993 ] - [ INFO ]  处理进度:57.99999999999999当前行：207,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:52  [ Thread-29:183141 ] - [ INFO ]  处理进度:57.99999999999999当前行：208,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:52  [ Thread-29:183272 ] - [ INFO ]  处理进度:57.99999999999999当前行：209,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:52  [ Thread-29:183417 ] - [ INFO ]  处理进度:59.0当前行：210,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:52  [ Thread-29:183497 ] - [ INFO ]  处理进度:59.0当前行：211,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:52  [ Thread-29:183645 ] - [ INFO ]  处理进度:59.0当前行：212,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:52  [ Thread-29:183947 ] - [ INFO ]  处理进度:59.0当前行：213,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:52  [ Thread-29:184078 ] - [ INFO ]  处理进度:60.0当前行：214,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:53  [ Thread-29:184227 ] - [ INFO ]  处理进度:60.0当前行：215,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:53  [ Thread-29:184380 ] - [ INFO ]  处理进度:60.0当前行：216,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:53  [ Thread-29:184493 ] - [ INFO ]  处理进度:61.0当前行：217,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:53  [ Thread-29:184573 ] - [ INFO ]  处理进度:61.0当前行：218,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:53  [ Thread-29:184699 ] - [ INFO ]  处理进度:61.0当前行：219,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:53  [ Thread-29:184819 ] - [ INFO ]  处理进度:61.0当前行：220,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:53  [ Thread-29:184965 ] - [ INFO ]  处理进度:62.0当前行：221,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:53  [ Thread-29:185068 ] - [ INFO ]  处理进度:62.0当前行：222,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:54  [ Thread-29:185224 ] - [ INFO ]  处理进度:62.0当前行：223,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:54  [ Thread-29:185284 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@51f67947
+2014-10-28 11:24:54  [ Thread-29:185358 ] - [ INFO ]  处理进度:63.0当前行：224,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:54  [ Thread-29:185529 ] - [ INFO ]  处理进度:63.0当前行：225,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:54  [ Thread-29:185679 ] - [ INFO ]  处理进度:63.0当前行：226,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:54  [ Thread-29:185846 ] - [ INFO ]  处理进度:63.0当前行：227,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:54  [ Thread-29:186081 ] - [ INFO ]  处理进度:64.0当前行：228,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:55  [ Thread-29:186409 ] - [ INFO ]  处理进度:64.0当前行：229,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:55  [ Thread-29:186504 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@51f75e44
+2014-10-28 11:24:56  [ Thread-29:187116 ] - [ INFO ]  处理进度:64.0当前行：230,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:56  [ Thread-29:187204 ] - [ INFO ]  处理进度:65.0当前行：231,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:56  [ Thread-29:187427 ] - [ INFO ]  处理进度:65.0当前行：232,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:56  [ Thread-29:187584 ] - [ INFO ]  处理进度:65.0当前行：233,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:56  [ Thread-29:187854 ] - [ INFO ]  处理进度:65.0当前行：234,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:56  [ Thread-29:187972 ] - [ INFO ]  处理进度:66.0当前行：235,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:56  [ Thread-29:188049 ] - [ INFO ]  处理进度:66.0当前行：236,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:57  [ Thread-29:188216 ] - [ INFO ]  处理进度:66.0当前行：237,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:57  [ Thread-29:188370 ] - [ INFO ]  处理进度:66.0当前行：238,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:57  [ Thread-29:188398 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@520333ab
+2014-10-28 11:24:57  [ Thread-29:188728 ] - [ INFO ]  处理进度:67.0当前行：239,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:57  [ Thread-29:188895 ] - [ INFO ]  处理进度:67.0当前行：240,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:58  [ Thread-29:189113 ] - [ INFO ]  处理进度:67.0当前行：241,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:58  [ Thread-29:189294 ] - [ INFO ]  处理进度:68.0当前行：242,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:58  [ Thread-29:189427 ] - [ INFO ]  处理进度:68.0当前行：243,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:58  [ Thread-29:189433 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@5202c30d
+2014-10-28 11:24:58  [ Thread-29:189471 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@5203a80a
+2014-10-28 11:24:58  [ Thread-29:189518 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@5204202a
+2014-10-28 11:24:58  [ Thread-29:189535 ] - [ INFO ]  处理进度:68.0当前行：244,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:58  [ Thread-29:189576 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@52057d47
+2014-10-28 11:24:58  [ Thread-29:189592 ] - [ INFO ]  处理进度:68.0当前行：245,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:58  [ Thread-29:189741 ] - [ INFO ]  处理进度:69.0当前行：246,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:58  [ Thread-29:189864 ] - [ INFO ]  处理进度:69.0当前行：247,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:58  [ Thread-29:189997 ] - [ INFO ]  处理进度:69.0当前行：248,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:58  [ Thread-29:190096 ] - [ INFO ]  处理进度:70.0当前行：249,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:59  [ Thread-29:190149 ] - [ INFO ]  处理进度:70.0当前行：250,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:59  [ Thread-29:190176 ] - [ INFO ]  处理进度:70.0当前行：251,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:59  [ Thread-29:190269 ] - [ INFO ]  处理进度:70.0当前行：252,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:59  [ Thread-29:190342 ] - [ INFO ]  处理进度:71.0当前行：253,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:59  [ Thread-29:190436 ] - [ INFO ]  处理进度:71.0当前行：254,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:59  [ Thread-29:190519 ] - [ INFO ]  处理进度:71.0当前行：255,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:59  [ Thread-29:190612 ] - [ INFO ]  处理进度:72.0当前行：256,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:59  [ Thread-29:190688 ] - [ INFO ]  处理进度:72.0当前行：257,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:59  [ Thread-29:190761 ] - [ INFO ]  处理进度:72.0当前行：258,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:59  [ Thread-29:190767 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@5205ede5
+2014-10-28 11:24:59  [ Thread-29:190846 ] - [ INFO ]  处理进度:72.0当前行：259,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:59  [ Thread-29:190925 ] - [ INFO ]  处理进度:73.0当前行：260,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:24:59  [ Thread-29:191038 ] - [ INFO ]  处理进度:73.0当前行：261,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:00  [ Thread-29:191122 ] - [ INFO ]  处理进度:73.0当前行：262,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:00  [ Thread-29:191216 ] - [ INFO ]  处理进度:73.0当前行：263,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:00  [ Thread-29:191339 ] - [ INFO ]  处理进度:74.0当前行：264,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:00  [ Thread-29:191458 ] - [ INFO ]  处理进度:74.0当前行：265,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:00  [ Thread-29:191569 ] - [ INFO ]  处理进度:74.0当前行：266,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:00  [ Thread-29:191670 ] - [ INFO ]  处理进度:75.0当前行：267,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:00  [ Thread-29:191801 ] - [ INFO ]  处理进度:75.0当前行：268,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:00  [ Thread-29:191890 ] - [ INFO ]  处理进度:75.0当前行：269,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:00  [ Thread-29:191993 ] - [ INFO ]  处理进度:75.0当前行：270,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:00  [ Thread-29:192084 ] - [ INFO ]  处理进度:76.0当前行：271,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:01  [ Thread-29:192166 ] - [ INFO ]  处理进度:76.0当前行：272,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:01  [ Thread-29:192263 ] - [ INFO ]  处理进度:76.0当前行：273,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:01  [ Thread-29:192367 ] - [ INFO ]  处理进度:77.0当前行：274,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:01  [ Thread-29:192469 ] - [ INFO ]  处理进度:77.0当前行：275,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:01  [ Thread-29:192556 ] - [ INFO ]  处理进度:77.0当前行：276,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:01  [ Thread-29:192627 ] - [ INFO ]  处理进度:77.0当前行：277,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:01  [ Thread-29:192690 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@5207c322
+2014-10-28 11:25:01  [ Thread-29:192726 ] - [ INFO ]  处理进度:78.0当前行：278,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:01  [ Thread-29:192809 ] - [ INFO ]  处理进度:78.0当前行：279,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:01  [ Thread-29:192935 ] - [ INFO ]  处理进度:78.0当前行：280,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:01  [ Thread-29:193070 ] - [ INFO ]  处理进度:78.0当前行：281,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:02  [ Thread-29:193226 ] - [ INFO ]  处理进度:79.0当前行：282,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:02  [ Thread-29:193353 ] - [ INFO ]  处理进度:79.0当前行：283,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:02  [ Thread-29:193737 ] - [ INFO ]  处理进度:79.0当前行：284,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:02  [ Thread-29:193788 ] - [ INFO ]  处理进度:80.0当前行：285,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:02  [ Thread-29:193894 ] - [ INFO ]  处理进度:80.0当前行：286,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:02  [ Thread-29:194024 ] - [ INFO ]  处理进度:80.0当前行：287,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:02  [ Thread-29:194087 ] - [ INFO ]  处理进度:80.0当前行：288,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:03  [ Thread-29:194197 ] - [ INFO ]  处理进度:81.0当前行：289,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:03  [ Thread-29:194300 ] - [ INFO ]  处理进度:81.0当前行：290,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:03  [ Thread-29:194365 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@52164f02
+2014-10-28 11:25:03  [ Thread-29:194506 ] - [ INFO ]  处理进度:81.0当前行：291,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:03  [ Thread-29:194598 ] - [ INFO ]  处理进度:82.0当前行：292,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:03  [ Thread-29:194744 ] - [ INFO ]  处理进度:82.0当前行：293,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:03  [ Thread-29:194883 ] - [ INFO ]  处理进度:82.0当前行：294,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:03  [ Thread-29:195023 ] - [ INFO ]  处理进度:82.0当前行：295,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:04  [ Thread-29:195135 ] - [ INFO ]  处理进度:83.0当前行：296,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:04  [ Thread-29:195275 ] - [ INFO ]  处理进度:83.0当前行：297,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:04  [ Thread-29:195392 ] - [ INFO ]  处理进度:83.0当前行：298,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:04  [ Thread-29:195534 ] - [ INFO ]  处理进度:84.0当前行：299,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:04  [ Thread-29:195657 ] - [ INFO ]  处理进度:84.0当前行：300,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:04  [ Thread-29:195773 ] - [ INFO ]  处理进度:84.0当前行：301,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:04  [ Thread-29:195930 ] - [ INFO ]  处理进度:84.0当前行：302,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:04  [ Thread-29:196065 ] - [ INFO ]  处理进度:85.0当前行：303,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:05  [ Thread-29:196177 ] - [ INFO ]  处理进度:85.0当前行：304,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:05  [ Thread-29:196292 ] - [ INFO ]  处理进度:85.0当前行：305,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:05  [ Thread-29:196301 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@5214f1e5
+2014-10-28 11:25:05  [ Thread-29:196317 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@5216c361
+2014-10-28 11:25:05  [ Thread-29:196413 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@52165684
+2014-10-28 11:25:05  [ Thread-29:196436 ] - [ INFO ]  处理进度:85.0当前行：306,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:05  [ Thread-29:196565 ] - [ INFO ]  处理进度:86.0当前行：307,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:05  [ Thread-29:196687 ] - [ INFO ]  处理进度:86.0当前行：308,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:05  [ Thread-29:196810 ] - [ INFO ]  处理进度:86.0当前行：309,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:05  [ Thread-29:196928 ] - [ INFO ]  处理进度:87.0当前行：310,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:05  [ Thread-29:196937 ] - [ INFO ]  处理进度:87.0当前行：311,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:05  [ Thread-29:196947 ] - [ INFO ]  处理进度:87.0当前行：312,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:05  [ Thread-29:196955 ] - [ INFO ]  处理进度:87.0当前行：313,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:05  [ Thread-29:196967 ] - [ INFO ]  处理进度:88.0当前行：314,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:05  [ Thread-29:196979 ] - [ INFO ]  处理进度:88.0当前行：315,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:06  [ Thread-29:197153 ] - [ INFO ]  处理进度:88.0当前行：316,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:06  [ Thread-29:197168 ] - [ INFO ]  处理进度:89.0当前行：317,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:06  [ Thread-29:197179 ] - [ INFO ]  处理进度:89.0当前行：318,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:06  [ Thread-29:197190 ] - [ INFO ]  处理进度:89.0当前行：319,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:06  [ Thread-29:197200 ] - [ INFO ]  处理进度:89.0当前行：320,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:06  [ Thread-29:197211 ] - [ INFO ]  处理进度:90.0当前行：321,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:06  [ Thread-29:197221 ] - [ INFO ]  处理进度:90.0当前行：322,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:06  [ Thread-29:197232 ] - [ INFO ]  处理进度:90.0当前行：323,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:06  [ Thread-29:197243 ] - [ INFO ]  处理进度:91.0当前行：324,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:06  [ Thread-29:197257 ] - [ INFO ]  处理进度:91.0当前行：325,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:06  [ Thread-29:197271 ] - [ INFO ]  处理进度:91.0当前行：326,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:06  [ Thread-29:197281 ] - [ INFO ]  处理进度:91.0当前行：327,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:06  [ Thread-29:197471 ] - [ INFO ]  处理进度:92.0当前行：328,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:06  [ Thread-29:197484 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@521737c0
+2014-10-28 11:25:06  [ Thread-29:197789 ] - [ INFO ]  处理进度:92.0当前行：329,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:06  [ Thread-29:197802 ] - [ INFO ]  处理进度:92.0当前行：330,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:06  [ Thread-29:197815 ] - [ INFO ]  处理进度:92.0当前行：331,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:06  [ Thread-29:198037 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@5218243f
+2014-10-28 11:25:07  [ Thread-29:198451 ] - [ INFO ]  处理进度:93.0当前行：332,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:07  [ Thread-29:198884 ] - [ INFO ]  处理进度:93.0当前行：333,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:07  [ Thread-29:199044 ] - [ INFO ]  处理进度:93.0当前行：334,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:07  [ Thread-29:199055 ] - [ INFO ]  处理进度:94.0当前行：335,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:07  [ Thread-29:199063 ] - [ INFO ]  处理进度:94.0当前行：336,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:07  [ Thread-29:199073 ] - [ INFO ]  处理进度:94.0当前行：337,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:07  [ Thread-29:199087 ] - [ INFO ]  处理进度:94.0当前行：338,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:08  [ Thread-29:199354 ] - [ INFO ]  处理进度:95.0当前行：339,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:08  [ Thread-29:199562 ] - [ INFO ]  处理进度:95.0当前行：340,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:08  [ Thread-29:199571 ] - [ INFO ]  处理进度:95.0当前行：341,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:08  [ Thread-29:199579 ] - [ INFO ]  处理进度:96.0当前行：342,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:08  [ Thread-29:199588 ] - [ INFO ]  处理进度:96.0当前行：343,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:08  [ Thread-29:199597 ] - [ INFO ]  处理进度:96.0当前行：344,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:08  [ Thread-29:199669 ] - [ INFO ]  com.bzh.gt.bean.Clasz类已保存实体:com.bzh.gt.bean.Clasz@52197d9b
+2014-10-28 11:25:08  [ Thread-29:199725 ] - [ INFO ]  处理进度:96.0当前行：345,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:08  [ Thread-29:200018 ] - [ INFO ]  处理进度:97.0当前行：346,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:09  [ Thread-29:200244 ] - [ INFO ]  处理进度:97.0当前行：347,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:09  [ Thread-29:200582 ] - [ INFO ]  处理进度:97.0当前行：348,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:09  [ Thread-29:200780 ] - [ INFO ]  处理进度:97.0当前行：349,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:09  [ Thread-29:200983 ] - [ INFO ]  处理进度:98.0当前行：350,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:10  [ Thread-29:201217 ] - [ INFO ]  处理进度:98.0当前行：351,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:11  [ Thread-29:202158 ] - [ INFO ]  处理进度:98.0当前行：352,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:12  [ Thread-29:203161 ] - [ INFO ]  处理进度:99.0当前行：353,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:12  [ Thread-29:203443 ] - [ INFO ]  处理进度:99.0当前行：354,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:12  [ Thread-29:203668 ] - [ INFO ]  处理进度:99.0当前行：355,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:12  [ Thread-29:203824 ] - [ INFO ]  处理进度:99.0当前行：356,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:12  [ Thread-29:203824 ] - [ INFO ]  处理进度:100.0当前行：357,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:12  [ Thread-29:203824 ] - [ INFO ]  处理进度:100.0当前行：358,当前线程：Thread[Thread-29,5,main]
+2014-10-28 11:25:27  [ qtp332374270-22:218435 ] - [ INFO ]  已获取com.bzh.gt.bean.Apartment类的所有实体
+2014-10-28 11:25:29  [ qtp332374270-29:220922 ] - [ INFO ]  已获取com.bzh.gt.bean.Apartment类的所有实体
+2014-10-28 11:25:29  [ qtp332374270-29:220953 ] - [ WARN ]  [DEPRECATION] Encountered positional parameter near line 1, column 56.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2014-10-28 11:25:29  [ qtp332374270-29:220953 ] - [ WARN ]  [DEPRECATION] Encountered positional parameter near line 1, column 70.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2014-10-28 11:25:32  [ qtp332374270-36:223216 ] - [ WARN ]  [DEPRECATION] Encountered positional parameter near line 1, column 50.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2014-10-28 11:25:32  [ qtp332374270-36:223231 ] - [ WARN ]  [DEPRECATION] Encountered positional parameter near line 1, column 66.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
