@@ -42,12 +42,11 @@ public class DormitoryAction extends BaseAction<Dormitory> {
     private Integer bedNumber; // 床铺数
 
     /**
-     * sdsd
      * 概要: 转向到列表页面
      */
     public String list() throws Exception {
 
-        /**f
+        /**
          * 获取所有公寓的信息，存到上下文中
          * 在JSP的页面显示出一个Menu
          */
