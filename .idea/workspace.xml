@@ -7,26 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bee55556-9de3-4f14-825e-bb7adba7841e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/temp/852c5918-013c-4c40-b2e2-673038150abc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/error.log.2014-10-29" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bzh/gt/action/allocation/AllocationAction.java" afterPath="$PROJECT_DIR$/src/main/java/com/bzh/gt/action/allocation/AllocationAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bzh/gt/install/Installer.java" afterPath="$PROJECT_DIR$/src/main/java/com/bzh/gt/install/Installer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bzh/gt/action/allocation/RoomSettingAction.java" afterPath="$PROJECT_DIR$/src/main/java/com/bzh/gt/action/allocation/RoomSettingAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/js/additional-methods.js" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/additional-methods.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/allocation/allocationAction/checkInUI.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/allocation/allocationAction/checkInUI.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/error.log" afterPath="$PROJECT_DIR$/logs/error.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/allocation/allocationAction/infoEntering.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/allocation/allocationAction/infoEntering.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/allocation/overViewAction/list.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/allocation/overViewAction/list.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/allocation/roomSettingAction/list.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/allocation/roomSettingAction/list.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/log.log" afterPath="$PROJECT_DIR$/logs/log.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/allocation/allocationAction/manualUI.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/allocation/allocationAction/manualUI.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/allocation/allocationAction/saveUI.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/allocation/allocationAction/saveUI.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/apartment/dormitoryAction/saveUI.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/apartment/dormitoryAction/saveUI.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/clasz/infoAction/saveUI.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/clasz/infoAction/saveUI.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/struts-allocation.xml" afterPath="$PROJECT_DIR$/src/main/resources/struts-allocation.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="Y:\Windows-Programming\GraduationThesis\logs\log.log" afterPath="$PROJECT_DIR$/logs/log.log.2014-10-29" />
     </list>
     <list id="b5360779-8717-41a1-9bcc-38b00fdc2ea9" name="Rejected commit: Default" comment="修改了宿舍-床铺-学生之间的关系&#10;" />
     <ignored path="GraduationThesis.iws" />
@@ -207,7 +188,7 @@
     <option name="STATE" value="2" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Changed Files" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -227,9 +208,50 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GraduationThesis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GraduationThesis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GraduationThesis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GraduationThesis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Changed Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="GraduationThesis">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT=".idea">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -909,7 +931,7 @@
       <workItem from="1414578599278" duration="834000" />
       <workItem from="1414646971648" duration="64000" />
       <workItem from="1414647080009" duration="22000" />
-      <workItem from="1414647105283" duration="5197000" />
+      <workItem from="1414647105283" duration="5249000" />
     </task>
     <task id="LOCAL-00001" summary="无">
       <created>1410276726453</created>
@@ -1259,11 +1281,15 @@
       <created>1414647139356</created>
       <updated>1414647139356</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="结束">
+      <created>1414652553179</created>
+      <updated>1414652553179</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="633516000" />
+    <option name="totallyTimeSpent" value="633568000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1340,7 +1366,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="修复了新建班级的BUG" />
     <MESSAGE value="开始班级信息管理模块的开发" />
     <MESSAGE value="添加了一些图标，开始添加学生的UI" />
     <MESSAGE value="在导入数据时出现BUG，该BUG是设置关联关系不正确，导致在Student方，访问Bed-&gt;Dormitory-&gt;Apartment时，出现异常" />
@@ -1365,7 +1390,8 @@
     <MESSAGE value="完成公寓模块的公寓信息和寝室信息的检查，下一步是综合数据导入的检查" />
     <MESSAGE value="开始班级模块的检查" />
     <MESSAGE value="完成班级模块的检查，如果时间富裕，可以给我的班级增加到处是数据的功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成班级模块的检查，如果时间富裕，可以给我的班级增加到处是数据的功能" />
+    <MESSAGE value="结束" />
+    <option name="LAST_COMMIT_MESSAGE" value="结束" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
