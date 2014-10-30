@@ -2,7 +2,6 @@
   <artifact type="exploded-war" name="GraduationThesis:war exploded">
     <output-path>$PROJECT_DIR$/target/GraduationThesis</output-path>
     <root id="root">
-      <element id="javaee-facet-resources" facet="GraduationThesis/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="GraduationThesis" />
@@ -68,6 +67,7 @@
           <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.1" />
         </element>
       </element>
+      <element id="javaee-facet-resources" facet="GraduationThesis/web/Web" />
     </root>
   </artifact>
 </component>
