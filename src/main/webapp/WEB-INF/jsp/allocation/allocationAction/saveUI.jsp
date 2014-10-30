@@ -10,10 +10,7 @@
 
     <!-- basic styles -->
     <%@include file="/WEB-INF/jsp/public/commons-styles.jspf" %>
-
-
     <!-- page specific plugin styles -->
-
 </head>
 
 <body>
@@ -31,26 +28,32 @@
         <!-- /.page-header -->
         <div class="row">
             <div class="col-xs-12">
-                <s:form  action="allocation_%{id == null ? 'add' : 'edit'}" cssClass="form-horizontal">
+                <s:form id="form" action="allocation_%{id == null ? 'add' : 'edit'}" cssClass="form-horizontal">
                     <s:hidden name="id"></s:hidden>
                     <div class="form-group">
                         <label class="col-sm-3 control-label no-padding-right" for="claszname"> 班级名称 </label>
+
                         <div class="col-sm-9">
-                            <s:textfield placeholder="请输入班级名称" name="name" cssClass="col-xs-10 col-sm-5" id="claszname"></s:textfield>
+                            <s:textfield placeholder="请输入班级名称" name="name" cssClass="col-xs-10 col-sm-5"
+                                         id="claszname"></s:textfield>
                         </div>
                     </div>
                     <div class="space-4"></div>
                     <div class="form-group">
                         <label class="col-sm-3 control-label no-padding-right" for="mans"> 男生人数 </label>
+
                         <div class="col-sm-9">
-                            <s:textfield placeholder="男生人数" name="manReservoir" cssClass="col-xs-10 col-sm-5" id="mans"></s:textfield>
+                            <s:textfield placeholder="男生人数" name="manReservoir" cssClass="col-xs-10 col-sm-5"
+                                         id="mans"></s:textfield>
                         </div>
                     </div>
                     <div class="space-4"></div>
                     <div class="form-group">
                         <label class="col-sm-3 control-label no-padding-right" for="womans"> 女生人数 </label>
+
                         <div class="col-sm-9">
-                            <s:textfield placeholder="女生人数" name="womanReservoir" cssClass="col-xs-10 col-sm-5" id="womans"></s:textfield>
+                            <s:textfield placeholder="女生人数" name="womanReservoir" cssClass="col-xs-10 col-sm-5"
+                                         id="womans"></s:textfield>
                         </div>
                     </div>
                     <div class="space-4"></div>
@@ -75,14 +78,38 @@
     <!-- /.page-content -->
 </div>
 <!-- /.main-container -->
-
-<!-- basic scripts -->
 <%@include file="/WEB-INF/jsp/public/commons-scripts.jspf" %>
-
 <!-- inline scripts related to this page -->
-
 <script type="text/javascript">
+    $().ready(function () {
+        $("#form").validate({
+            rules: {
+                name: {
+                    required: true,
+                    jjuClaszName: true
+                },
+                manReservoir: {
+                    required: true,
+                    number: true
+                },
+                womanReservoir: {
+                    required: true,
+                    number: true
+                }
 
+            },
+            messages: {
+                name: {
+                    jjuClaszName: "请填写正确的班级名称，例如：A1121"
+                }
+
+            },
+            submitHandler: function (form) {
+                console.log("submitted");
+                form.submit();
+            }
+        });
+    });
 </script>
 </body>
 </html>

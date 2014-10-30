@@ -7,10 +7,8 @@
     <meta name="keywords" content=""/>
     <meta name="description" content=""/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
     <!-- basic styles -->
     <%@include file="/WEB-INF/jsp/public/commons-styles.jspf" %>
-
     <!-- page specific plugin styles -->
     <link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/jquery-ui-1.10.3.full.min.css"/>
 </head>
@@ -18,11 +16,9 @@
 <body>
 <div class="main-container">
     <div class="page-content">
-
         <div class="page-header">
             <h1>待分配房间概览</h1>
         </div>
-
             <div class="row">
                 <div class="col-xs-12">
                     <div class="table-responsive">
@@ -68,9 +64,7 @@
 <script src="${pageContext.request.contextPath }/assets/js/jquery-ui-1.10.3.full.min.js"></script>
 
 <!-- inline scripts related to this page -->
-
 <script type="text/javascript">
-
     jQuery(function ($) {
 
     })

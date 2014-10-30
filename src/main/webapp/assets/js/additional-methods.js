@@ -950,7 +950,4 @@
         return this.optional(element) || /^[a-bA-B]\d{4}$/.test(value);
     }, "请填写正确的班级名称，例如：A1121");
 
-    $.validator.addMethod("jjuDormitoryName", function (value, element) {
-        return this.optional(element) || /^\d{2}#\d{3}-\d$/.test(value);
-    }, "请按照指定格式输入寝室，例如:31#504-3");
 }));

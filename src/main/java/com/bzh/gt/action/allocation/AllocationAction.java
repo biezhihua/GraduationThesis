@@ -17,7 +17,7 @@ import java.util.*;
 @Scope("prototype")
 public class AllocationAction extends BaseAction<Clasz> {
 
-    private Long apartmentId;
+    private Long apartmentId;   //
     private Long dormitoryId;
     private Long bedId;
     private Long claszId;
@@ -27,8 +27,6 @@ public class AllocationAction extends BaseAction<Clasz> {
 
     /**
      * 获取待分配班级列表
-     *
-     * @return
      */
     public String infoEntering() {
         List<Clasz> claszList = claszService.getAllByIsReservoir();
@@ -38,19 +36,25 @@ public class AllocationAction extends BaseAction<Clasz> {
 
     /**
      * 添加待分配班级页面
-     *
-     * @return
      */
     public String addUI() {
         return "saveUI";
     }
 
+    /**
+     * 为新班级设置待分配标记
+     * @return
+     */
     public String add() {
         model.setIsReservoir(true);
         claszService.save(model);
         return "toInfoEntering";
     }
 
+    /**
+     * 删除待分配标记
+     * @return
+     */
     public String delete() {
         //claszService.delete(model.getId());
         Clasz clasz = claszService.getById(model.getId());
@@ -59,7 +63,9 @@ public class AllocationAction extends BaseAction<Clasz> {
         return "toInfoEntering";
     }
 
-
+    /**
+     * 编辑页面
+     */
     public String editUI() {
         ActionContext.getContext().getValueStack().push(claszService.getById(model.getId()));
         return "saveUI";
@@ -76,23 +82,22 @@ public class AllocationAction extends BaseAction<Clasz> {
 
     /**
      * 宿舍预分配
-     *
-     * @return
      */
     public String preDistribution() {
         // 计算分配男生
         cacluatePreDistribution(true);
         // 计算分配女生
         cacluatePreDistribution(false);
-
         return "toInfoEntering";
     }
 
+    /**
+     * 手动分配
+     */
     public String manualUI() {
         // 准备待分配寝室公寓数据
         QueryHelper queryHelper = new QueryHelper(Dormitory.class, "d")
                 .addWhereCondition("d.isAllocation=?", true);
-        //.addWhereCondition("d.apartment.rank=?", "普通公寓");
         List<Dormitory> dormitoryList = dormitoryService.getPageBean(pageNum, Integer.MAX_VALUE, queryHelper).getRecords();
         Set<Apartment> apartmentSet = new HashSet<Apartment>();
         for (Dormitory dormitory : dormitoryList) {
@@ -118,6 +123,10 @@ public class AllocationAction extends BaseAction<Clasz> {
         return "manualUI";
     }
 
+    /**
+     * 手动分配
+     * @return
+     */
     public String manual() {
         Map<String, String> result = new HashMap<String, String>();
         // 创建学生
@@ -137,6 +146,10 @@ public class AllocationAction extends BaseAction<Clasz> {
         return "json";
     }
 
+    /**
+     * 自动分配界面
+     * @return
+     */
     public String checkInUI() {
         // 准备待分配寝室公寓数据
         QueryHelper queryHelper = new QueryHelper(Dormitory.class, "d")
@@ -167,8 +180,13 @@ public class AllocationAction extends BaseAction<Clasz> {
         return "checkInUI";
     }
 
+    /**
+     * 自动分配
+     * @return
+     */
     public String checkIn() {
         Map<String, String> result = new HashMap<String, String>();
+
         // 创建学生
         Student student = new Student();
         student.setName(stuName);
@@ -307,13 +325,12 @@ public class AllocationAction extends BaseAction<Clasz> {
 
     /**
      * 通过班级待分配的人数，计算得到预分配的房间，进行预分配
-     *
      * @param sex true男生、false女生
-     * @return
      */
     public boolean cacluatePreDistribution(boolean sex) {
-        List<Clasz> claszList;
-        List<Dormitory> reservoirDormitorys;
+        List<Clasz> claszList = null;
+        List<Dormitory> reservoirDormitorys = null;
+
         // 拿到待分配宿舍的集合，按照普通公寓，男女，楼栋、楼层、房间号排序
         QueryHelper queryHelper = new QueryHelper(Dormitory.class, "d");
         queryHelper.addWhereCondition("d.apartment.rank=?", "普通公寓")//
@@ -387,6 +404,9 @@ public class AllocationAction extends BaseAction<Clasz> {
     }
 
 
+    /**
+     * 根据公寓ID获取待分配寝室
+     */
     public String getReservoirDormitory() {
         QueryHelper queryHelper = new QueryHelper(Dormitory.class, "d")
                 .addWhereCondition("d.apartment.id=?", apartmentId)//
@@ -406,6 +426,9 @@ public class AllocationAction extends BaseAction<Clasz> {
         return "json";
     }
 
+    /**
+     * 根据寝室ID获取空床铺
+     */
     public String getEmptyBed() {
         List<Bed> bedList = bedService.getByDormitory(dormitoryId);
         List<Bed> copyList = new ArrayList<Bed>();

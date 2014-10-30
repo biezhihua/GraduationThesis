@@ -161,7 +161,6 @@
                     number:true,
                     minlength:11,
                     maxlength:11
-
                 }
             },
             messages: {

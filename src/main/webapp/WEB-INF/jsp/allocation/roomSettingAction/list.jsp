@@ -7,10 +7,8 @@
     <meta name="keywords" content=""/>
     <meta name="description" content=""/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
     <!-- basic styles -->
     <%@include file="/WEB-INF/jsp/public/commons-styles.jspf" %>
-
     <!-- page specific plugin styles -->
     <link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/jquery-ui-1.10.3.full.min.css"/>
 </head>
@@ -30,9 +28,7 @@
             </s:a>
         </h4>
 
-
         <div class="col-xs-12">
-            <!-- PAGE CONTENT BEGINS -->
             <div class="row">
                 <s:form action="roomSetting_list" id="filter" name="filter">
                     <div class="col-xs-2">
@@ -112,16 +108,12 @@
                             </p>
                         </div>
                     </div>
-                    <!-- /.table-responsive -->
                 </div>
             </div>
-
         </div>
-
     </div>
 </div>
 <!-- /.main-container -->
-
 <!-- basic scripts -->
 <%@include file="/WEB-INF/jsp/public/commons-scripts.jspf" %>
 <!-- page specific plugin scripts -->
@@ -129,7 +121,6 @@
 <script src="${pageContext.request.contextPath}/assets/js/bootbox.min.js"></script>
 
 <!-- inline scripts related to this page -->
-
 <script type="text/javascript">
     // 提交表单
     function submit(a) {
@@ -142,8 +133,6 @@
     jQuery(function ($) {
         //Menu
         $("#menu").menu();
-
-
         // checkbox全选功能
         $('table th input:checkbox').on('click', function () {
             var that = this;
@@ -162,7 +151,6 @@
                 else title.text($title);
             }
         }));
-
 
         // 给提交按钮增加点击事件
         $("#setDormitorys").on("click", function (e) {

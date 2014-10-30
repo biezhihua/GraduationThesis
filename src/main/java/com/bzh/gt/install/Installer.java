@@ -143,8 +143,8 @@ public class Installer {
         menu1 = new Privilege("待分配房间设置", "/allocation/roomSetting_list", menu);
         menu2 = new Privilege("待分配房间概览", "/allocation/overView_list", menu);
         menu3 = new Privilege("待分配班级录入及预分配", "/allocation/allocation_infoEntering", menu);
-        menu4 = new Privilege("新生入住自动分配", "/allocation/allocation_checkIn", menu);
-        menu5 = new Privilege("新生入住手动分配", "/allocation/allocation_manual", menu);
+        menu4 = new Privilege("新生入住自动分配", "/allocation/allocation_checkInUI", menu);
+        menu5 = new Privilege("新生入住手动分配", "/allocation/allocation_manualUI", menu);
 
 
         session.save(menu);

@@ -98,8 +98,7 @@
             },
             messages: {
                 name: {
-                    required:"请输入公寓名称",
-                    jjuDormitoryName:"请填写正确寝室名称，例如:504"
+                    required:"请输入公寓名称"
                 }
 
             },

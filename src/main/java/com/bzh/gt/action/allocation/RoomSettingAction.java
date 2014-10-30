@@ -25,51 +25,34 @@ import java.util.Map;
 public class RoomSettingAction extends BaseAction<Dormitory> {
 
     static Logger logger = Logger.getLogger(RoomSettingAction.class);
-    /**
-     * 前台传递过来的公寓的ID，用于对公寓进行过滤，进而筛选出
-     */
-    private Long apartmentId;
-    private Long[] dormitoryIds;
-    /**
-     * 选择公寓的楼层
-     */
-    private String dormitoryLevel;
-    private Long dormitoryId;   //
-    private Map<String,String> data;  // json数据
+
+    private Long apartmentId;       //前台传递过来的公寓的ID，用于对公寓进行过滤，进而筛选出
+    private Long[] dormitoryIds;    // 待分配寝室ID集合
+    private Long dormitoryId;       // 寝室ID
+    private String dormitoryLevel; // 选择公寓的楼层
+    private Map<String, String> data;  // json数据
 
     /**
-     * C(Create) R(Read) U(Update) D(Delete)
-     * <p/>
      * 概要: 转向到列表页面
      */
     public String list() throws Exception {
 
-        /**
-         * 获取所有公寓的信息，存到上下文中
-         * 在JSP的页面显示出一个Menu
-         */
+        // 在JSP的页面显示出一个Menu
         List<Apartment> apartments = apartmentService.getAll();
         ActionContext.getContext().put("apartments", apartments);
 
-        /**
-         * 获取公寓的最高楼层
-         * 在Menu中生成每栋公寓的每一层的链接
-         */
+        // 获取公寓的最高楼层,在Menu中生成每栋公寓的每一层的链接
         Integer topLevel = apartmentService.getTopLevel();
         ActionContext.getContext().put("topLevel", topLevel);
 
-        /**
-         * 对寝室信息进行过滤选择，由于公寓ID和楼层Level信息是同时传递过来的
-         * 在此就只判断一个
-         */
+        // 对寝室信息进行过滤选择，由于公寓ID和楼层Level信息是同时传递过来的
         if (apartmentId != null) {
             // 添加过滤条件
             QueryHelper queryHelper = new QueryHelper(Dormitory.class, "d");
             queryHelper.addWhereCondition("d.apartment.id=?", apartmentId);
             queryHelper.addWhereCondition("d.level=?", dormitoryLevel);
             queryHelper.addOrderByProperty("d.name", true);
-            //
-            PageBean pageBean = dormitoryService.getPageBean(pageNum, 100, queryHelper);
+            PageBean pageBean = dormitoryService.getPageBean(pageNum, Integer.MAX_VALUE, queryHelper);
 
             //
             List<List<Dormitory>> records = new ArrayList<List<Dormitory>>();
@@ -77,7 +60,7 @@ public class RoomSettingAction extends BaseAction<Dormitory> {
 
             // 获取结果中待分配的房间数量
             int index = 0;
-            for (Dormitory dormitory : (List<Dormitory>)pageBean.getRecords()) {
+            for (Dormitory dormitory : (List<Dormitory>) pageBean.getRecords()) {
                 if (dormitory.getIsAllocation()) {
                     index++;
                 }
@@ -87,7 +70,7 @@ public class RoomSettingAction extends BaseAction<Dormitory> {
             index = 0;
 
             for (int i = 1, len = pageBean.getRecords().size(); i <= len; i++) {
-                Dormitory dormitory = (Dormitory) pageBean.getRecords().get(i-1);
+                Dormitory dormitory = (Dormitory) pageBean.getRecords().get(i - 1);
                 // 如果是被待分配的
                 if (dormitory.getIsAllocation()) {
                     dormitoryIds[index++] = dormitory.getId();
@@ -106,7 +89,7 @@ public class RoomSettingAction extends BaseAction<Dormitory> {
             }
 
             // 压入到Struts的Map区域中
-            ActionContext.getContext().put("records",records);
+            ActionContext.getContext().put("records", records);
 
             // 把过滤条件(公寓ID，楼层Level)保存到Session中
             ActionContext.getContext().put("apartmentId", apartmentId);
@@ -118,37 +101,36 @@ public class RoomSettingAction extends BaseAction<Dormitory> {
 
     /**
      * 待分配房间设置，更新标记
-     * @return
-     * @throws Exception
      */
-    public String setDormitorys() throws  Exception {
+    public String setDormitorys() throws Exception {
 
         if (dormitoryIds == null) {
             dormitoryIds = new Long[0];
         }
 
-        List<Dormitory> dormitoryList = dormitoryService.getByApartmentIdAndFloor(apartmentId,Integer.valueOf(dormitoryLevel));
+        List<Dormitory> dormitoryList = dormitoryService.getByApartmentIdAndFloor(apartmentId, Integer.valueOf(dormitoryLevel));
         // 设置待分配标记
         for (Dormitory dormitory : dormitoryList) {
             //
             if (isContain(dormitory, dormitoryIds)) {
-               dormitory.setIsAllocation(true);
+                dormitory.setIsAllocation(true);
                 // 清除关联关系
-               dormitory.setClasz(null);
-               for (Bed bed : dormitory.getBeds()) {
-                   bed.setStudent(null);
-                   bedService.update(bed);
-               }
+                dormitory.setClasz(null);
+                for (Bed bed : dormitory.getBeds()) {
+                    bed.setStudent(null);
+                    bedService.update(bed);
+                }
             } else {
                 dormitory.setIsAllocation(false);
             }
             dormitoryService.update(dormitory);
         }
         data = new HashMap<String, String>();
-        data.put("status","success");
+        data.put("status", "success");
         return "json";
     }
 
+    // 寝室ID是否在集合中
     private boolean isContain(Dormitory dormitory, Long[] dormitoryIds) {
         for (int i = 0; i < dormitoryIds.length; i++) {
             // 使用==号时，要警惕

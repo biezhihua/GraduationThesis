@@ -22,7 +22,7 @@
             <result name="manualUI">
                 /WEB-INF/jsp/allocation/allocationAction/manualUI.jsp
             </result>
-            <result name="saveUI">/WEB-INF/jsp/apartment/dormitoryAction/saveUI.jsp
+            <result name="saveUI">/WEB-INF/jsp/allocation/allocationAction/saveUI.jsp
             </result>
             <result name="toInfoEntering" type="redirectAction">allocation_infoEntering</result>
         </action>

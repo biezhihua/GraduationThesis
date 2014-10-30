@@ -7,13 +7,11 @@
     <meta name="keywords" content=""/>
     <meta name="description" content=""/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
     <!-- basic styles -->
     <%@include file="/WEB-INF/jsp/public/commons-styles.jspf" %>
     <!-- page specific plugin styles -->
     <link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/jquery-ui-1.10.3.full.min.css"/>
 </head>
-
 <body>
 
 <div class="main-container" id="main-container">
@@ -26,7 +24,6 @@
                 </a>
             </div>
         </div>
-        <!-- /.page-header -->
         <div class="row">
             <div class="col-xs-12">
                 <s:form id="form" action="" cssClass="form-horizontal">
@@ -34,13 +31,11 @@
                         <label class="col-sm-3 control-label no-padding-right" for> 选择的公寓 </label>
 
                         <div class="col-sm-9">
-                            <s:select id="apartment" list="#apartmentList" name="apartmentId" cssClass="col-xs-3" listKey="id"
+                            <s:select id="apartment" list="#apartmentList" name="apartmentId" cssClass="col-xs-2" listKey="id"
                                       listValue="name" headerKey="" headerValue="请选择公寓" ></s:select>
-                            <select id="dor" name="dormitoryId" class="col-xs-3">
-
+                            <select id="dor" name="dormitoryId" class="col-xs-2">
                             </select>
-                            <select id="bed" name="bedId" class="col-xs-3">
-
+                            <select id="bed" name="bedId" class="col-xs-2">
                             </select>
                         </div>
                     </div>
@@ -109,7 +104,6 @@
 
 <script type="text/javascript">
     jQuery(function ($) {
-        //override dialog's title function to allow for HTML titles
         $.widget("ui.dialog", $.extend({}, $.ui.dialog.prototype, {
             _title: function (title) {
                 var $title = this.options.title || '&nbsp;'
@@ -118,7 +112,11 @@
                 else title.text($title);
             }
         }));
+
         $("#allocation").click(function () {
+            if (!$("#form").valid()) {
+                return false;
+            }
             $.ajax({
                 type: "POST",
                 url: "allocation_manual.action",
@@ -137,7 +135,6 @@
                     }
                 }
             })
-
         });
 
         $("#apartment").change(function () {
@@ -168,6 +165,37 @@
                     })
                 }
             })
+        });
+
+        $("#form").validate({
+            rules: {
+                bedId: {
+                    required: true
+                },
+                claszId: {
+                    required: true
+                },
+                stuSno: {
+                    required: true,
+                    number: true,
+                    minlength: 11,
+                    maxlength: 11
+                },
+                stuName :{
+                    required: tru
+                }
+            },
+            messages: {
+                stuSno: {
+                    number: "必须为数字",
+                    minlength: "学号只能为11位",
+                    maxlength: "学号只能为11位"
+                }
+            },
+            submitHandler: function (form) {
+                console.log("submitted");
+                form.submit();
+            }
         });
     })
 </script>

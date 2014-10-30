@@ -21,9 +21,9 @@
             <h1>待分配班级信息列表</h1>
         </div>
         <h4 class="pink">
-            <i class="icon-hand-right icon-animated-hand-pointer blue"></i> <s:a action="infoEntering_addUI"
-                                                                                 role="button" cssClass="green">
-            新增信息 </s:a>
+            <i class="icon-hand-right icon-animated-hand-pointer blue"></i>
+            <s:a action="allocation_addUI" role="button" cssClass="green">
+                新增信息 </s:a>
             <s:a id="predistribution" cssClass="btn btn-sm btn-primary pull-right" style="padding-right: 25px;"
                  action="allocation_preDistribution">
                 <i class="fa fa-external-link"></i>
@@ -62,16 +62,18 @@
                                         <td>${name}</td>
                                         <td>${manReservoir}</td>
                                         <td>${womanReservoir}</td>
-                                        <td><div class="visible-md visible-lg hidden-sm hidden-xs btn-group">
-                                            <s:a action="infoEntering_editUI?id=%{id}"
-                                                 cssClass="btn btn-xs btn-info">
-                                                <i class="icon-edit bigger-120"></i>
-                                            </s:a>
-                                            <s:a action="infoEntering_delete?id=%{id}"
-                                                 cssClass="btn btn-xs btn-danger">
-                                                <i class="icon-trash bigger-120"></i>
-                                            </s:a>
-                                        </div></td>
+                                        <td>
+                                            <div class="visible-md visible-lg hidden-sm hidden-xs btn-group">
+                                                <s:a action="allocation_editUI?id=%{id}"
+                                                     cssClass="btn btn-xs btn-info">
+                                                    <i class="icon-edit bigger-120"></i>
+                                                </s:a>
+                                                <s:a action="allocation_delete?id=%{id}"
+                                                     cssClass="btn btn-xs btn-danger">
+                                                    <i class="icon-trash bigger-120"></i>
+                                                </s:a>
+                                            </div>
+                                        </td>
                                     </tr>
                                 </s:iterator>
                                 </tbody>
@@ -116,17 +118,17 @@
                     "confirm": {
                         "label": "确认",
                         "className": "btn-sm btn-primary",
-                        "callback": function() {
+                        "callback": function () {
                             console.log("确认");
                             $.ajax({
-                                url:me.href
+                                url: me.href
                             });
                         }
                     },
                     "cancel": {
                         "label": "取消",
                         "className": "btn-sm",
-                        "callback": function() {
+                        "callback": function () {
                             console.log("取消");
                         }
                     }
